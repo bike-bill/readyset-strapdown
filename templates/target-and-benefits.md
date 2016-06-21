@@ -1,33 +1,12 @@
-[Project Proposal](proposal.html) &gt; Target Audience and Benefits {#project-proposal-target-audience-and-benefits}
+[Project Proposal](proposal) &gt; Target Audience and Benefits {#project-proposal-target-audience-and-benefits}
 -------------------------------------------------------------------
 
 ### Project Information {#project-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="proposal.html">Project proposal</a> &gt; <a href="user-needs.html">User needs</a>
-</div>
-<div>
-<a href="glossary.html">Glossary</a>
-</div></td>
-</tr>
-</tbody>
-</table>
+|Project:                     |[PROJECTNAME](index)  |
+|:----------------------------|:---------------------|
+|Internal Release Number:     |X.Y.Z                 |
+|Related Documents:           | [Project proposal](proposal) > [Resource needs](resource-needs), [Glossary](glossary)|
 
 **Process impact:** This document helps identify potential customers and
 their defining aspects. That helps to suggest and give weight to
@@ -78,7 +57,7 @@ identify the type of customer or user that will benefit. Each benefit
 should be in real-world terms, not involving just this product itself.
 You may want to highlight benefits that are not offered by competing
 products. Benefits to the development organization should be listed in
-[Risks and Rewards](plan.html#risks).
+[Risks and Rewards](plan#risk-management).
 
 TIP: If you can rank benefits by value, use numbered lists (the HTML
 &lt;ol&gt; tag), otherwise use bullet lists (the HTML &lt;ul&gt; tag).

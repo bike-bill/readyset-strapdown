@@ -1,5 +1,5 @@
 ---
-Title: Templates Index
+Title: Project Overview
 ---
 
 Project Overview {#project-overview}
@@ -20,10 +20,10 @@ What is the scope of this project?
 :   2-4 SENTENCE SCOPE
 
 What development methodology is being used?
-:   See our [software development methodology](sdm.html) document.
+:   See our [software development methodology](sdm) document.
 
 Where should a new team member start?
-:   For more information, see the [project proposal](proposal.html).
+:   For more information, see the [project proposal](proposal).
 
 ### Status {#status}
 
@@ -33,40 +33,38 @@ is written in the status reports, not here.
 
 We have completed our second beta release and are currently working on
 adding more of the functionality described in our product
-[specification](srs.html) and fixing defects.
+[specification](srs) and fixing defects.
 
 The next major milestone is a third beta release with nearly complete
 functionality and a wider set of testers.
 
 ### Project Documents {#project-documents}
 
-|               |                                                                                                                                                                                                                                               |
+|By Activity    |Documents                                                                                                                                                                                                                                      |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Inception:    | [Project overview](index.html) [Project proposal](proposal.html) [Target audience and benefits](target-and-benefits.html){.sub} [Statement of user needs](user-needs.html){.sub}                                                              |
-| Elaboration:  | [Project plan](plan.html) [Software requirements specification](srs.html) [Feature set](feature-set.html){.sub} [Use case suite](use-case-suite.html){.sub} [Design](design.html) [QA Plan](qa-plan.html) [Test suite](test-suite.html){.sub} |
-| Construction: | [Review meeting notes](review-meeting-notes.html) [Implementation notes](implementation-notes.html) [User guide](userguide.html) [FAQ / Troubleshooting guide](faq.html)                                                                      |
-| Transition:   | [Install / Quick start](install.html) [Demo script](demo-script.html) [Release notes](release-notes.html) [Release checklist](release-checklist.html)                                                                                         |
-| Continuous:   | [Status report](status-report.html)                                                                                                                                                                                                           |
+| Inception:    | [Project overview](index), [Project proposal](proposal), [Target audience and benefits](target-and-benefits), [Statement of user needs](user-needs) |
+| Reference:    | [Glossary](glossary), [Software development methodology](sdm), [Document cross reference](xref), [All-in-one project summary](all-in-one) |
+| Elaboration:  | [Project plan](plan), [Software requirements specification](srs), [Feature set](feature-set), [Use case suite](use-case-suite), [Design](design), [QA Plan](qa-plan), [Test suite](test-suite) |
+| Construction: | [Review meeting notes](review-meeting-notes), [Implementation notes](implementation-notes), [User guide](userguide), [FAQ / Troubleshooting guide](faq) |
+| Transition:   | [Install / Quick start](install), [Demo script](demo-script), [Release notes](release-notes), [Release checklist](release-checklist), [Post mortem](post-mortem)|
+| Continuous:   | [Status report](status-report)|
 
-|                  |                                                                                                                                                                                                                                                                                                        |
-|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| For Everyone:    | [Project overview](index.html) [Project proposal](proposal.html) [Target audience and benefits](target-and-benefits.html){.sub} [Statement of user needs](user-needs.html){.sub} [Software requirements specification](srs.html) [Project plan](plan.html) [Release checklist](release-checklist.html) |
-| For Management:  | [Project resource needs](resource-needs.html) [Status report](status-report.html)                                                                                                                                                                                                                      |
-| For Developers:  | [Design](design.html) [Review meeting notes](review-meeting-notes.html)                                                                                                                                                                                                                                |
-| For QA:          | [QA Plan](qa-plan.html)                                                                                                                                                                                                                                                                                |
-| For End Users:   | [Install / Quick start](install.html) [User guide](userguide.html) [Release notes](release-notes.html)                                                                                                                                                                                                 |
-| For Support      
- and Ops:          | [Implementation notes](implementation-notes.html) [FAQ / Troubleshooting guide](faq.html)                                                                                                                                                                                                              |
-| For Sales/Legal: | [Demo script](demo-script.html) [Legal issues](legal.html)                                                                                                                                                                                                                                             |
 
-TIP: Internet Explorer users can print all documents from this page by
-selecting the "Print linked documents" option in the IE Print dialog.
+|By Audience          |Documents                                                                                                                                                                                                                                                                                               |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| For Everyone:       | [Project overview](index), [Project proposal](proposal), [Target audience and benefits](target-and-benefits), [Statement of user needs](user-needs), [Software requirements specification](srs), [Project plan](plan), [Release checklist](release-checklist), [Glossary](glossary)|
+| For Management:     | [Project resource needs](resource-needs), [Status report](status-report)                    |
+| For Developers:     | [Design](design), [Review meeting notes](review-meeting-notes), (sdm)                       |
+| For QA:             | [QA Plan](qa-plan)                                                                          |
+| For End Users:      | [Install / Quick start](install), [User guide](userguide), [Release notes](release-notes)   |
+| For Support and Ops:| [Implementation notes](implementation-notes), [FAQ / Troubleshooting guide](faq)            |
+| For Sales/Legal:    | [Demo script](demo-script), [Legal issues](legal)                                           |
 
-TODO: Check for [words of
-wisdom](http://readyset.tigris.org/words-of-wisdom/overview.html) and
+TODO: Check for [words of wisdom]
+(http://readyset.tigris.org/words-of-wisdom/overview.html) and
 discuss ways to improve this template. Or, evaluate the ReadySET Pro
-[professional project overview
-template](http://www.readysetpro.com/ "pro use case template and sample test plan").
+[professional project overview template]
+(http://www.readysetpro.com/ "pro use case template and sample test plan").
 
 Company Proprietary
 

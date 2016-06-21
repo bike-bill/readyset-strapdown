@@ -3,41 +3,12 @@ Project Proposal {#project-proposal}
 
 ### Project Information {#project-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Project Time-frame:</td>
-<td>2003/1/16 to 2003/3/19</td>
-</tr>
-<tr class="odd">
-<td>Summary:</td>
-<td>2-4 SENTENCE SUMMARY</td>
-</tr>
-<tr class="even">
-<td>Attached Worksheets:</td>
-<td><div>
-Project Proposal &gt; <a href="target-and-benefits.html">Target audience and benefits</a>
-</div></td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="plan.html">Project plan</a> &gt; <a href="resource-needs.html">Resource needs</a>
-</div>
-<div>
-<a href="glossary.html">Glossary</a>
-</div></td>
-</tr>
-</tbody>
-</table>
+|Project:                     |[PROJECTNAME](index)  |
+|:----------------------------|:---------------------|
+|Project Time-frame:          |2003/1/16 to 2003/3/19|
+|Summary:                     |2-4 SENTENCE SUMMARY  |                      
+|Attached Worksheets:         | Project Proposal > [Target audience and benefits](target-and-benefits) |
+|Related Documents:           | [Project plan](plan) > [Resource needs](resource-needs), [Glossary](glossary)|
 
 **Process impact:** This proposal, along with drafts of related
 documents, will be used by management to determine whether or not to
@@ -220,8 +191,8 @@ What are the main rewards if this project succeeds?
 
 ### Project Plan {#project-plan}
 
-See attached draft of [project plan](plan.html) and [resource
-needs](resource-needs.html).
+See attached draft of [project plan](plan) and [resource
+needs](resource-needs).
 
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/proposal.html) and

@@ -1,4 +1,4 @@
-[SRS](srs.html) &gt; Use Case Suite {#srs-use-case-suite}
+[SRS](srs) &gt; Use Case Suite {#srs-use-case-suite}
 -----------------------------------
 
 ### Release Information {#release-information}
@@ -20,13 +20,13 @@
 <tr class="odd">
 <td>Related Documents:</td>
 <td><div>
-<a href="proposal.html">Project proposal</a> &gt; <a href="user-needs.html">User needs</a>
+<a href="proposal">Project proposal</a> &gt; <a href="user-needs">User needs</a>
 </div>
 <div>
-<a href="srs.html">SRS</a> &gt; <a href="feature-set.html">Feature set</a>
+<a href="srs">SRS</a> &gt; <a href="feature-set">Feature set</a>
 </div>
 <div>
-<a href="use-case-format.html">Use case format</a>
+<a href="use-case-format">Use case format</a>
 </div>
 <div>
 <a href="LINK-TO-DIAGRAM">Use case diagram</a>

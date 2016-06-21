@@ -3,41 +3,15 @@ User Needs {#user-needs}
 
 ### Project Information {#project-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Attached worksheets:</td>
-<td><div>
-User needs &gt; <a href="interview-notes.html">Interview notes</a>
-</div></td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="proposal.html">Project proposal</a> &gt; <a href="target-and-benefits.html">Target audience and benefits</a>
-</div>
-<div>
-<a href="srs.html">Software requirements specification</a>
-</div>
-<div>
-<a href="glossary.html">Glossary</a>
-</div></td>
-</tr>
-</tbody>
-</table>
+|Project:            |[PROJECTNAME](index)|
+|:-------------------|:-------------------|
+|Attached worksheets:|<div>User needs &gt; [Interview notes](interview-notes)</div>|
+|Related Documents:  |<div>[Project proposal](proposal) &gt; [Target audience and benefits](target-and-benefits)</div><div>[Software requirements specification](srs)</div><div>[Glossary](glossary)</div>|
 
 **Process impact:** The statement of user needs documents and explains
 the actual desires of stakeholders in roughly their own words. What they
 *desire* is never exactly what the product *provides*. Documenting user
-needs here, independently from the [SRS](srs.html), helps to keep the
+needs here, independently from the [SRS](srs), helps to keep the
 SRS precise and makes the tasks of verification and validation more
 effective. This document is *not* an informal draft of the SRS, it is
 different document with a complementary purpose.
@@ -168,7 +142,7 @@ communication took place via email, link to it in the archive or paste
 it here.
 
 DATE, INTERVIEWEE
-:   [interview with INTERVIEWEE](interview-notes.html)
+:   [interview with INTERVIEWEE](interview-notes)
 
 DATE, INTERVIEWEE
 :   NOTES FROM INTERVIEW...(pasted here)
@@ -198,7 +172,7 @@ invited-to-join
     with Bob about strategies and they have enjoyed some duels. Bob is a
     member of the RedDawn clan. That clan plays a tournament on a
     private server Friday nights. Bob invites John to visit the RedDawn
-    website and join. (Source: [INTERVIEWEE](interview-notes.html))
+    website and join. (Source: [INTERVIEWEE](interview-notes))
 
 finding-the-tournament
 :   Bob is visiting his friend. He tries to use his friend's computer to

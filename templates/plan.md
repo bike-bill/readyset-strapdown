@@ -15,7 +15,7 @@ Project Plan {#project-plan}
 <tbody>
 <tr class="odd">
 <td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
+<td><a href="index">PROJECTNAME</a></td>
 </tr>
 <tr class="even">
 <td>Project Time-frame:</td>
@@ -24,19 +24,19 @@ Project Plan {#project-plan}
 <tr class="odd">
 <td>Attached worksheets:</td>
 <td><div>
-Plan &gt; <a href="resource-needs.html">Resource needs</a>
+Plan &gt; <a href="resource-needs">Resource needs</a>
 </div></td>
 </tr>
 <tr class="even">
 <td>Related Documents:</td>
 <td><div>
-<a href="proposal.html">Project proposal</a> &gt; <a href="target-and-benefits.html">Target audience and benefits</a>
+<a href="proposal">Project proposal</a> &gt; <a href="target-and-benefits">Target audience and benefits</a>
 </div>
 <div>
-<a href="sdm.html">Software development methodology</a>
+<a href="sdm">Software development methodology</a>
 </div>
 <div>
-<a href="glossary.html">Glossary</a>
+<a href="glossary">Glossary</a>
 </div></td>
 </tr>
 </tbody>
@@ -53,7 +53,7 @@ needed. Use the worksheet to help identify and scope resource needs.
 ### Summary of Project {#summary-of-project}
 
 ONE OR TWO SENTENCES HERE. For more information see the [Project
-proposal](proposal.html).
+proposal](proposal).
 
 IF YOU PLAN TO ORGANIZE YOUR WORK ACCORDING TO A ROUGH BREAKDOWN OF
 SOFTWARE COMPONENTS, BRIEFLY DESCRIBE THOSE COMPONENTS HERE. FOUR TO TEN
@@ -65,7 +65,7 @@ What general development approach will be used?
 :   THREE TO FIVE SENTENCES OR BULLETS HERE. COVER GENERAL APPROACH,
     IMPORTANT ASSUMPTIONS, KEY PRACTICES, AND PROJECT
     COORDINATION CONTROLS. For more information see the [Software
-    Development Methodology](sdm.html).
+    Development Methodology](sdm).
 
 How will the project team be organized?
 :   The development team will consist of ...
@@ -85,13 +85,13 @@ How will changes be controlled?
 
 :   -   Requests for requirements changes will be tracked in the issue
         tracker
-    -   The change control board ([CCB](glossary-std.html#ccb){.def})
+    -   The change control board ([CCB](glossary-std#ccb){.def})
         will review requested changes and authorize work on them as
         appropriate
     -   After the [feature
-        complete](glossary-std.html#featurecomplete){.def} milestone, no
+        complete](glossary-std#featurecomplete){.def} milestone, no
         new features will be added to this release.
-    -   After the [code complete](glossary-std.html#codecomplete){.def}
+    -   After the [code complete](glossary-std#codecomplete){.def}
         milestone, no entirely new product source code will be added to
         this release.
     -   All source code commit log messages must refer to a specific
@@ -100,7 +100,7 @@ How will changes be controlled?
 How will this plan be updated?
 :   This project plan will be updated as needed throughout the project.
     It will be placed under version control and instructions for
-    accessing it will be on the [project website](index.html). Any
+    accessing it will be on the [project website](index). Any
     change to the plan will cause an automatic notification to be sent
     to a project mailing list.
 
@@ -325,7 +325,7 @@ engineering time that the team will spend on that task that week. Total
 your hours across and down.
 
 TIP: These hours should total to the same as the total of the hours
-listed in your [resource needs](resource-needs.html) document. And, the
+listed in your [resource needs](resource-needs) document. And, the
 hours for each type of effort resources needed should correspond to the
 sum for each type of task.
 
@@ -503,9 +503,9 @@ Weekly Totals
 TODO: List and rank the major risks of this project, and what you plan
 to do to mitigate each risk. If you don't plan to do anything to
 mitigate the risk, state that. Use the risk list below, or the [risks
-worksheet](risks.html).
+worksheet](risks).
 
-Please see the [risks worksheet](risks.html).
+Please see the [risks worksheet](risks).
 
 The main risks of this project are:
 

@@ -3,7 +3,7 @@ ReadySET: Project Overview {#readyset-project-overview}
 
 ### Mission {#mission}
 
-[Browse templates](templates/frameset.html)  
+[Browse templates](templates/index)  
 [Download
 templates](http://readyset.tigris.org/servlets/ProjectDocumentList)  
 [Words-of-wisdom](http://readyset.tigris.org/words-of-wisdom/)  
@@ -114,7 +114,7 @@ Who should use this product?
 
 How can users get started?
 
-:   1.  Briefly [browse all templates](templates/frameset.html)
+:   1.  Briefly [browse all templates](templates/index)
     2.  [Download](http://readyset.tigris.org/servlets/ProjectDocumentList)
         the templates and unarchive
     3.  Edit the templates to fit the needs of your project
@@ -122,12 +122,12 @@ How can users get started?
         stakeholders can view them
     5.  Edit the templates to fill in detailed information
         -   Use a text editor or an HTML editor. Please see our list of
-            [recommended tools](docs/recommended-tools.html). (You can
+            [recommended tools](docs/recommended-tools). (You can
             use Word, but that is strongly discouraged.)
         -   Follow instructions that appead in yellow "sticky notes"
         -   Replace text in ALL CAPS with text that describes your
             project
-        -   "[Chip away](docs/faq.html#chipaway)" text that does not
+        -   "[Chip away](docs/faq#chipaway)" text that does not
             apply to your project
         -   Add text, diagrams, or links as needed
 
@@ -138,7 +138,7 @@ How can users get started?
     8.  Optionally, you may change fonts and colors in the
         file css/inst.css.
     9.  If you have questions or insights about a templates, please read
-        the [FAQ](docs/faq.html) or send an email to
+        the [FAQ](docs/faq) or send an email to
         <dev@readyset.tigris.org>. You must subscribe to the mailing
         list before you may post.
 

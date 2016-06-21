@@ -103,7 +103,7 @@ Why are there multiple answers (and colored bars) to each prompt?
     in a template is reduced to "chipping away" at the sample text by
     removing text that does not apply to your project.
 
-What is "chipping away"?
+<a name="chipaway"></a>What is "chipping away"? 
 :   The term "chipping away" comes from an old joke: when a sculptor is
     asked how he carved a marble statue of a horse, he replies "It was
     easy, I just started with a big block of marble and chiped away
