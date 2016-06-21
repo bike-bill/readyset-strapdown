@@ -138,7 +138,7 @@ How can users get started?
     8.  Optionally, you may change fonts and colors in the
         file css/inst.css.
     9.  If you have questions or insights about a templates, please read
-        the [FAQ](docs/faq) or send an email to
+        the [FAQ](docs/faq.html) or send an email to
         <dev@readyset.tigris.org>. You must subscribe to the mailing
         list before you may post.
 

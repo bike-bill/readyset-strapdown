@@ -3,43 +3,10 @@
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="proposal.html">Project proposal</a> &gt; <a href="user-needs.html">User needs</a>
-</div>
-<div>
-<a href="srs.html">SRS</a> &gt; <a href="use-case-suite.html">Use case suite</a>
-</div>
-<div>
-<a href="feature-format.html">Feature format</a>
-</div>
-<div>
-<a href="LINK-TO-DIAGRAM">Use case diagram</a>
-</div>
-<div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+|Project:                  |PROJECTNAME                        |
+|:-------------------------|:----------------------------------|
+|Internal Release Number:  |X.Y.Z                              |
+|Related Documents:        |[Project proposal](proposal) > [User needs](user-needs), [SRS](srs) > [Use case suite](use-case-suite), [Feature format](feature-format), LINK TO USE CASE DIAGRAM, LINKS TO RELEVANT STANDARDS, LINKS TO OTHER DOCUMENTS|
 
 **Process impact:** A feature set is simply a table of contents for the
 individual feature descriptions. Much like a test suite, organizing the

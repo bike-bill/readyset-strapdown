@@ -43,7 +43,7 @@ functionality and a wider set of testers.
 |By Activity    |Documents                                                                                                                                                                                                                                      |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Inception:    | [Project overview](index), [Project proposal](proposal), [Target audience and benefits](target-and-benefits), [Statement of user needs](user-needs) |
-| Reference:    | [Glossary](glossary), [Software development methodology](sdm), [Document cross reference](xref), [All-in-one project summary](all-in-one) |
+| Reference:    | [Glossary](glossary), [Software development methodology](sdm), [Document cross reference](document-cross-ref), [All-in-one project summary](all-in-one) |
 | Elaboration:  | [Project plan](plan), [Software requirements specification](srs), [Feature set](feature-set), [Use case suite](use-case-suite), [Design](design), [QA Plan](qa-plan), [Test suite](test-suite) |
 | Construction: | [Review meeting notes](review-meeting-notes), [Implementation notes](implementation-notes), [User guide](userguide), [FAQ / Troubleshooting guide](faq) |
 | Transition:   | [Install / Quick start](install), [Demo script](demo-script), [Release notes](release-notes), [Release checklist](release-checklist), [Post mortem](post-mortem)|

@@ -3,52 +3,17 @@ Software Requirements Specification {#software-requirements-specification}
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Attached worksheets:</td>
-<td><div>
-SRS &gt; <a href="use-case-suite.html">Use case suite</a>
-</div>
-<div>
-SRS &gt; <a href="feature-set.html">Feature set</a>
-</div></td>
-</tr>
-<tr class="even">
-<td>Related Documents:</td>
-<td><div>
-<a href="proposal.html">Project proposal</a> &gt; <a href="user-needs.html">User needs</a>
-</div>
-<div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div>
-<div>
-<a href="glossary.html">Glossary</a>
-</div></td>
-</tr>
-</tbody>
-</table>
+|Project:                |PROJECTNAME                          |
+|:---                    |:---                                 |
+|Internal Release Number:|X.Y.Z                                | 
+|Attached worksheets:    |SRS > [Use case suite](use-case-suite), SRS > [Feature set](feature-set)|
+|Related Documents:      |[Project proposal](proposal) > [User needs](user-needs), LINKS TO RELEVANT STANDARDS, LINKS TO OTHER DOCUMENTS, [Glossary](glossary)|
 
 **Process impact:** The SRS precisely defines the software product that
 will be built. Decisions made in writing the SRS are based on
-information in the [project proposal](proposal.html) and [user
-needs](user-needs.html) documents. The SRS sets requirements that must
-be satisfied by the [system design](design.html). The SRS is verified
+information in the [project proposal](proposal) and [user
+needs](user-needs) documents. The SRS sets requirements that must
+be satisfied by the [system design](design). The SRS is verified
 and validated by activities outlined in the [QA plan](qa-plan).
 
 ### Introduction {#introduction}
@@ -60,7 +25,7 @@ PARAGRAPH
 
 PARAGRAPH
 
-For more information, see the project [proposal](proposal.html).
+For more information, see the project [proposal](proposal).
 
 ### Use Cases {#use-cases}
 
@@ -68,8 +33,8 @@ ONE PARAGRAPH OVERVIEW
 
 Details:
 
--   Actors are described in the [user needs](user-needs.html) document.
--   The [use case suite](use-case-suite.html) lists all use cases in an
+-   Actors are described in the [user needs](user-needs) document.
+-   The [use case suite](use-case-suite) lists all use cases in an
     organized way.
 
 ### Functional Requirements {#functional-requirements}
@@ -78,7 +43,7 @@ ONE PARAGRAPH OVERVIEW
 
 Details:
 
--   The [feature set](feature-set.html) lists all features in an
+-   The [feature set](feature-set) lists all features in an
     organized way.
 
 ### Non-Functional Requirements {#non-functional-requirements}
@@ -251,7 +216,7 @@ What are the system software requirements?
     -   DETAIL
     -   DETAIL
 
-What application program interfaces ([APIs](glossary-std.html#api){.def}) must be provided?
+What application program interfaces ([APIs](glossary#api){.def}) must be provided?
 
 :   PARAGRAPH
 

@@ -5,7 +5,7 @@ Summary {#summary}
 
 TODO: Answer these questions in your own words by filling in each
 &lt;dd&gt; tag. This is condensed from the project
-[overview](index.html).
+[overview](index).
 
 What problem does this project address?
 :   2-4 SENTENCE PROBLEM
@@ -24,22 +24,22 @@ is written in the status reports, not here.
 
 We have completed our second beta release and are currently working on
 adding more of the functionality described in our product
-[specification](srs.html) and fixing defects.
+[specification](srs) and fixing defects.
 
 The next major milestone is a third beta release with nearly complete
 functionality and a wider set of testers.
 
 Status reports:
 
--   [Status report 1](status-report.html)
--   [Status report 2](status-report2.html)
+-   [Status report 1](status-report)
+-   [Status report 2](status-report2)
 -   Etc.
 
 ### Resources and schedule {#resources-and-schedule}
 
 TODO: Briefly describe the project resources and schedule. This is
-condensed from the [project plan](plan.html), [resource
-needs](resource-needs.html), and [legal issues](legal.html) templates.
+condensed from the [project plan](plan), [resource
+needs](resource-needs), and [legal issues](legal) documents.
 
 What are the deadlines for this project?
 
@@ -70,9 +70,9 @@ What are the main legal concerns for this project?
 ### Requirements {#requirements}
 
 TODO: Briefly describe the most important system requirements. This is
-condensed from the [user needs](user-needs.html), [interview
-notes](interview-notes.html), [SRS](srs.html), [use case
-suite](use-case-suite.html), and [feature set](feature-set.html)
+condensed from the [user needs](user-needs), [interview
+notes](interview-notes), [SRS](srs), [use case
+suite](use-case-suite), and [feature set](feature-set)
 documents.
 
 Who are the project stakeholders?
@@ -97,7 +97,7 @@ What are the requirements specifications?
 ### Design {#design}
 
 TODO: Briefly describe the most important aspects of the design. This is
-condensed from the [design](design.html) template and associated
+condensed from the [design](design) template and associated
 worksheets.
 
 What are your ranked design goals?
@@ -134,8 +134,8 @@ Where are your design documents?
 ### Quality Assurance {#quality-assurance}
 
 TODO: Briefly describe your quality goals and how you will achieve them.
-This is condensed from the [QA plan](qa-plan.html), [test
-suite](test-suite.html), and [test cases](test-cases.html) documents.
+This is condensed from the [QA plan](qa-plan), [test
+suite](test-suite), and [test cases](test-cases) documents.
 
 What are your ranked quality goals?
 
@@ -199,7 +199,7 @@ How can users get technical support or report problems?
 
 TODO: Define any technical terms that you use above, if a new member of
 the team would not already know them. This is condensed from the
-[glossary](glossary.html) documents.
+[glossary](glossary) documents.
 
 TECHNICAL TERM
 :   DEFINITION
