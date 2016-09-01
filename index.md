@@ -113,8 +113,9 @@ Who should use this product?
     text editor.
 
 How can users get started?
+:   
 
-:   1.  Briefly [browse all templates](templates/index)
+    1.  Briefly [browse all templates](templates/index)
     2.  [Download](http://readyset.tigris.org/servlets/ProjectDocumentList)
         the templates and unarchive
     3.  Edit the templates to fit the needs of your project
@@ -130,7 +131,6 @@ How can users get started?
         -   "[Chip away](docs/faq#chipaway)" text that does not
             apply to your project
         -   Add text, diagrams, or links as needed
-
     6.  Use the checklists to catch common errors and improve the
         quality of your documents.
     7.  Use the words-of-wisdom pages to help improve the document or
