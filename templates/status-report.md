@@ -14,11 +14,17 @@ Project:
 :	[PROJECTNAME](index)
 
 Status Report Date:
+:	YEAR/MONTH/DAY
 
-Next Internal Release Number
+Next Internal Release Number:
+:	X.Y.Z
 
 Release Date:
-
+:	Original estimate: YEAR/MONTH/DAY
+:	Current estimate: YEAR/MONTH/DAY
+:	Change Since Last Report: No change
+:	Change Since Last Report: Slipped 2 days
+:	Change Since Last Report: Saved 4 days
 
 Open Issues (needing development):
 :	[17 defects](ISSUE-TRACKER-QUERY)

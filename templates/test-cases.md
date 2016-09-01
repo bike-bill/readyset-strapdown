@@ -3,402 +3,275 @@
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="test-case-format.html">System test case format</a>
-</div>
-<div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+Project:
+:   [PROJECTNAME](index)
+
+Internal Release Number:
+:   X.Y.Z
+
+Related Documents:
+:   [System test case format](test-case-format)
+:   LINKS TO RELEVANT STANDARDS
+:   LINKS TO OTHER DOCUMENTS
 
 ### login-1: Normal User Login {#login-1-normal-user-login}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Purpose:</td>
-<td>Test that users can log in with the proper username or email address and their password.</td>
-</tr>
-<tr class="even">
-<td>Prereq:</td>
-<td><div>
-User is not already logged in.
-</div>
-<div>
-User testuser exists, and account is in good standing.
-</div></td>
-</tr>
-<tr class="odd">
-<td>Test Data:</td>
-<td><div>
-usernameOrEmail = {testuser, bogususer, testuser@nospam.com, test@user@nospam.com, empty}
-</div>
-<div>
-password = {valid, invalid, empty}
-</div></td>
-</tr>
-<tr class="even">
-<td>Steps:</td>
-<td><ol>
-<li>visit LoginPage</li>
-<li>enter usernameOrEmail</li>
-<li>enter password</li>
-<li>click Login</li>
-<li>see the terms-of-use page</li>
-<li>click Agree at page bottom</li>
-<li>click Submit</li>
-<li>see PersonalPage</li>
-<li>verify welcome message is correct username</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>This assumes that user has not agreed to terms-of-use already.</li>
-<li>Does this work without browser cookies?</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Purpose:
+:   Test that users can log in with the proper username or email address and their password.
+
+Prereq:
+:   User is not already logged in.
+:	User testuser exists, and account is in good standing.
+
+Test Data:
+:   usernameOrEmail = {testuser, bogususer, testuser@nospam.com, test@user@nospam.com, empty}
+:	password = {valid, invalid, empty}
+
+Steps:
+:   Steps to carry out the test. See step formating rules below.
+
+    - visit LoginPage
+    - enter userID
+    - enter password
+    - click login
+    - see the terms of use page
+    - click agree radio button at page bottom
+    - click submit button
+    - see PersonalPage
+    - verify that welcome message is correct username
+
+Notes and Questions:
+:
+ 
+    - This assumes that user has not agreed to terms-of-use already.
+	- Does this work without browser cookies?
 
 ### login-2: Locked-out User Login {#login-2-locked-out-user-login}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Purpose:</td>
-<td>Test that a user who has been locked out by a moderator, cannot log in, They should see a message indicating that they were locked out.</td>
-</tr>
-<tr class="even">
-<td>Prereq:</td>
-<td><div>
-User is not already logged in.
-</div>
-<div>
-User testuser2 exists, and has been locked out
-</div></td>
-</tr>
-<tr class="odd">
-<td>Test Data:</td>
-<td><div>
-usernameOrEmail = {testuser2, testuser2@nospam.com}
-</div>
-<div>
-password = {valid}
-</div></td>
-</tr>
-<tr class="even">
-<td>Steps:</td>
-<td><ol>
-<li>visit LoginPage</li>
-<li>enter usernameOrEmail</li>
-<li>enter password</li>
-<li>click Login</li>
-<li>see LoginPage</li>
-<li>verify warning message is the locked-out message</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>Does this work without browser cookies?</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Purpose:
+:   Test that a user who has been locked out by a moderator, cannot log in, They should see a message indicating that they were locked out.
+
+Prereq:
+:   User is not already logged in.
+:	User testuser2 exists, and has been locked out
+
+
+Test Data:
+:   usernameOrEmail = {testuser2, testuser2@nospam.com}
+:	password = {valid}
+   
+Steps:
+:   Steps to carry out the test. See step formating rules below.
+
+    - visit LoginPage
+	- enter usernameOrEmail
+	- enter password
+	- click Login
+	- see LoginPage
+	- verify warning message is the locked-out message
+
+Notes and Questions:
+:
+ 
+    - Does this work without browser cookies?
 
 ### unique-test-case-id1: Test Case Title {#unique-test-case-id1-test-case-title}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Purpose:</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Prereq:</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Test Data:</td>
-<td><div>
-VAR = {VALUES}
-</div>
-<div>
-VAR = {VALUES}
-</div></td>
-</tr>
-<tr class="even">
-<td>Steps:</td>
-<td><ol>
-<li>STEP</li>
-<li>STEP</li>
-<li>STEP</li>
-<li>verify ...</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Purpose:
+:   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+
+Prereq:
+:   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+
+Test Data:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+
+    - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
+    - password = {valid, invalid, empty}
+
+Steps:
+:   Steps to carry out the test. See step formating rules below.
+
+    - visit LoginPage
+    - enter userID
+    - enter password
+    - click login
+    - see the terms of use page
+    - click agree radio button at page bottom
+    - click submit button
+    - see PersonalPage
+    - verify that welcome message is correct username
+
+Notes and Questions:
+:
+ 
+    - NOTE
+    - QUESTION
 
 ### unique-test-case-id2: Test Case Title {#unique-test-case-id2-test-case-title}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Purpose:</td>
-<td>SENTENCES</td>
-</tr>
-<tr class="even">
-<td>Prereq:</td>
-<td>SENTENCES</td>
-</tr>
-<tr class="odd">
-<td>Test Data:</td>
-<td><div>
-VAR = {VALUES}
-</div>
-<div>
-VAR = {VALUES}
-</div></td>
-</tr>
-<tr class="even">
-<td>Steps:</td>
-<td><ol>
-<li>STEP</li>
-<li>STEP</li>
-<li>STEP</li>
-<li>verify ...</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Purpose:
+:   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+
+Prereq:
+:   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+
+Test Data:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+
+    - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
+    - password = {valid, invalid, empty}
+
+Steps:
+:   Steps to carry out the test. See step formating rules below.
+
+    - visit LoginPage
+    - enter userID
+    - enter password
+    - click login
+    - see the terms of use page
+    - click agree radio button at page bottom
+    - click submit button
+    - see PersonalPage
+    - verify that welcome message is correct username
+
+Notes and Questions:
+:
+ 
+    - NOTE
+    - QUESTION
 
 ### unique-test-case-id3: Test Case Title {#unique-test-case-id3-test-case-title}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Purpose:</td>
-<td>SENTENCES</td>
-</tr>
-<tr class="even">
-<td>Prereq:</td>
-<td>SENTENCES</td>
-</tr>
-<tr class="odd">
-<td>Test Data:</td>
-<td><div>
-VAR = {VALUES}
-</div>
-<div>
-VAR = {VALUES}
-</div></td>
-</tr>
-<tr class="even">
-<td>Steps:</td>
-<td><ol>
-<li>STEP</li>
-<li>STEP</li>
-<li>STEP</li>
-<li>verify ...</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Purpose:
+:   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+
+Prereq:
+:   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+
+Test Data:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+
+    - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
+    - password = {valid, invalid, empty}
+
+Steps:
+:   Steps to carry out the test. See step formating rules below.
+
+    - visit LoginPage
+    - enter userID
+    - enter password
+    - click login
+    - see the terms of use page
+    - click agree radio button at page bottom
+    - click submit button
+    - see PersonalPage
+    - verify that welcome message is correct username
+
+Notes and Questions:
+:
+ 
+    - NOTE
+    - QUESTION
 
 ### unique-test-case-id4: Test Case Title {#unique-test-case-id4-test-case-title}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Purpose:</td>
-<td>SENTENCES</td>
-</tr>
-<tr class="even">
-<td>Prereq:</td>
-<td>SENTENCES</td>
-</tr>
-<tr class="odd">
-<td>Test Data:</td>
-<td><div>
-VAR = {VALUES}
-</div>
-<div>
-VAR = {VALUES}
-</div></td>
-</tr>
-<tr class="even">
-<td>Steps:</td>
-<td><ol>
-<li>STEP</li>
-<li>STEP</li>
-<li>STEP</li>
-<li>verify ...</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Purpose:
+:   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+
+Prereq:
+:   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+
+Test Data:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+
+    - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
+    - password = {valid, invalid, empty}
+
+Steps:
+:   Steps to carry out the test. See step formating rules below.
+
+    - visit LoginPage
+    - enter userID
+    - enter password
+    - click login
+    - see the terms of use page
+    - click agree radio button at page bottom
+    - click submit button
+    - see PersonalPage
+    - verify that welcome message is correct username
+
+Notes and Questions:
+:
+ 
+    - NOTE
+    - QUESTION
 
 ### unique-test-case-id5: Test Case Title {#unique-test-case-id5-test-case-title}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Purpose:</td>
-<td>SENTENCES</td>
-</tr>
-<tr class="even">
-<td>Prereq:</td>
-<td>SENTENCES</td>
-</tr>
-<tr class="odd">
-<td>Test Data:</td>
-<td><div>
-VAR = {VALUES}
-</div>
-<div>
-VAR = {VALUES}
-</div></td>
-</tr>
-<tr class="even">
-<td>Steps:</td>
-<td><ol>
-<li>STEP</li>
-<li>STEP</li>
-<li>STEP</li>
-<li>verify ...</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Purpose:
+:   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+
+Prereq:
+:   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+
+Test Data:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+
+    - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
+    - password = {valid, invalid, empty}
+
+Steps:
+:   Steps to carry out the test. See step formating rules below.
+
+    - visit LoginPage
+    - enter userID
+    - enter password
+    - click login
+    - see the terms of use page
+    - click agree radio button at page bottom
+    - click submit button
+    - see PersonalPage
+    - verify that welcome message is correct username
+
+Notes and Questions:
+:
+ 
+    - NOTE
+    - QUESTION
 
 ### unique-test-case-id6: Test Case Title {#unique-test-case-id6-test-case-title}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Purpose:</td>
-<td>SENTENCES</td>
-</tr>
-<tr class="even">
-<td>Prereq:</td>
-<td>SENTENCES</td>
-</tr>
-<tr class="odd">
-<td>Test Data:</td>
-<td><div>
-VAR = {VALUES}
-</div>
-<div>
-VAR = {VALUES}
-</div></td>
-</tr>
-<tr class="even">
-<td>Steps:</td>
-<td><ol>
-<li>STEP</li>
-<li>STEP</li>
-<li>STEP</li>
-<li>verify ...</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Purpose:
+:   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+
+Prereq:
+:   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+
+Test Data:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+
+    - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
+    - password = {valid, invalid, empty}
+
+Steps:
+:   Steps to carry out the test. See step formating rules below.
+
+    - visit LoginPage
+    - enter userID
+    - enter password
+    - click login
+    - see the terms of use page
+    - click agree radio button at page bottom
+    - click submit button
+    - see PersonalPage
+    - verify that welcome message is correct username
+
+Notes and Questions:
+:
+ 
+    - NOTE
+    - QUESTION
 
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/test-runs.html) and

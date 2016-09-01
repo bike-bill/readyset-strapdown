@@ -13,7 +13,6 @@ out the tests and find defects.
 
 ### unique-test-case-id: Test Case Title {#unique-test-case-id-test-case-title}
 
-
 Purpose:
 :   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
 
@@ -21,7 +20,7 @@ Prereq:
 :   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
 
 Test Data:
-:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
 
     - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
     - password = {valid, invalid, empty}

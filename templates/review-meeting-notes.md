@@ -3,57 +3,34 @@
 
 ### Review Meeting Information {#review-meeting-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Product:</td>
-<td><a href="http://www.COMPANY.com/products/PRODUCTNAME/">PRODUCTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Location of Meeting:</td>
-<td>LOCATION, BUILDING, ROOM</td>
-</tr>
-<tr class="even">
-<td>Date and Time of Meeting:</td>
-<td>YEAR/MONTH/DAY HH:MM</td>
-</tr>
-<tr class="odd">
-<td>Attendees:</td>
-<td><div>
-PERSONNAME
-</div>
-<div>
-PERSONNAME
-</div>
-<div>
-PERSONNAME
-</div>
-<div>
-PERSONNAME
-</div></td>
-</tr>
-<tr class="even">
-<td>Related documents:</td>
-<td><div>
-<a href="review-meeting-checklists.html">Review Meeting Checklists</a>
-</div></td>
-</tr>
-</tbody>
-</table>
+
+Product:
+:	[PRODUCTNAME](index)
+
+Release Number:
+:	X.Y.Z
+
+Location of Meeting:
+:	LOCATION, BUILDING, ROOM
+
+Date and Time of Meeting:
+:	YEAR/MONTH/DAY HH:MM
+
+Attendees:
+:	
+
+	- PERSONNAME
+	- PERSONNAME
+	- PERSONNAME
+	- PERSONNAME
+
+Related documents:
+:	[Review Meeting Checklists](review-meeting-checklists)
 
 ### Documents and Code Reviewed at this Meeting {#documents-and-code-reviewed-at-this-meeting}
 
--   [Feature list section of
-    requirements](/requirements.html#functional)
--   [Multi-user section of requirements](/requirements.html#multiuser)
+-   [Feature list section of requirements](requirements#functional)
+-   [Multi-user section of requirements](requirements#multiuser)
 -   [Hello.java](/source/browse/PROJECTNAME/src/Hello.java)
 -   [HelloStream.java](/source/browse/PROJECTNAME/src/HelloStream.java)
 -   [HelloPanel.java](/source/browse/PROJECTNAME/src/HelloPanel.java)
