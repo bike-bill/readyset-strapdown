@@ -1,48 +1,28 @@
-[User Needs](user-needs.html) &gt; Interview Notes {#user-needs-interview-notes}
+[User Needs](user-needs) &gt; Interview Notes {#user-needs-interview-notes}
 --------------------------------------------------
 
 ### Project Information {#project-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Interviewer(s):</td>
-<td>PERSONNAME</td>
-</tr>
-<tr class="odd">
-<td>Interviewee(s):</td>
-<td>PERSONNAME</td>
-</tr>
-<tr class="even">
-<td>Date of Interview:</td>
-<td>DATE</td>
-</tr>
-<tr class="odd">
-<td>Interview Location:</td>
-<td>LOCATION</td>
-</tr>
-<tr class="even">
-<td>Related Documents:</td>
-<td><div>
-<a href="proposal.html">Project proposal</a> &gt; <a href="target-and-benefits.html">Target audience and benefits</a>
-</div>
-<div>
-<a href="interview-checklist.html">Interview checklist</a>
-</div>
-<div>
-<a href="glossary.html">Glossary</a>
-</div></td>
-</tr>
-</tbody>
-</table>
+
+Project:
+:	[PROJECTNAME](index)
+
+Interviewer(s):
+:	PERSONNAME
+
+Interviewee(s):
+:	PERSONNAME
+
+Date of Interview:
+:	DATE
+
+Interview Location:
+:	LOCATION
+
+Related Documents:
+:	[Project proposal](proposal) &gt; [Target audience and benefits](target-and-benefits)
+:	[Interview checklist](interview-checklist)
+:	[Glossary](glossary)
 
 TODO: Copy this file once for each interview. Fill in the details. Link
 to this file from the "Notes from Interviews and Brainstorming" section

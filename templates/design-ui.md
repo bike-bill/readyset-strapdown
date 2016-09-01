@@ -1,33 +1,17 @@
-[Design](design.html) &gt; User Interface {#design-user-interface}
+[Design](design) &gt; User Interface {#design-user-interface}
 -----------------------------------------
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+Project:
+:   PROJECTNAME
+
+Internal Release Number:
+:   X.Y.Z
+
+Related Documents:
+:   LINKS TO RELEVANT STANDARDS
+:   LINKS TO OTHER DOCUMENTS
 
 ### Overview {#overview}
 
@@ -41,12 +25,12 @@ What are the most important facts that a developer should know about the user in
 What are the ranked goals for the user interface of this system?
 
 :   1.  [Understandability and
-        learnability](glossary-std.html#dg_use_understand){.def}
+        learnability](glossary-std#dg_use_understand){.def}
     2.  [Task support and
-        efficiency](glossary-std.html#dg_use_efficiency){.def}
-    3.  [Safety](glossary-std.html#dg_use_safety){.def}
+        efficiency](glossary-std#dg_use_efficiency){.def}
+    3.  [Safety](glossary-std#dg_use_safety){.def}
     4.  [Consistency and
-        familiarity](glossary-std.html#dg_use_consistency){.def}
+        familiarity](glossary-std#dg_use_consistency){.def}
 
 ### Metaphors, Exemplars, and Standards {#metaphors-exemplars-and-standards}
 
@@ -75,10 +59,10 @@ What UI design standards, guidelines, and styles are you following?
 ### Task Models {#task-models}
 
 What types of users will use this system?
-:   See the [user needs document](user-needs.html).
+:   See the [user needs document](user-needs).
 
 What types of tasks will those users perform?
-:   See the [use case suite](use-case-suite.html).
+:   See the [use case suite](use-case-suite).
 
 ### Content Model / Interaction Contexts {#content-model-interaction-contexts}
 

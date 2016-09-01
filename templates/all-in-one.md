@@ -3,9 +3,9 @@ Summary {#summary}
 
 ### Mission and Scope {#mission-and-scope}
 
-TODO: Answer these questions in your own words by filling in each
-&lt;dd&gt; tag. This is condensed from the project
-[overview](index).
+<div markdown="1" class="todo">
+TODO: Answer these questions in your own words by filling in each &lt;dd&gt; tag. This is condensed from the project [overview](index).
+</div>
 
 What problem does this project address?
 :   2-4 SENTENCE PROBLEM
@@ -30,7 +30,6 @@ The next major milestone is a third beta release with nearly complete
 functionality and a wider set of testers.
 
 Status reports:
-
 -   [Status report 1](status-report)
 -   [Status report 2](status-report2)
 -   Etc.

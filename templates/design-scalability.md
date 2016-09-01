@@ -1,33 +1,17 @@
-[Design](design.html) &gt; Scalability {#design-scalability}
+[Design](design) &gt; Scalability {#design-scalability}
 --------------------------------------
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+Project:
+:   PROJECTNAME
+
+Internal Release Number:
+:   X.Y.Z
+
+Related Documents:
+:   LINKS TO RELEVANT STANDARDS
+:   LINKS TO OTHER DOCUMENTS
 
 ### Overview {#overview}
 
@@ -62,7 +46,7 @@ How well do these mechanisms support the achievement of your goals?
 Have these scalability mechanisms been communicated to the development team and other stakeholders?
 :   Yes, everyone understands. Feedback is welcome.
 :   No, this is a risk that is noted in the [Risk
-    Management](plan.html#risks) section.
+    Management](plan#risks) section.
 
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/design-scalability.html)

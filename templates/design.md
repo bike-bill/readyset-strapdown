@@ -3,42 +3,29 @@ Design {#design}
 
 ### Release Information {#release-information}
 
-<table border="1" cellpadding="3" cellspacing="2" class="axial">
-  <tr>
-   <th>Project:</th> 
-   <td><a href="index.html">PROJECTNAME</a></td> 
-  </tr>
-  <tr>
-   <th>Internal Release Number:</th> 
-   <td>X.Y.Z</td> 
-  </tr>
-  <tr>
-   <th>Attached Worksheets:</th> 
-   <td>
-    <div>Design &gt; <a href="design-architecture.html">Architecture Worksheet</a></div>
-    <div>Design &gt; <a href="design-src-org.html">Source Organization and Build Worksheet</a></div>
-<!--    <div>Design &gt; <a href="design-scalability.html">Scalability Worksheet</a></div> -->
-    <div>Design &gt; <a href="design-ui.html">User Interface Worksheet</a></div>
-    <div>Design &gt; <a href="design-persistence.html">Persistent Storage Worksheet</a></div>
-    <div>Design &gt; <a href="design-security.html">Security Worksheet</a></div>
-   </td>
-  </tr>
-  <tr>
-   <th>Related Documents:</th> 
-   <td>
-    <div><a href="srs.html">SRS</a> &gt;
-         <a href="use-case-suite.html">Use case suite</a></div>
-    <div><a href="srs.html">SRS</a> &gt;
-         <a href="feature-set.html">Feature set</a></div>
-    <div><a href="glossary.html">Glossary</a></div>
-    <div>LINKS TO RELEVANT STANDARDS</div>
-    <div>LINKS TO OTHER DOCUMENTS</div>
-   </td>
-  </tr>
- </table>
+Project:
+:   [PROJECTNAME](index) 
+  
+Internal Release Number: 
+:   X.Y.Z 
+  
+Attached Worksheets:</th> 
+:    Design &gt; [Architecture Worksheet](design-architecture)
+:    Design &gt; [Source Organization and Build Worksheet](design-src-org)
+<!-- :    Design &gt; [Scalability Worksheet](design-scalability) -->
+:    Design &gt; [User Interface Worksheet](design-ui)
+:    Design &gt; [Persistent Storage Worksheet](design-persistence)
+:    Design &gt; [Security Worksheet](design-security)
+
+Related Documents:
+:    [SRS](srs) &gt; [Use case suite](use-case-suite)
+:    [SRS](srs) &gt; [Feature set](feature-set)
+:    [Glossary](glossary)
+:    LINKS TO RELEVANT STANDARDS
+:    LINKS TO OTHER DOCUMENTS
 
 **Process impact:** This design document describes a system that will
-satisfy the requirements of the [SRS](srs.html). Decisions made in
+satisfy the requirements of the [SRS](srs). Decisions made in
 creating this design document are based on those requirements and an
 understanding of available technologies and components. Once the design
 has been drafted, work on the system implementation and unit testing may
@@ -60,15 +47,15 @@ What are the most important facts that a developer should know about this design
 
 What are the prioritized goals of this design?
 
-:   1.  [Correctness](glossary-std.html#dg_correctness){.def}
-    2.  [Feasibility](glossary-std.html#dg_feasibility){.def}
-    3.  [Understandability](glossary-std.html#dg_understandability){.def}
+:   1.  [Correctness](glossary-std#dg_correctness){.def}
+    2.  [Feasibility](glossary-std#dg_feasibility){.def}
+    3.  [Understandability](glossary-std#dg_understandability){.def}
     4.  [Implementation phase
-        guidance](glossary-std.html#dg_guidance){.def}
-    5.  [Modularity](glossary-std.html#dg_modularity){.def}
-    6.  [Extensibility](glossary-std.html#dg_extensibility){.def}
-    7.  [Testability](glossary-std.html#dg_testability){.def}
-    8.  [Efficiency](glossary-std.html#dg_efficiency){.def}
+        guidance](glossary-std#dg_guidance){.def}
+    5.  [Modularity](glossary-std#dg_modularity){.def}
+    6.  [Extensibility](glossary-std#dg_extensibility){.def}
+    7.  [Testability](glossary-std#dg_testability){.def}
+    8.  [Efficiency](glossary-std#dg_efficiency){.def}
 
 ### UML Structural Design {#uml-structural-design}
 
@@ -152,7 +139,7 @@ Efficiency: Does the system consume an acceptable amount of time, storage space,
 Has the design been communicated to the development team and other stakeholders?
 :   Yes, everyone understands. Feedback is welcome.
 :   No, this is a risk that is noted in the [Risk
-    Management](plan.html#risks) section.
+    Management](plan#risks) section.
 
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/design.html) and

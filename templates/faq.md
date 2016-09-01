@@ -21,7 +21,7 @@ What is PRODUCTNAME?
 
 Who should use PRODUCTNAME?
 :   Anyone who wants XXXXXXX. Read more about our [target audience and
-    benefits](target-and-benefits.html).
+    benefits](target-and-benefits).
 
 ### Download and Install {#download-and-install}
 
@@ -31,23 +31,23 @@ How can I obtain PRODUCTNAME?
 
 What do I need to use PRODUCTNAME?
 :   System requirements are described in the [release
-    notes](release-notes.html).
+    notes](release-notes).
 :   System requirements are a Intel-compatible PC with a processor speed
     of at least XXX MHz, XXX MB of RAM. XXX MB of free disk space, and
     one of the following operating systems: Windows 98/2000/XP, Mac
     OSX, Linux.
 
 How do I install PRODUCTNAME?
-:   [Installation instructions](install.html) are available on-line.
+:   [Installation instructions](install) are available on-line.
 
 How do I upgrade from an older version of PRODUCTNAME?
-:   [Installation instructions](install.html) are available on-line.
+:   [Installation instructions](install) are available on-line.
 
 ### Getting Started {#getting-started}
 
 What is TECHNICAL-TERM?
 :   It means XXXXX. For additional technical terms, see the
-    [glossary](glossary.html).
+    [glossary](glossary).
 
 What is GUI-ELEMENT?
 :   It is a XXXXX. It is used for YYYYY.
@@ -83,7 +83,7 @@ I can't do COMMON-TASK. What's wrong?
 ### Other Questions {#other-questions}
 
 My question is not on this page. How do I find the answer?
-:   First read the [users' guide](user-guide.html) and other
+:   First read the [users' guide](user-guide) and other
     on-line help. Your question may have already been asked and
     answered, to find it: search the project [mail archives](#) and
     [issue tracking system](#). If you still don't find it, you can ask
@@ -105,5 +105,3 @@ Company Proprietary
 Copyright © 2003-2004 Jason Robbins. All rights reserved. [License
 terms](readyset-license.html). Retain this copyright statement whenever
 this file is used as a template.
-
-

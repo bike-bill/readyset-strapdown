@@ -3,40 +3,19 @@
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="plan.html">Project plan</a>
-</div>
-<div>
-<a href="sdm.html">Software development methodology</a>
-</div></td>
-</tr>
-<tr class="even">
-<td>References:</td>
-<td><div>
-<a href="http://www.systemsguild.com/pdfs/s5req.lo%201.pdf">Risk Management during Requirements</a> by Tom DeMarco and Tim Lister
-</div>
-<div>
-<a href="http://www.sei.cmu.edu/pub/documents/93.reports/pdf/tr06.93.pdf">Taxonomy-Based Risk Identification</a> by Carr, Konda, Monarch, Ulrich, and Walker (SEI)
-</div></td>
-</tr>
-</tbody>
-</table>
+Project:
+:   [PROJECTNAME](index)
+
+Internal Release Number:
+:   X.Y.Z
+
+Related Documents:
+[Project plan](plan.html)
+:   [Software development methodology](sdm)
+
+References:
+:   [Risk Management during Requirements](http://www.systemsguild.com/pdfs/s5req.lo%201.pdf) by Tom DeMarco and Tim Lister
+:   [Taxonomy-Based Risk Identification](http://www.sei.cmu.edu/pub/documents/93.reports/pdf/tr06.93.pdf) by Carr, Konda, Monarch, Ulrich, and Walker (SEI)
 
 **Process impact:** This document records the major project risks, and
 plans to control them. For each risk the plan should include:

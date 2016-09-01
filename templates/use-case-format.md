@@ -1,125 +1,80 @@
-[SRS](srs.html) &gt; [Use Case Suite](use-case-suite.html) &gt; Use Case Format {#srs-use-case-suite-use-case-format}
+[SRS](srs) &gt; [Use Case Suite](use-case-suite) &gt; Use Case Format {#srs-use-case-suite-use-case-format}
 -------------------------------------------------------------------------------
 
 **Process impact:** This reference page documents the format of use
 cases and gives tips on writing use cases. You can copy and paste the
-sample use case into your [Use Cases](use-cases.html) document. This
+sample use case into your [Use Cases](use-cases) document. This
 file itself should not be edited to hold specific use cases.
 
-TODO: Use this template once in your [Use Cases](use-cases.html)
+TODO: Use this template once in your [Use Cases](use-cases)
 document. Anything you mention here will apply to all use cases in that
 file.
 
 ### Aspects common to all use cases {#aspects-common-to-all-use-cases}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Direct Actors:</td>
-<td><div>
-User: end-user in any role
-</div>
-<div>
-System: The system being built
-</div>
-<div>
-When actors are not listed, assume User is doing it.
-</div>
-<div>
-Items beginning with &quot;see&quot; indicate that System has presented a new screen.
-</div></td>
-</tr>
-<tr class="even">
-<td>Stakeholders:</td>
-<td>The user who is entering the data, and those who will read it</td>
-</tr>
-<tr class="odd">
-<td>Prereq:</td>
-<td>Project is set up</td>
-</tr>
-</tbody>
-</table>
+Direct Actors:
+:   User: end-user in any role
+:   System: The system being built
+:   When actors are not listed, assume User is doing it.
+:   Items beginning with &quot;see&quot; indicate that System has presented a new screen.
+
+Stakeholders:
+:   The user who is entering the data, and those who will read it
+
+Prereq:
+:   Project is set up<
+
 
 TODO: Copy and paste this use case template as many times as needed in
-your [Use Cases](use-cases.html) document. Only use those fields that
+your [Use Cases](use-cases) document. Only use those fields that
 are not the same as the default for all use cases.
 
 ### UC-00: USE CASE NAME {#uc-00-use-case-name}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Summary:</td>
-<td>1-3 SENTENCES</td>
-</tr>
-<tr class="even">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="odd">
-<td>Use Frequency:</td>
-<td>Always | Often | Sometimes | Rarely | Once</td>
-</tr>
-<tr class="even">
-<td>Direct Actors:</td>
-<td>ACTOR1, ACTOR2, ACTOR3</td>
-</tr>
-<tr class="odd">
-<td>Stakeholders:</td>
-<td>STAKEHOLDER, STAKEHOLDER, STAKEHOLDER</td>
-</tr>
-<tr class="even">
-<td>Prereq:</td>
-<td><div>
-PRECONDITION
-</div>
-<div>
-PRECONDITION
-</div>
-<div>
-PRECONDITION
-</div></td>
-</tr>
-<tr class="odd">
-<td>Main Success Scenario:</td>
-<td><ol>
-<li>STEP</li>
-<li>STEP</li>
-<li>STEP</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Alternative Scenario Extensions:</td>
-<td><ul>
-<li>If CONDITION, then ALTERNATIVE STEPS.
-<ul>
-<li>NOTES or DETAILS.</li>
-</ul></li>
-<li>If CONDITION, then ALTERNATIVE STEPS.
-<ul>
-<li>NOTES or DETAILS.</li>
-</ul></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions</td>
-<td><ul>
-<li>NOTE</li>
-<li>NOTE</li>
-<li>QUESTION</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Summary:
+:   1-3 SENTENCES
+
+Priority:
+:   Essential | Expected | Desired | Optional
+
+Use Frequency:
+:   Always | Often | Sometimes | Rarely | Once
+
+Direct Actors:
+:   ACTOR1, ACTOR2, ACTOR3
+
+Stakeholders:
+:   STAKEHOLDER, STAKEHOLDER, STAKEHOLDER
+
+Prereq:
+:   PRECONDITION
+:   PRECONDITION
+:   PRECONDITION
+
+Main Success Scenario:
+:
+
+    - STEP
+    - STEP
+    - STEP
+
+
+Alternative Scenario Extensions:
+:    
+
+    - If CONDITION, then ALTERNATIVE STEPS.
+        - NOTES or DETAILS.
+
+    - If CONDITION, then ALTERNATIVE STEPS.
+        - NOTES or DETAILS.
+
+Notes and Questions
+:
+ 
+    - NOTE
+    - NOTE
+    - QUESTION
+    - QUESTION
 
 ### Format of Use Case Steps {#format-of-use-case-steps}
 

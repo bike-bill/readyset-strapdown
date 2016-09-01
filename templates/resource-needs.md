@@ -3,44 +3,23 @@
 
 ### Project Information {#project-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Project Time-frame:</td>
-<td>STARTDATE - ENDDATE</td>
-</tr>
-<tr class="even">
-<td>Related Documents:</td>
-<td><div>
-<a href="proposal.html">Project proposal</a>
-</div>
-<div>
-<a href="plan.html">Project plan</a>
-</div>
-<div>
-<a href="qa-plan.html">QA plan</a>
-</div>
-<div>
-<a href="sdm.html">Software development methodology</a>
-</div>
-<div>
-<a href="glossary.html">Glossary</a>
-</div></td>
-</tr>
-</tbody>
-</table>
+
+Project:
+:   [PROJECTNAME](index)
+
+Internal Release Number:
+:   X.Y.Z
+
+Project Time-frame:
+:   STARTDATE - ENDDATE
+
+Related Documents:
+:   [Project proposal](proposal)
+:   [Project plan](plan)
+:   [QA plan](qa-plan)
+:   [Software development methodology](sdm)
+:   [Glossary](glossary)
+
 
 **Process impact:** Based on the project plan and the worksheet below,
 this project will need the following resources to meet its goals. If
@@ -77,134 +56,136 @@ documents.
 ### Capital Needs {#capital-needs}
 
 <table>
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Need</th>
-<th>Resource</th>
-<th>Amount</th>
-<th>Status</th>
-<th>Comments</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Training materials</td>
-<td>Book/Course on specific technology</td>
-<td>1</td>
-<td>Allocated</td>
-<td>Book ordered</td>
-</tr>
-<tr class="even">
-<td>Development Workstations</td>
-<td>800MHz PC, 256MB RAM</td>
-<td>4</td>
-<td>Satisfied</td>
-<td>Dev group will use existing workstations</td>
-</tr>
-<tr class="odd">
-<td>Development DB Server</td>
-<td>Dual CPU 1GHz PC, 512MB RAM: SERVERNAME.company.com</td>
-<td>1</td>
-<td>Allocated</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Interactive Testing Workstations</td>
-<td>800MHz PC, 256MB RAM</td>
-<td>2</td>
-<td>Allocated</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Load Test Server</td>
-<td>800MHz PC, 256MB RAM: SERVERNAME.company.com</td>
-<td>1</td>
-<td>Pending</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Load Test Clients</td>
-<td>500MHz PC or Mac, 128MB RAM</td>
-<td>4</td>
-<td>Satisfied</td>
-<td>QA group will use existing machines</td>
-</tr>
-<tr class="odd">
-<td>Automated Testing Slave</td>
-<td>800MHz PC, 256MB RAM: SERVERNAME.company.com</td>
-<td>1</td>
-<td>Satisfied</td>
-<td>QA group will use existing machine</td>
-</tr>
-<tr class="even">
-<td>Testing DB Server</td>
-<td>Dual CPU 1GHz PC, 512MB RAM: SERVERNAME.company.com</td>
-<td>1</td>
-<td>Rejected</td>
-<td>Testing group will use development DB server and do load testing in off hours</td>
-</tr>
-<tr class="odd">
-<td>IDE Licenses</td>
-<td>Standard development licenses</td>
-<td>N/A</td>
-<td>Satisfied</td>
-<td>Will use open source tools</td>
-</tr>
-<tr class="even">
-<td>SCM Licenses</td>
-<td>Standard development licenses</td>
-<td>N/A</td>
-<td>Satisfied</td>
-<td>Will use open source tools</td>
-</tr>
-<tr class="odd">
-<td>Testing Tool Licenses</td>
-<td>Standard development licenses</td>
-<td>N/A</td>
-<td>Satisfied</td>
-<td>Will use open source tools</td>
-</tr>
-<tr class="even">
-<td>DB Licenses</td>
-<td>Standard development licenses</td>
-<td>6</td>
-<td>Pending</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>DB Licenses</td>
-<td>Production licenses</td>
-<td>4 CPU's</td>
-<td><div>
-2 Pending
-</div>
-<div>
-2 Rejected
-</div></td>
-<td>Testing group will use development DB server and do load testing in off hours</td>
-</tr>
-<tr class="even">
-<td>Software component</td>
-<td>GIS Library w/ source code</td>
-<td>1</td>
-<td>Pending</td>
-<td>One time fee, approx. $10,000</td>
-</tr>
-<tr class="odd">
-<td>Software component</td>
-<td>Encryption library</td>
-<td>1</td>
-<td>Pending</td>
-<td>Revenue sharing at 2%</td>
-</tr>
-</tbody>
+    <colgroup>
+        <col width="20%" />
+        <col width="20%" />
+        <col width="20%" />
+        <col width="20%" />
+        <col width="20%" />
+    </colgroup>
+    <thead>
+        <tr class="header">
+            <th>Need</th>
+            <th>Resource</th>
+            <th>Amount</th>
+            <th>Status</th>
+            <th>Comments</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="odd">
+            <td>Training materials</td>
+            <td>Book/Course on specific technology</td>
+            <td>1</td>
+            <td>Allocated</td>
+            <td>Book ordered</td>
+        </tr>
+        <tr class="even">
+            <td>Development Workstations</td>
+            <td>800MHz PC, 256MB RAM</td>
+            <td>4</td>
+            <td>Satisfied</td>
+            <td>Dev group will use existing workstations</td>
+        </tr>
+        <tr class="odd">
+            <td>Development DB Server</td>
+            <td>Dual CPU 1GHz PC, 512MB RAM: SERVERNAME.company.com</td>
+            <td>1</td>
+            <td>Allocated</td>
+            <td></td>
+        </tr>
+        <tr class="even">
+            <td>Interactive Testing Workstations</td>
+            <td>800MHz PC, 256MB RAM</td>
+            <td>2</td>
+            <td>Allocated</td>
+            <td></td>
+        </tr>
+        <tr class="odd">
+            <td>Load Test Server</td>
+            <td>800MHz PC, 256MB RAM: SERVERNAME.company.com</td>
+            <td>1</td>
+            <td>Pending</td>
+            <td></td>
+        </tr>
+        <tr class="even">
+            <td>Load Test Clients</td>
+            <td>500MHz PC or Mac, 128MB RAM</td>
+            <td>4</td>
+            <td>Satisfied</td>
+            <td>QA group will use existing machines</td>
+        </tr>
+        <tr class="odd">
+            <td>Automated Testing Slave</td>
+            <td>800MHz PC, 256MB RAM: SERVERNAME.company.com</td>
+            <td>1</td>
+            <td>Satisfied</td>
+            <td>QA group will use existing machine</td>
+        </tr>
+        <tr class="even">
+            <td>Testing DB Server</td>
+            <td>Dual CPU 1GHz PC, 512MB RAM: SERVERNAME.company.com</td>
+            <td>1</td>
+            <td>Rejected</td>
+            <td>Testing group will use development DB server and do load testing in off hours</td>
+        </tr>
+        <tr class="odd">
+            <td>IDE Licenses</td>
+            <td>Standard development licenses</td>
+            <td>N/A</td>
+            <td>Satisfied</td>
+            <td>Will use open source tools</td>
+        </tr>
+        <tr class="even">
+            <td>SCM Licenses</td>
+            <td>Standard development licenses</td>
+            <td>N/A</td>
+            <td>Satisfied</td>
+            <td>Will use open source tools</td>
+        </tr>
+        <tr class="odd">
+            <td>Testing Tool Licenses</td>
+            <td>Standard development licenses</td>
+            <td>N/A</td>
+            <td>Satisfied</td>
+            <td>Will use open source tools</td>
+        </tr>
+        <tr class="even">
+            <td>DB Licenses</td>
+            <td>Standard development licenses</td>
+            <td>6</td>
+            <td>Pending</td>
+            <td></td>
+        </tr>
+        <tr class="odd">
+            <td>DB Licenses</td>
+            <td>Production licenses</td>
+            <td>4 CPU's</td>
+            <td>
+                <div>
+                    2 Pending
+                </div>
+                <div>
+                    2 Rejected
+                </div>
+            </td>
+            <td>Testing group will use development DB server and do load testing in off hours</td>
+        </tr>
+        <tr class="even">
+            <td>Software component</td>
+            <td>GIS Library w/ source code</td>
+            <td>1</td>
+            <td>Pending</td>
+            <td>One time fee, approx. $10,000</td>
+        </tr>
+        <tr class="odd">
+            <td>Software component</td>
+            <td>Encryption library</td>
+            <td>1</td>
+            <td>Pending</td>
+            <td>Revenue sharing at 2%</td>
+        </tr>
+    </tbody>
 </table>
 
 #### Possible Status Values {#possible-status-values}

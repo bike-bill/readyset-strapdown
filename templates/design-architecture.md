@@ -1,42 +1,20 @@
-[Design](design.html) &gt; Architecture {#design-architecture}
+[Design](design) &gt; Architecture {#design-architecture}
 ---------------------------------------
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="srs.html">Software Requirements Specification</a>
-</div>
-<div>
-<a href="design.html">Design</a> &gt; <a href="design-security.html">Security Worksheet</a>
-</div>
-<div>
-<a href="glossary.html">Glossary</a>
-</div>
-<div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+Project:
+:   PROJECTNAME
+
+Internal Release Number:
+:   X.Y.Z
+
+Related Documents:
+:   [Software Requirements Specification](srs)
+:   [Design](design) &gt; [Security Worksheet](design-security)
+:   [Glossary](glossary)
+:   LINKS TO RELEVANT STANDARDS
+:   LINKS TO OTHER DOCUMENTS
 
 TODO: Answer the questions below to help you define your system
 architecture. Some example text is provided.
@@ -59,10 +37,9 @@ What software architecture style is being used?
 
 What are the ranked goals of this architecture?
 
-:   1.  [Ease of
-        integration](glossary-std.html#dg_easy_integration){.def}
-    2.  [Extensibility](glossary-std.html#dg_extensibility){.def}
-    3.  [Capacity matching](glossary-std.html#dg_cap_match){.def}
+:   1.  [Ease of integration](glossary-std#dg_easy_integration){.def}
+    2.  [Extensibility](glossary-std#dg_extensibility){.def}
+    3.  [Capacity matching](glossary-std#dg_cap_match){.def}
 
 ### Components {#components}
 
@@ -70,12 +47,13 @@ What are the components of this system?
 :   The components of this system are clearly defined in this [UML Model
     with Component Diagram](LINK-TO-MODEL).
 :   The components of this system are listed below by type:
-    -   Presentation/UI Components
-        -   [C-00: COMPONENTNAME](design-components.html#C-00)
-    -   Application Logic Components
-        -   [C-10: COMPONENTNAME](design-components.html#C-10)
-    -   Data Storage Components
-        -   [C-20: COMPONENTNAME](design-components.html#C-20)
+
+    - Presentation/UI Components
+        -  [C-00: COMPONENTNAME](design-components#C-00)
+    -  Application Logic Components
+        -  [C-10: COMPONENTNAME](design-components#C-10)
+    -  Data Storage Components
+        -   [C-20: COMPONENTNAME](design-components#C-20)
 
 ### Deployment {#deployment}
 
@@ -84,28 +62,28 @@ How will the components be deployed to processes and machines?
     defined in this [UML Model with Deployment Diagram](LINK-TO-MODEL).
 :   The deployment of components to processes and machines is clearly
     defined below:
+
     -   All-in-one server
         -   Tomcat process
-            -   [C-00: Tomcat web server](design-components.html#C-00)
+            -   [C-00: Tomcat web server](design-components#C-00)
             -   [C-10: PROJECTNAME
                 application](design-components.html#C-10)
         -   Database process
-            -   [C-20: COMPONENTNAME](design-components.html#C-30)
+            -   [C-20: COMPONENTNAME](design-components#C-30)
 
 :   The deployment of components to processes and machines is clearly
     defined below:
+
     -   Load-balanced front-end servers
-        -   [C-01: COMPONENTNAME](design-components.html#C-00)
+        -   [C-01: COMPONENTNAME](design-components#C-00)
     -   Back-end server
         -   JVM process
-            -   [C-00: COMPONENTNAME](design-components.html#C-00)
-            -   [C-10: COMPONENTNAME](design-components.html#C-10)
-            -   [C-11: PLUG-IN
-                COMPONENTNAME](design-components.html#C-11)
-            -   [C-12: PLUG-IN
-                COMPONENTNAME](design-components.html#C-12)
+            -   [C-00: COMPONENTNAME](design-components#C-00)
+            -   [C-10: COMPONENTNAME](design-components#C-10)
+            -   [C-11: PLUG-IN COMPONENTNAME](design-components#C-11)
+            -   [C-12: PLUG-IN COMPONENTNAME](design-components#C-12)
         -   Database process
-            -   [C-20: COMPONENTNAME](design-components.html#C-30)
+            -   [C-20: COMPONENTNAME](design-components#C-30)
 
 What aspects/resources of their environment are shared?
 :   Everything is on one server so all machine resources are shared by
@@ -194,7 +172,7 @@ Capacity matching: How has this architecture matched component resource needs to
 Has the architecture been communicated to the development team and other stakeholders?
 :   Yes, everyone understands. Feedback is welcome.
 :   No, this is a risk that is noted in the [Risk
-    Management](plan.html#risks) section.
+    Management](plan#risks) section.
 
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/design-architecture.html)

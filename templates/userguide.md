@@ -7,12 +7,17 @@ information.
 
 ### Product Release Information {#product-release-information}
 
-|                   |                                                                                                                                                |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Product:          | [PRODUCTNAME](http://www.COMPANY.com/products/PRODUCTNAME/)                                                                                    |
-| Release Number:   | X.Y.Z                                                                                                                                          |
-| Release Date:     | YEAR/MONTH/DAY                                                                                                                                 |
-| Customer Support: | For more information or support, please visit our [website](http://www.COMPANY.com/products/PRODUCTNAME/) or email us at <support@COMPANY.com> |
+Product:          
+:   [PRODUCTNAME](http://www.COMPANY.com/products/PRODUCTNAME/)
+
+Release Number:   
+:   X.Y.Z
+
+Release Date:     
+:   YEAR/MONTH/DAY
+
+Customer Support: 
+:   For more information or support, please visit our [website](http://www.COMPANY.com/products/PRODUCTNAME/) or email us at <support@COMPANY.com>
 
 ### Table of Contents {#table-of-contents}
 

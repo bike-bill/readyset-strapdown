@@ -3,10 +3,15 @@
 
 ### Project Information {#project-information}
 
-|Project:                     |[PROJECTNAME](index)  |
-|:----------------------------|:---------------------|
-|Internal Release Number:     |X.Y.Z                 |
-|Related Documents:           | [Project proposal](proposal) > [Resource needs](resource-needs), [Glossary](glossary)|
+Project:                     
+:   [PROJECTNAME](index)  
+
+Internal Release Number:     
+:   X.Y.Z  
+
+Related Documents:            
+:   [Project proposal](proposal) > [Resource needs](resource-needs)
+:   [Glossary](glossary)
 
 **Process impact:** This document helps identify potential customers and
 their defining aspects. That helps to suggest and give weight to

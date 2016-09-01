@@ -7,12 +7,17 @@ information.
 
 ### Product Release Information {#product-release-information}
 
-|                   |                                                                                                                                                |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Product:          | PRODUCT-NAME                                                                                                                                   |
-| Release Number:   | X.Y.Z                                                                                                                                          |
-| Release Date:     | YEAR/MONTH/DAY                                                                                                                                 |
-| Customer Support: | For more information or support, please visit our [website](http://www.COMPANY.com/products/PRODUCTNAME/) or email us at <support@COMPANY.com> |
+Product:          
+:   PRODUCTNAME
+
+Release Number:
+:   X.Y.Z
+
+Release Date:
+:   YEAR/MONTH/DAY
+
+Customer Support:
+:   For more information or support, please visit our [website](http://www.COMPANY.com/products/PRODUCTNAME/) or email us at <support@COMPANY.com>
 
 ### Introduction {#introduction}
 
@@ -22,7 +27,7 @@ PRODUCT-NAME.
 ### Minimal System Requirements {#minimal-system-requirements}
 
 System requirements are described in the [release
-notes](release-notes.html).
+notes](release-notes).
 
 ### Installation {#installation}
 
@@ -43,6 +48,7 @@ What other software must be installed first?
 
 How do I install PRODUCT-NAME?
 :   Please follow these steps:
+
     1.  STEP
     2.  STEP
         -   SUB-STEP
@@ -51,8 +57,9 @@ How do I install PRODUCT-NAME?
     4.  STEP
 
 How can I uninstall PRODUCT-NAME?
-
-:   1.  STEP
+:   
+    
+    1.  STEP
     2.  STEP
         -   SUB-STEP
 
@@ -60,7 +67,7 @@ How can I uninstall PRODUCT-NAME?
     4.  STEP
 
 What if I encounter problems?
-:   Please see the troubleshooting section in the [FAQ](faq.html).
+:   Please see the troubleshooting section in the [FAQ](faq).
 
 ### Getting Started {#getting-started}
 
@@ -69,16 +76,18 @@ main use cases for new users. For development releases or reusable
 components, include instructions on running unit tests.
 
 How can I run post-install unit tests?
+:   
 
-:   1.  Compile the source code by typing "ant"
+    1.  Compile the source code by typing "ant"
     2.  Run unit tests by typing "ant test"
         -   A brief report will be shown on the console
         -   A detailed test report for any failed tests will be
             in build/testout.
 
 How can I quickly get started using PRODUCT-NAME?
+:   
 
-:   1.  STEP
+    1.  STEP
     2.  STEP
         -   SUB-STEP
 

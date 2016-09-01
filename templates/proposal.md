@@ -3,12 +3,21 @@ Project Proposal {#project-proposal}
 
 ### Project Information {#project-information}
 
-|Project:                     |[PROJECTNAME](index)  |
-|:----------------------------|:---------------------|
-|Project Time-frame:          |2003/1/16 to 2003/3/19|
-|Summary:                     |2-4 SENTENCE SUMMARY  |                      
-|Attached Worksheets:         | Project Proposal > [Target audience and benefits](target-and-benefits) |
-|Related Documents:           | [Project plan](plan) > [Resource needs](resource-needs), [Glossary](glossary)|
+Project:
+:   [PROJECTNAME](index)
+
+Project Time-frame:
+:   2003/1/16 to 2003/3/19
+
+Summary:
+:   2-4 SENTENCE SUMMARY
+
+Attached Worksheets:
+:   Project Proposal > [Target audience and benefits](target-and-benefits)
+
+Related Documents:
+:   [Project plan](plan) > [Resource needs](resource-needs)
+:   [Glossary](glossary)
 
 **Process impact:** This proposal, along with drafts of related
 documents, will be used by management to determine whether or not to
@@ -134,8 +143,8 @@ See the [context diagram](LINK-TO-CONTEXT-DIAGRAM).
 -   The web site content discusses a game, but it will not need to
     actually integrate with any game software
 
-| In Scope                                                                             | Out of Scope                                                                                                                                                                                            |
-|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| In Scope             | Out of Scope         |
+|----------------------|----------------------|
 | Building a web application for use with standard web servers and application servers | Building a new web server or application server                                                                                                                                                         |
 | Working the most popular browsers (IE6, NN7/Mozilla)                                 | Working with uncommon or outdated browsers                                                                                                                                                              |
 | Security in the form of user accounts, passwords, and permissions                    | Special security against hackers. Finding or patching security holes in existing software components.                                                                                                   |

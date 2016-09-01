@@ -40,8 +40,8 @@ functionality and a wider set of testers.
 
 ### Project Documents {#project-documents}
 
-|By Activity    |Documents                                                                                                                                                                                                                                      |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|By Activity    |Documents                                            |
+|---------------|-----------------------------------------------------|
 | Inception:    | [Project overview](index), [Project proposal](proposal), [Target audience and benefits](target-and-benefits), [Statement of user needs](user-needs) |
 | Reference:    | [Glossary](glossary), [Software development methodology](sdm), [Document cross reference](document-cross-ref), [All-in-one project summary](all-in-one) |
 | Elaboration:  | [Project plan](plan), [Software requirements specification](srs), [Feature set](feature-set), [Use case suite](use-case-suite), [Design](design), [QA Plan](qa-plan), [Test suite](test-suite) |
@@ -50,8 +50,8 @@ functionality and a wider set of testers.
 | Continuous:   | [Status report](status-report)|
 
 
-|By Audience          |Documents                                                                                                                                                                                                                                                                                               |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|By Audience          |Documents                                      |
+|---------------------|-----------------------------------------------|
 | For Everyone:       | [Project overview](index), [Project proposal](proposal), [Target audience and benefits](target-and-benefits), [Statement of user needs](user-needs), [Software requirements specification](srs), [Project plan](plan), [Release checklist](release-checklist), [Glossary](glossary)|
 | For Management:     | [Project resource needs](resource-needs), [Status report](status-report)                    |
 | For Developers:     | [Design](design), [Review meeting notes](review-meeting-notes), (sdm)                       |

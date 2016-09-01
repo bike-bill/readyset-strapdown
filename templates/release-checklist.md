@@ -7,41 +7,22 @@ those answers that do not apply.
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>External release number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="even">
-<td>Release audience:</td>
-<td><div>
-General availability release
-</div>
-<div>
-Customer-specific release: CUSTOMER(S)
-</div>
-<div>
-Developer release (Internal usage only)
-</div>
-<div>
-Early access release (Controlled external access)
-</div></td>
-</tr>
-</tbody>
-</table>
+
+Project:
+:	[PROJECTNAME](index)
+
+Internal Release Number:
+:	X.Y.Z
+
+External release number:
+:	X.Y.Z
+
+Release audience:
+:	General availability release
+:	Customer-specific release: CUSTOMER(S)
+:	Developer release (Internal usage only)
+:	Early access release (Controlled external access)
+
 
 **Process impact:** The process of working through this checklist helps
 uncover any remaining concerns before the release, and reminds internal

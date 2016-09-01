@@ -3,53 +3,27 @@ Legal Issues {#legal-issues}
 
 ### Project Information {#project-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Release Audience:</td>
-<td><div>
-General availability release
-</div>
-<div>
-Customer-specific release: CUSTOMER(S)
-</div>
-<div>
-Developer release (Internal usage only)
-</div>
-<div>
-Early access release (Controlled external access)
-</div></td>
-</tr>
-<tr class="even">
-<td>Intended Product License:</td>
-<td>Commercial license</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="proposal.html">Project proposal</a> &gt; <a href="target-and-benefits.html">Target audience and benefits</a>
-</div>
-<div>
-<a href="plan.html">Plan</a> &gt; <a href="resource-needs.html">Resource needs</a>
-</div>
-<div>
-<a href="glossary.html">Glossary</a>
-</div></td>
-</tr>
-</tbody>
-</table>
+
+Project:
+:	[PROJECTNAME](index)
+
+Internal Release Number:
+:	X.Y.Z
+
+Release Audience:
+:	General availability release ||
+:	Customer-specific release: CUSTOMER(S) ||
+:	Developer release (Internal usage only) ||
+:	Early access release (Controlled external access)
+
+Intended Product License:
+:	Commercial license
+
+Related Documents:
+:	[Project proposal](proposal) &gt; [Target audience and benefits](target-and-benefits)
+:	[Plan](plan) &gt; [Resource needs](resource-needs)
+:	[Glossary](glossary)
+
 
 **Process impact:** This document outlines legal issues that may affect
 this release. Failure to carefully consider these issues may put the

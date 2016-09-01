@@ -3,11 +3,21 @@ Software Requirements Specification {#software-requirements-specification}
 
 ### Release Information {#release-information}
 
-|Project:                |PROJECTNAME                          |
-|:---                    |:---                                 |
-|Internal Release Number:|X.Y.Z                                | 
-|Attached worksheets:    |SRS > [Use case suite](use-case-suite), SRS > [Feature set](feature-set)|
-|Related Documents:      |[Project proposal](proposal) > [User needs](user-needs), LINKS TO RELEVANT STANDARDS, LINKS TO OTHER DOCUMENTS, [Glossary](glossary)|
+Project:                
+:   PROJECTNAME
+
+Internal Release Number:
+:   X.Y.Z 
+
+Attached worksheets:    
+:   SRS > [Use case suite](use-case-suite)
+:   SRS > [Feature set](feature-set)
+
+Related Documents:      
+:   [Project proposal](proposal) > [User needs](user-needs)
+:    LINKS TO RELEVANT STANDARDS
+:    LINKS TO OTHER DOCUMENTS
+:    [Glossary](glossary)
 
 **Process impact:** The SRS precisely defines the software product that
 will be built. Decisions made in writing the SRS are based on

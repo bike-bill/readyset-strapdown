@@ -1,9 +1,9 @@
-[QA Plan](qa-plan.html) &gt; [Test Suite](test-suite.html) &gt; Test Case Format {#qa-plan-test-suite-test-case-format}
+[QA Plan](qa-plan) &gt; [Test Suite](test-suite) &gt; Test Case Format {#qa-plan-test-suite-test-case-format}
 --------------------------------------------------------------------------------
 
 **Process impact:** This reference page documents the format of test
 cases and gives tips on writing test cases. You can copy and paste the
-sample test case into your test-cases.html file. This file itself should
+sample test case into your test-cases file. This file itself should
 not be edited to hold specific test cases.
 This test case format is suitable for manual system test cases.
 
@@ -13,54 +13,37 @@ out the tests and find defects.
 
 ### unique-test-case-id: Test Case Title {#unique-test-case-id-test-case-title}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Purpose:</td>
-<td>Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.</td>
-</tr>
-<tr class="even">
-<td>Prereq:</td>
-<td>Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.</td>
-</tr>
-<tr class="odd">
-<td>Test Data:</td>
-<td>List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
-<div>
-loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
-</div>
-<div>
-password = {valid, invalid, empty}
-</div></td>
-</tr>
-<tr class="even">
-<td>Steps:</td>
-<td>Steps to carry out the test. See step formating rules below.
-<ol>
-<li>visit LoginPage</li>
-<li>enter userID</li>
-<li>enter password</li>
-<li>click login</li>
-<li>see the terms of use page</li>
-<li>click agree radio button at page bottom</li>
-<li>click submit button</li>
-<li>see PersonalPage</li>
-<li>verify that welcome message is correct username</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+Purpose:
+:   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+
+Prereq:
+:   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+
+Test Data:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+
+    - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
+    - password = {valid, invalid, empty}
+
+Steps:
+:   Steps to carry out the test. See step formating rules below.
+
+    - visit LoginPage
+    - enter userID
+    - enter password
+    - click login
+    - see the terms of use page
+    - click agree radio button at page bottom
+    - click submit button
+    - see PersonalPage
+    - verify that welcome message is correct username
+
+Notes and Questions:
+:
+ 
+    - NOTE
+    - QUESTION
 
 ### Format of test steps {#format-of-test-steps}
 

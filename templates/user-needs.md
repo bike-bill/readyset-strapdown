@@ -3,10 +3,15 @@ User Needs {#user-needs}
 
 ### Project Information {#project-information}
 
-|Project:            |[PROJECTNAME](index)|
-|:-------------------|:-------------------|
-|Attached worksheets:|<div>User needs &gt; [Interview notes](interview-notes)</div>|
-|Related Documents:  |<div>[Project proposal](proposal) &gt; [Target audience and benefits](target-and-benefits)</div><div>[Software requirements specification](srs)</div><div>[Glossary](glossary)</div>|
+Project:            
+:   [PROJECTNAME](index)
+
+Attached worksheets:
+:   User needs &gt; [Interview notes](interview-notes)
+
+Related Documents:  
+:   [Project proposal](proposal) &gt; [Target audience and benefits](target-and-benefits)[Software requirements specification](srs)
+:   [Glossary](glossary)</div>|
 
 **Process impact:** The statement of user needs documents and explains
 the actual desires of stakeholders in roughly their own words. What they

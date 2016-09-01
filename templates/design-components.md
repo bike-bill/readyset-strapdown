@@ -3,31 +3,15 @@
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+Project:
+:   PROJECTNAME
+
+Internal Release Number:
+:   X.Y.Z
+
+Related Documents:
+:   LINKS TO RELEVANT STANDARDS
+:   LINKS TO OTHER DOCUMENTS
 
 TODO: Briefly describe each component in the system. Focus on
 architectural issues such as communication mechanisms, environmental
@@ -45,53 +29,70 @@ administrative control panel GUI, and a performance monitoring API.
 TIP: Use an HTML anchor for each component so that a direct link can be
 made from other documents, issues, and email messages.
 
-### C-00: COMPONENT NAME {#c-00-component-name}
+### C-00: COMPONENT NAME {#C-00}
 
-|                            |                                      |
-|----------------------------|--------------------------------------|
-| Description:               | DESCRIPTION                          |
-| Environmental Constraints: | REQUIRED OPERATING SYSTEM, RAM, ETC. |
-| Available Interfaces:      | BRIEFLY DESCRIBE INTERFACES          |
+Description:               
+:	DESCRIPTION
+                          
+Environmental Constraints: 
+:	REQUIRED OPERATING SYSTEM, RAM, ETC.
 
-### C-01: COMPONENT NAME {#c-01-component-name}
+Available Interfaces:      
+:	BRIEFLY DESCRIBE INTERFACES
 
-|                            |                                      |
-|----------------------------|--------------------------------------|
-| Description:               | DESCRIPTION                          |
-| Environmental Constraints: | REQUIRED OPERATING SYSTEM, RAM, ETC. |
-| Available Interfaces:      | BRIEFLY DESCRIBE INTERFACES          |
+### C-01: COMPONENT NAME {#C-01}
 
-### C-10: COMPONENT NAME {#c-10-component-name}
+Description:               
+:	DESCRIPTION
+                          
+Environmental Constraints: 
+:	REQUIRED OPERATING SYSTEM, RAM, ETC.
 
-|                            |                                      |
-|----------------------------|--------------------------------------|
-| Description:               | DESCRIPTION                          |
-| Environmental Constraints: | REQUIRED OPERATING SYSTEM, RAM, ETC. |
-| Available Interfaces:      | BRIEFLY DESCRIBE INTERFACES          |
+Available Interfaces:      
+:	BRIEFLY DESCRIBE INTERFACES
+### C-10: COMPONENT NAME {#C-10}
 
-### C-11: COMPONENT NAME {#c-11-component-name}
+Description:               
+:	DESCRIPTION
+                          
+Environmental Constraints: 
+:	REQUIRED OPERATING SYSTEM, RAM, ETC.
 
-|                            |                                      |
-|----------------------------|--------------------------------------|
-| Description:               | DESCRIPTION                          |
-| Environmental Constraints: | REQUIRED OPERATING SYSTEM, RAM, ETC. |
-| Available Interfaces:      | BRIEFLY DESCRIBE INTERFACES          |
+Available Interfaces:      
+:	BRIEFLY DESCRIBE INTERFACES
 
-### C-12: COMPONENT NAME {#c-12-component-name}
+### C-11: COMPONENT NAME {#C-11}
 
-|                            |                                      |
-|----------------------------|--------------------------------------|
-| Description:               | DESCRIPTION                          |
-| Environmental Constraints: | REQUIRED OPERATING SYSTEM, RAM, ETC. |
-| Available Interfaces:      | BRIEFLY DESCRIBE INTERFACES          |
+Description:               
+:	DESCRIPTION
+                          
+Environmental Constraints: 
+:	REQUIRED OPERATING SYSTEM, RAM, ETC.
 
-### C-20: COMPONENT NAME {#c-20-component-name}
+Available Interfaces:      
+:	BRIEFLY DESCRIBE INTERFACES
 
-|                            |                                      |
-|----------------------------|--------------------------------------|
-| Description:               | DESCRIPTION                          |
-| Environmental Constraints: | REQUIRED OPERATING SYSTEM, RAM, ETC. |
-| Available Interfaces:      | BRIEFLY DESCRIBE INTERFACES          |
+### C-12: COMPONENT NAME {#C-12}
+
+Description:               
+:	DESCRIPTION
+                          
+Environmental Constraints: 
+:	REQUIRED OPERATING SYSTEM, RAM, ETC.
+
+Available Interfaces:      
+:	BRIEFLY DESCRIBE INTERFACES
+
+### C-20: COMPONENT NAME {#C-20}
+
+Description:               
+:	DESCRIPTION
+                          
+Environmental Constraints: 
+:	REQUIRED OPERATING SYSTEM, RAM, ETC.
+
+Available Interfaces:      
+:	BRIEFLY DESCRIBE INTERFACES
 
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/design-components.html)

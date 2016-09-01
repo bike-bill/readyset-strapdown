@@ -3,31 +3,15 @@
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+Project:
+:   PROJECTNAME
+
+Internal Release Number:
+:   X.Y.Z
+
+Related Documents:
+:   LINKS TO RELEVANT STANDARDS
+:   LINKS TO OTHER DOCUMENTS
 
 ### Overview {#overview}
 
@@ -39,13 +23,13 @@ What are the most important facts that a developer should know about persistent 
 
 What are the ranked goals for persistence in this system?
 
-:   1.  [Expressiveness](glossary-std.html#dg_expressiveness){.def}
-    2.  [Ease of access](glossary-std.html#dg_easy_access){.def}
-    3.  [Reliability](glossary-std.html#dg_data_reliability){.def}
-    4.  [Data capacity](glossary-std.html#dg_data_capacity){.def}
-    5.  [Data security](glossary-std.html#dg_data_security){.def}
-    6.  [Performance](glossary-std.html#dg_data_performance){.def}
-    7.  [Interoperability](glossary-std.html#dg_data_interop){.def}
+:   1.  [Expressiveness](glossary-std#dg_expressiveness){.def}
+    2.  [Ease of access](glossary-std#dg_easy_access){.def}
+    3.  [Reliability](glossary-std#dg_data_reliability){.def}
+    4.  [Data capacity](glossary-std#dg_data_capacity){.def}
+    5.  [Data security](glossary-std#dg_data_security){.def}
+    6.  [Performance](glossary-std#dg_data_performance){.def}
+    7.  [Interoperability](glossary-std#dg_data_interop){.def}
 
 ### Central Database {#central-database}
 
@@ -167,7 +151,7 @@ Interoperability: To what extent has this been achieved?
 Has the persistence design been communicated to the development team and other stakeholders?
 :   Yes, everyone understands. Feedback is welcome.
 :   No, this is a risk that is noted in the [Risk
-    Management](plan.html#risks) section.
+    Management](plan#risks) section.
 
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/design-persistence.html)

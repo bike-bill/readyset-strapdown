@@ -7,11 +7,16 @@ Project Plan {#project-plan}
 
 ### Project Information {#project-information}
 
-|Project:|[PROJECTNAME](index)|
-|:---|:---|
-|Project Time-frame:| STARTDATE - ENDDATE|
-|Attached worksheets:|Plan &gt; [Resource needs](resource-needs)|
-|Related Documents:|[Project proposal](proposal) &gt; [Target audience and benefits](target-and-benefits), [Software development methodology](sdm), [Glossary](glossary)|
+Project:
+:   [PROJECTNAME](index)
+Project Time-frame:
+:   STARTDATE - ENDDATE
+Attached worksheets:
+:   Plan &gt; [Resource needs](resource-needs)
+Related Documents:
+:   [Project proposal](proposal) &gt; [Target audience and benefits](target-and-benefits)
+:   [Software development methodology](sdm)
+:   [Glossary](glossary)
 
 **Process impact:** This plan will be used to evaluate and manage the
 project. Key assumptions that affect the plan should be documented here.
@@ -88,41 +93,41 @@ and use letters for steps that you intend to do in parallel. E.g., Step
 in parallel, and Step 1.3 will be done after all 1.2.\* steps have been
 finished. Don't worry about renumbering if you delete a step.
 
-| Step                                          | Description                                        | Estimate |
-|-----------------------------------------------|----------------------------------------------------|----------|
-| 1.                                            | Preparation                                        |          |
-| 1.1.                                          | Developer training                                 | 30h      |
-| 2.                                            | Inception                                          |          |
-| 2.1.                                          | Requirements gathering                             | 30h      |
-| 2.2.                                          | Requirements specification                         | 20h      |
-| 2.3.                                          | Requirements validation                            | 10h      |
-| 3.                                            | Elaboration                                        |          |
-| 3.1.                                          | High-level design                                  | 5h       |
-| 3.2.                                          | Low-level design (break down by component)         |          |
-| 3.2.A.                                        | Object design                                      | 10h      |
-| 3.2.B.                                        | User interface design                              | 10h      |
-| 3.2.C.                                        | Database design                                    | 3h       |
-| 3.3.                                          | Design review and evaluation                       | 5h       |
-| 4.                                            | Construction                                       |          |
-| 4.1.A.                                        | System implementation                              |          |
-| 4.1.A.1.                                      | Implement COMPONENT-NAME 1                         | 25h      |
-| 4.1.A.2.                                      | Implement COMPONENT-NAME 2                         | 25h      |
-| 4.1.A.3.                                      | Implement COMPONENT-NAME 3                         | 25h      |
-| 4.1.A.4.                                      | Implement COMPONENT-NAME 4                         | 25h      |
-| 4.1.A.5.                                      |Integrate Components (mostly done during implementation)| 5h   |
-| 4.1.B.                                        | Technical documentation (break down by component)  | 10h      |
-| 4.1.C.                                        | User documentation (break down by component)       | 10h      |
-| 4.1.D.                                        | Testing                                            |          |
-| 4.1.D.1.                                      | Test planning                                      | 10h      |
-| 4.1.D.2.                                      | Test code implementation (break down by component) | 30h      |
-| 4.1.D.3.                                      | Test execution                                     | 10h      |
-| 4.2.                                          | Implementation review and evaluation               | 15h      |
-| 5.                                            | Transition                                         |          |
-| 5.A.                                          | Release packaging                                  | 3h       |
-| 5.B.                                          | Documentation for other groups                     | 3h       |
-| 6.                                            | Reflection                                         |          |
-| 6.1.                                          | Postmortem report                                  | 10h      |
-|                                               | Total                                              | 329 hours|
+| Step      | Description                                             | Estimate |
+|-----------|---------------------------------------------------------|----------|
+| 1.        | Preparation                                             |          |
+| 1.1.      | Developer training                                      | 30h      |
+| 2.        | Inception                                               |          |
+| 2.1.      | Requirements gathering                                  | 30h      |
+| 2.2.      | Requirements specification                              | 20h      |
+| 2.3.      | Requirements validation                                 | 10h      |
+| 3.        | Elaboration                                             |          |
+| 3.1.      | High-level design                                       | 5h       |
+| 3.2.      | Low-level design (break down by component)              |          |
+| 3.2.A.    | Object design                                           | 10h      |
+| 3.2.B.    | User interface design                                   | 10h      |
+| 3.2.C.    | Database design                                         | 3h       |
+| 3.3.      | Design review and evaluation                            | 5h       |
+| 4.        | Construction                                            |          |
+| 4.1.A.    | System implementation                                   |          |
+| 4.1.A.1.  | Implement COMPONENT-NAME 1                              | 25h      |
+| 4.1.A.2.  | Implement COMPONENT-NAME 2                              | 25h      |
+| 4.1.A.3.  | Implement COMPONENT-NAME 3                              | 25h      |
+| 4.1.A.4.  | Implement COMPONENT-NAME 4                              | 25h      |
+| 4.1.A.5.  | Integrate Components (mostly done during implementation)| 5h       |
+| 4.1.B.    | Technical documentation (break down by component)       | 10h      |
+| 4.1.C.    | User documentation (break down by component)            | 10h      |
+| 4.1.D.    | Testing                                                 |          |
+| 4.1.D.1.  | Test planning                                           | 10h      |
+| 4.1.D.2.  | Test code implementation (break down by component)      | 30h      |
+| 4.1.D.3.  | Test execution                                          | 10h      |
+| 4.2.      | Implementation review and evaluation                    | 15h      |
+| 5.        | Transition                                              |          |
+| 5.A.      | Release packaging                                       | 3h       |
+| 5.B.      | Documentation for other groups                          | 3h       |
+| 6.        | Reflection                                              |          |
+| 6.1.      | Postmortem report                                       | 10h      |
+|           | Total                                                   | 329 hours|
 
 ### Deliverables in this Release {#deliverables-in-this-release}
 
@@ -161,7 +166,7 @@ sum for each type of task.
 | 4.2.          | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00         |
 | 5.            | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00         |
 | 6.            | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00         |
-| Weekly Totals | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00         |            |
+| Weekly Totals | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00   | 00         |   
 
 
 ### Risk Management {#risk-management}

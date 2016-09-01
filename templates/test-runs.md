@@ -1,4 +1,4 @@
-[QA Plan](qa-plan.html) &gt; [Test Run Suite](test-run-suite.html) &gt; Test Runs {#qa-plan-test-run-suite-test-runs}
+[QA Plan](qa-plan) &gt; [Test Run Suite](test-run-suite) &gt; Test Runs {#qa-plan-test-run-suite-test-runs}
 ---------------------------------------------------------------------------------
 
 ### Release Information {#release-information}
@@ -11,7 +11,7 @@
 <tbody>
 <tr class="odd">
 <td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
+<td><a href="index">PROJECTNAME</a></td>
 </tr>
 <tr class="even">
 <td>Internal Release Number:</td>
@@ -20,7 +20,7 @@
 <tr class="odd">
 <td>Related Documents:</td>
 <td><div>
-<a href="test-suite.html">Test suite</a>
+<a href="test-suite">Test suite</a>
 </div>
 <div>
 LINKS TO RELEVANT STANDARDS
@@ -57,7 +57,7 @@ issue tracking tool to plan and track test runs.
 </tr>
 <tr class="even">
 <td>Test Description:</td>
-<td>Performed all <a href="test-cases.html">manual system tests</a>.</td>
+<td>Performed all <a href="test-cases">manual system tests</a>.</td>
 </tr>
 <tr class="odd">
 <td>Test Run Results:</td>
@@ -95,7 +95,7 @@ issue tracking tool to plan and track test runs.
 </tr>
 <tr class="even">
 <td>Test Description:</td>
-<td>Performed all <a href="test-cases.html">manual system tests</a>.</td>
+<td>Performed all <a href="test-cases">manual system tests</a>.</td>
 </tr>
 <tr class="odd">
 <td>Test Run Results:</td>
@@ -133,7 +133,7 @@ issue tracking tool to plan and track test runs.
 </tr>
 <tr class="even">
 <td>Test Description:</td>
-<td>Performed all <a href="test-cases.html">manual system tests</a>.</td>
+<td>Performed all <a href="test-cases">manual system tests</a>.</td>
 </tr>
 <tr class="odd">
 <td>Test Run Results:</td>
@@ -171,7 +171,7 @@ issue tracking tool to plan and track test runs.
 </tr>
 <tr class="even">
 <td>Test Description:</td>
-<td>Performed all <a href="test-cases.html">manual system tests</a>.</td>
+<td>Performed all <a href="test-cases">manual system tests</a>.</td>
 </tr>
 <tr class="odd">
 <td>Test Run Results:</td>
@@ -209,7 +209,7 @@ issue tracking tool to plan and track test runs.
 </tr>
 <tr class="even">
 <td>Test Description:</td>
-<td>Performed all <a href="test-cases.html">manual system tests</a>.</td>
+<td>Performed all <a href="test-cases">manual system tests</a>.</td>
 </tr>
 <tr class="odd">
 <td>Test Run Results:</td>
@@ -247,7 +247,7 @@ issue tracking tool to plan and track test runs.
 </tr>
 <tr class="even">
 <td>Test Description:</td>
-<td>Performed all <a href="test-cases.html">manual system tests</a>.</td>
+<td>Performed all <a href="test-cases">manual system tests</a>.</td>
 </tr>
 <tr class="odd">
 <td>Test Run Results:</td>
@@ -285,7 +285,7 @@ issue tracking tool to plan and track test runs.
 </tr>
 <tr class="even">
 <td>Test Description:</td>
-<td>Performed all <a href="test-cases.html">manual system tests</a>.</td>
+<td>Performed all <a href="test-cases">manual system tests</a>.</td>
 </tr>
 <tr class="odd">
 <td>Test Run Results:</td>
@@ -323,7 +323,7 @@ issue tracking tool to plan and track test runs.
 </tr>
 <tr class="even">
 <td>Test Description:</td>
-<td>Performed all <a href="test-cases.html">manual system tests</a>.</td>
+<td>Performed all <a href="test-cases">manual system tests</a>.</td>
 </tr>
 <tr class="odd">
 <td>Test Run Results:</td>
@@ -361,7 +361,7 @@ issue tracking tool to plan and track test runs.
 </tr>
 <tr class="even">
 <td>Test Description:</td>
-<td>Performed all <a href="test-cases.html">manual system tests</a>.</td>
+<td>Performed all <a href="test-cases">manual system tests</a>.</td>
 </tr>
 <tr class="odd">
 <td>Test Run Results:</td>
@@ -399,7 +399,7 @@ issue tracking tool to plan and track test runs.
 </tr>
 <tr class="even">
 <td>Test Description:</td>
-<td>Performed all <a href="test-cases.html">manual system tests</a>.</td>
+<td>Performed all <a href="test-cases">manual system tests</a>.</td>
 </tr>
 <tr class="odd">
 <td>Test Run Results:</td>

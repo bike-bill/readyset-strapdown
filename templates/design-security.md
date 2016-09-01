@@ -1,33 +1,17 @@
-[Design](design.html) &gt; Security {#design-security}
+[Design](design) &gt; Security {#design-security}
 -----------------------------------
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+Project:
+:   PROJECTNAME
+
+Internal Release Number:
+:   X.Y.Z
+
+Related Documents:
+:   LINKS TO RELEVANT STANDARDS
+:   LINKS TO OTHER DOCUMENTS
 
 ### Overview {#overview}
 
@@ -39,10 +23,10 @@ What are the most important facts that a developer should know about the securit
 
 What are the ranked goals for security in this system?
 
-:   1.  [Data security](glossary-std.html#dg_data_security){.def}
-    2.  [Intrusion prevention](glossary-std.html#dg_no_intrusion){.def}
-    3.  [Abuse prevention](glossary-std.html#dg_no_abuse){.def}
-    4.  [Auditability](glossary-std.html#dg_auditability){.def}
+:   1.  [Data security](glossary-std#dg_data_security){.def}
+    2.  [Intrusion prevention](glossary-std#dg_no_intrusion){.def}
+    3.  [Abuse prevention](glossary-std#dg_no_abuse){.def}
+    4.  [Auditability](glossary-std#dg_auditability){.def}
 
 ### Security Mechanisms {#security-mechanisms}
 
@@ -163,7 +147,7 @@ Accountability/auditing: To what extent has this been achieved?
 Have these security mechanisms been communicated to the development team and other stakeholders?
 :   Yes, everyone understands. Feedback is welcome.
 :   No, this is a risk that is noted in the [Risk
-    Management](plan.html#risks) section.
+    Management](plan#risks) section.
 
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/design-security.html)

@@ -1,63 +1,46 @@
-[SRS](srs.html) &gt; [Feature Set](feature-set.html) &gt; Feature Specification Format {#srs-feature-set-feature-specification-format}
+[SRS](srs) &gt; [Feature Set](feature-set) &gt; Feature Specification Format {#srs-feature-set-feature-specification-format}
 --------------------------------------------------------------------------------------
 
 **Process impact:** This reference page documents the format of feature
 descriptions and gives tips on writing them. You can copy and paste the
-feature specification template into your [Features](features.html)
+feature specification template into your [Features](features)
 document. This file itself should not be edited to hold specific
 features.
 
 TODO: Copy and paste this feature specification template as many times
-as needed in your [Features](features.html) document.
+as needed in your [Features](features) document.
 
 ### F-00: FEATURE NAME {#f-00-feature-name}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risk | 2-Risk | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>NOTE</li>
-<li>QUESTION</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Priority:
+:   Essential | Expected | Desired | Optional
+
+Effort:
+:   Months | Weeks | Days | Hours
+
+Risk:
+:   Dangerous | 3-Risk | 2-Risk | 1-Risk | Safe
+
+Functional area(s):
+:   WORD, WORD, WORD
+
+Use case(s):
+:   [UC-01](use-cases#UC-01)
+
+Description:
+:   1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:   Precise Details:
+    
+    - LOGICAL CONSTRAINT  
+    - LOGICAL CONSTRAINT
+
+Notes and Questions:
+:   
+
+    - NOTE
+    - NOTE
+    - QUESTION
+    - QUESTION
 
 ### Feature Attribute Values {#feature-attribute-values}
 

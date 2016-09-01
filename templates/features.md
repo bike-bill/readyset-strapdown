@@ -1,16 +1,24 @@
-[SRS](srs.html) &gt; [Feature Set](feature-set.html) &gt; Features {#srs-feature-set-features}
+[SRS](srs) &gt; [Feature Set](feature-set) &gt; Features {#srs-feature-set-features}
 ------------------------------------------------------------------
 
 ### Release Information {#release-information}
 
-|Project:                  |PROJECTNAME                        |
-|:-------------------------|:----------------------------------|
-|Internal Release Number:  |X.Y.Z                              |
-|Related Documents:        |[Project proposal](proposal) > [User needs](user-needs), [SRS](srs) > [Use case suite](use-case-suite), [Feature format](feature-format), LINKS TO RELEVANT STANDARDS, LINKS TO OTHER DOCUMENTS|
+Project
+:	PROJECTNAME
+
+Internal Release Number
+:	X.Y.Z
+
+Related Documents
+:	[Project proposal](proposal) > [User needs](user-needs)
+:	[SRS](srs) > [Use case suite](use-case-suite)
+:	[Feature format](feature-format)
+:	LINKS TO RELEVANT STANDARDS
+:	LINKS TO OTHER DOCUMENTS
 
 **Process impact:** This is a set of detailed feature descriptions.
 
-TODO: For each feature listed in the [feature set](feature-set.html),
+TODO: For each feature listed in the [feature set](feature-set),
 give a detailed description of the feature here. Describe each feature
 in enough detail that it could be implemented by any member of the
 development team (not only someone who already informally knows what to
@@ -27,767 +35,517 @@ unambiguous. E.g.,
 -   Specify state-based behavior with state machines or tables
 -   Specify sequences of events with scenario diagrams
 
-### F-00: Site Configuration {#f-00-site-configuration}
+### F-00: Site Configuration {#F-00}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Days</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>Administration</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-00">UC-00</a> <a href="use-cases.html#UC-11">UC-11</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td>The site administrators will be able to configure:
-<ul>
-<li>The site appearance by choosing a predefined CSS file</li>
-<li>Whether the site makes new clans public or private by default</li>
-<li>The email address to be used to send critical error reports</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
 
-### F-01: User registration {#f-01-user-registration}
+Priority:
+:	Essential
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Days</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>Administration</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td>Visitors can come to the site and register themselves. They must provide the following information:
-<ul>
-<li>username</li>
-<li>email address (twice to catch typos)</li>
-<li>real name</li>
-</ul>
-<p>Precise Details:</p>
-<ul>
-<li>username must be unique (not equal to any other existing user name)</li>
-<li>username must be of the form <code>[a-zA-Z0-9]{2,16}</code> and is not case sensitive</li>
-<li>email address must be of the form <code>[-a-zA-Z0-9_.]{2,16}@[-a-zA-Z0-9_.]{6,64}</code></li>
-<li>both entries of the email address must match</li>
-<li>email address will be verified by sending the user's initial password there</li>
-<li>real name must not be empty</li>
-<li>leading and trailing spaces are stripped from all fields</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Effort:
+:Days
 
-### F-02: FEATURE NAME {#f-02-feature-name}
+Risk:
+:	Safe
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Functional area(s):
+:	Administration
 
-### F-03: FEATURE NAME {#f-03-feature-name}
+Use case(s):
+:	[UC-00](use-cases#UC-00) [UC-11](use-cases#UC-11)
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Description:</td>
+:	The site administrators will be able to configure:
 
-### F-10: FEATURE NAME {#f-10-feature-name}
+	- The site appearance by choosing a predefined CSS file</li>
+	- Whether the site makes new clans public or private by default</li>
+	- The email address to be used to send critical error reports</li>
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Notes and Questions:
+:	NOTE
+:	QUESTION
 
-### F-11: FEATURE NAME {#f-11-feature-name}
+Priority
+:	Essential
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Effort
+:   Days
 
-### F-12: FEATURE NAME {#f-12-feature-name}
+Risk:
+:	Safe
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Functional Areas:
+:	Administration
 
-### F-13: FEATURE NAME {#f-13-feature-name}
+Use case(s):
+:	UC-00 UC-11
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Description:
+:	The site administrators will be able to configure:
 
-### F-20: FEATURE NAME {#f-20-feature-name}
+	-The site appearance by choosing a predefined CSS file
+	-Whether the site makes new clans public or private by default
+	-The email address to be used to send critical error reports
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+### F-01: User registration {#F-01-user-registration}
 
-### F-21: FEATURE NAME {#f-21-feature-name}
+Priority:
+:	Essential
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Effort:
+:	Days
 
-### F-22: FEATURE NAME {#f-22-feature-name}
+Risk:
+:	Safe
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Functional area(s):
+:	Administration
 
-### F-23: FEATURE NAME {#f-23-feature-name}
+Use case(s):
+:	[UC-01](use-cases#UC-01)
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Description:
+:	Visitors can come to the site and register themselves. They must provide the following information:
 
-### F-30: FEATURE NAME {#f-30-feature-name}
+	- username
+	- email address (twice to catch typos)
+	- real name
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Precise Details:
+:
 
-### F-31: FEATURE NAME {#f-31-feature-name}
+	- username must be unique (not equal to any other existing user name)
+	- username must be of the form ~~~[a-zA-Z0-9]{2,16}~~~ and is not case sensitive
+	- email address must be of the form ~~~[-a-zA-Z0-9_.]{2,16}@[-a-zA-Z0-9_.]{6,64}~~~
+	- both entries of the email address must match
+	- email address will be verified by sending the user's initial password there
+	- real name must not be empty
+	- leading and trailing spaces are stripped from all fields
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Notes and Questions:
+:	NOTE
+:	QUESTION
 
-### F-32: FEATURE NAME {#f-32-feature-name}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+### F-02: FEATURE NAME {#F-02}
 
-### F-33: FEATURE NAME {#f-33-feature-name}
+Priority:
+:	Essential | Expected | Desired | Optional
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Priority:</td>
-<td>Essential | Expected | Desired | Optional</td>
-</tr>
-<tr class="even">
-<td>Effort:</td>
-<td>Months | Weeks | Days | Hours</td>
-</tr>
-<tr class="odd">
-<td>Risk:</td>
-<td>Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe</td>
-</tr>
-<tr class="even">
-<td>Functional area(s):</td>
-<td>WORD, WORD, WORD</td>
-</tr>
-<tr class="odd">
-<td>Use case(s):</td>
-<td><a href="use-cases.html#UC-01">UC-01</a></td>
-</tr>
-<tr class="even">
-<td>Description:</td>
-<td><p>1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.</p>
-<p>Precise Details:</p>
-<ul>
-<li>LOGICAL CONSTRAINT</li>
-<li>LOGICAL CONSTRAINT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
+
+
+### F-03: FEATURE NAME {#F-03}
+
+Priority:
+:	Essential | Expected | Desired | Optional
+
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
+
+### F-10: FEATURE NAME {#F-10}
+
+Priority:
+:	Essential | Expected | Desired | Optional
+
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
+
+### F-11: FEATURE NAME {#F-11}
+
+Priority:
+:	Essential | Expected | Desired | Optional
+
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
+
+### F-12: FEATURE NAME {#F-12}
+
+Priority:
+:	Essential | Expected | Desired | Optional
+
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
+
+### F-13: FEATURE NAME {#F-13}
+
+Priority:
+:	Essential | Expected | Desired | Optional
+
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
+
+### F-20: FEATURE NAME {#F-20}
+
+Priority:
+:	Essential | Expected | Desired | Optional
+
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
+
+### F-21: FEATURE NAME {#F-21}
+
+Priority:
+:	Essential | Expected | Desired | Optional
+
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
+
+### F-22: FEATURE NAME {#F-22}
+
+Priority:
+:	Essential | Expected | Desired | Optional
+
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
+
+### F-23: FEATURE NAME {#F-23}
+
+Priority:
+:	Essential | Expected | Desired | Optional
+
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
+
+### F-30: FEATURE NAME {#F-30}
+
+Priority:
+:	Essential | Expected | Desired | Optional
+
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
+
+### F-31: FEATURE NAME {#F-31}
+
+Priority:
+:	Essential | Expected | Desired | Optional
+
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
+
+### F-32: FEATURE NAME {#F-32}
+
+Priority:
+:	Essential | Expected | Desired | Optional
+
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
+
+### F-33: FEATURE NAME {#F-33}
+
+Priority:
+:	Essential | Expected | Desired | Optional
+
+Effort:
+:	Months | Weeks | Days | Hours
+
+Risk:
+:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s):
+:	WORD, WORD, WORD
+
+Use case(s):
+:	[UC-01](use-cases#UC-01)
+
+Description:
+:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+:
+:	Precise Details:
+:
+
+	- LOGICAL CONSTRAINT
+	- LOGICAL CONSTRAINT
+
+Notes and Questions:
+:	NOTE
+:	QUESTION
 
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/features.html) and

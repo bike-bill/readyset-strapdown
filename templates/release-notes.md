@@ -9,12 +9,14 @@ number, not internal information.
 
 ### Product Release Information {#product-release-information}
 
-|                   |                                                                                                                                                |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Product:          | [PRODUCTNAME](http://www.COMPANY.com/products/PRODUCTNAME/)                                                                                    |
-| Release Number:   | X.Y.Z                                                                                                                                          |
-| Release Date:     | YEAR/MONTH/DAY                                                                                                                                 |
-| Customer Support: | For more information or support, please visit our [website](http://www.COMPANY.com/products/PRODUCTNAME/) or email us at <support@COMPANY.com> |
+Product:          
+:   [PRODUCTNAME](http://www.COMPANY.com/products/PRODUCTNAME/)                                                                                    
+Release Number:   
+:   X.Y.Z                                                                                                                
+Release Date:     
+:   YEAR/MONTH/DAY                                                                                             
+Customer Support: 
+:   For more information or support, please visit our [website](http://www.COMPANY.com/products/PRODUCTNAME/) or email us at <support@COMPANY.com>
 
 ### Introduction {#introduction}
 
@@ -87,54 +89,34 @@ Installation
 
 Manifest
 :   This release consists of the following items:
+    
     -   Release notes (this file)
     -   Installation instructions / Quick start guide
     -   Product installer binary
     -   User guide
     -   Product source code and build instructions
 
-Minimum System Requirements
+### Minimum System Requirements
 
-:   <table>
-    <colgroup>
-    <col width="50%" />
-    <col width="50%" />
-    </colgroup>
-    <tbody>
-    <tr class="odd">
-    <td>System Processor:</td>
-    <td>800MHz</td>
-    </tr>
-    <tr class="even">
-    <td>System Memory:</td>
-    <td>256MB</td>
-    </tr>
-    <tr class="odd">
-    <td>Free Disk Space:</td>
-    <td>10MB</td>
-    </tr>
-    <tr class="even">
-    <td>Operating System:</td>
-    <td>Windows 2000, Windows XP, Mac OS X, Linux (kernel 2.4)</td>
-    </tr>
-    <tr class="odd">
-    <td>Networking:</td>
-    <td>Internet access</td>
-    </tr>
-    <tr class="even">
-    <td>Existing Software:</td>
-    <td><div>
-    Standard e-mail client
-    </div>
-    <div>
-    Popular web browser (IE6, NN7)
-    </div>
-    <div>
-    SuperWaveEdit(TM) 2.0.2 (Needed for custom playback modes)
-    </div></td>
-    </tr>
-    </tbody>
-    </table>
+System Processor:</td>
+:    800MHz
+    
+System Memory:
+:   256MB
+    
+Free Disk Space:</td>
+:   10MB
+    
+Operating System:
+:   Windows 2000, Windows XP, Mac OS X, Linux (kernel 2.4)
+    
+Networking:
+:   Internet access
+ 
+Existing Software:
+:   Standard e-mail client
+:   Popular web browser (IE6, NN7)
+:   SuperWaveEdit(TM) 2.0.2 (Needed for custom playback modes)
 
 Version Compatibility
 :   Files saved by earlier versions of this product may be used with

@@ -9,22 +9,20 @@ This document defines the artifacts the team creates during your software develo
 
 ### Artifact Producer / Consumer Matrix
 
-|Read By \ Written By            |Everyone                |Project Manager|Product Manager|Dev Team|QA Team    |Tech Writer |Tech Support|Operations    |Sales|
-|:---                            |:---                    |:---           |:---           |:---    |:---       |:---        |:---        |:---          |     |
-|Everyone                        |[SDM](sdm)              |               |               |        |           |            |            |              |     |
-|Project Mananger                |                        |               |               |        |           |            |            |              |     |
-|Dev Team                        |                        |               |               |        |           |            |            |              |     |
-|QA Team                         |                        |               |               |        |           |            |            |              |     |
-|Tech Writer                     |                        |               |               |        |           |            |            |              |     |
-|Tech Support                    |                        |               |               |        |           |            |            |              |     |
-|Operations                      |                        |               |               |        |           |            |            |              |     |
-|Sales                           |                        |               |               |        |           |            |            |              |     |
+| Read By \ Written By | Everyone   | Project Manager | Product Manager | Dev Team | QA Team | Tech Writer | Tech Support | Operations | Sales |
+|----------------------|------------|-----------------|-----------------|----------|---------|-------------|--------------|------------|-------|
+| Everyone             | [SDM](sdm) |                 |                 |          |         |             |              |            |       |
+| Project Mananger     |            |                 |                 |          |         |             |              |            |       |
+| Dev Team             |            |                 |                 |          |         |             |              |            |       |
+| QA Team              |            |                 |                 |          |         |             |              |            |       |
+| Tech Writer          |            |                 |                 |          |         |             |              |            |       |
+| Tech Support         |            |                 |                 |          |         |             |              |            |       |
+| Operations           |            |                 |                 |          |         |             |              |            |       |
+| Sales                |            |                 |                 |          |         |             |              |            |       |
 
-TODO: Check for [words of
-wisdom](http://readyset.tigris.org/words-of-wisdom/sdm.html) and discuss
+TODO: Check for [words of wisdom](http://readyset.tigris.org/words-of-wisdom/sdm.html) and discuss
 ways to improve this template. Or, evaluate the ReadySET Pro
-[professional document cross reference
-template](http://www.readysetpro.com/).
+[professional document cross reference template](http://www.readysetpro.com/).
 
 Company Proprietary
 

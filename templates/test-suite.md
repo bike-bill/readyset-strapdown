@@ -1,39 +1,21 @@
-[QA Plan](qa-plan.html) &gt; Test Suite {#qa-plan-test-suite}
+[QA Plan](qa-plan) &gt; Test Suite {#qa-plan-test-suite}
 ---------------------------------------
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="test-case-format.html">Test case format</a>
-</div>
-<div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+Project:
+:   [PROJECTNAME](index)
+
+Internal Release Number:
+X.Y.Z
+
+Related Documents:
+:   [Test case format](test-case-format)
+:   LINKS TO RELEVANT STANDARDS
+:   LINKS TO OTHER DOCUMENTS
 
 **Process impact:** This is a test suite for manual system testing. It
-is just one activity in the overall [QA plan](qa-plan.html). A test case
+is just one activity in the overall [QA plan](qa-plan.). A test case
 suite is simply a table of contents for the individual test cases.
 Organizing the suite of test cases by priority, functional area, actor,
 business object, or release can help identify parts of the system that
@@ -44,7 +26,7 @@ think you will need. Organize them in a way that will purposely leave
 visible blanks on this page if you are missing use cases. Choose one or
 more of the organizations show below.
 
-TIP: Refer back to your [use cases](use-cases.html) document. Use them
+TIP: Refer back to your [use cases](use-cases) document. Use them
 for ideas and make sure that you cover all of them. Remember that test
 cases are more precise than use cases, test cases should reference
 specific details of your implementation, and there may be several test
@@ -61,20 +43,107 @@ done for the enrollment feature below.
 
 ### Test Cases by Business Object and Operation {#test-cases-by-business-object-and-operation}
 
-| BO \\ Action | add                                                                                                                                          | list/browse                                      | edit                                                                                                                                                     | delete                                              | search                                                                                                    | other                                                                                 |
-|--------------|----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| Student      | [student-add-1](test-cases.html#student-add-1) [student-add-2](test-cases.html#student-add-2) [student-add-3](test-cases.html#student-add-3) | [student-list-1](test-cases.html#student-list-1) | [student-edit-1](test-cases.html#student-edit-1) [student-edit-2](test-cases.html#student-edit-2)                                                        | [student-delete-1](test-cases.htmlstudent-delete-1) | [student-search-1](test-cases.html#student-search-1) [student-search-2](test-cases.html#student-search-2) | [See grid below](#enroll-grid)                                                        |
-| Course       | [course-add-1](test-cases.html#course-add-1) [course-add-2](test-cases.html#course-add-2)                                                    | [course-list-1](test-cases.html#course-list-1)   | [course-edit-1](test-cases.html#course-edit-1) [course-move-1](test-cases.html#course-move-1) [course-add-prereq-1](test-cases.html#course-add-prereq-1) | [course-cancel-1](test-cases.html#course-cancel-1)  | [course-search-1](test-cases.html#course-search-1)                                                        | N/A                                                                                   |
-| Room         | [room-add-1](test-cases.html#room-add-1) [room-add-2](test-cases.html#room-add-2)                                                            | [room-list-1](test-cases.html#room-list-1)       | TODO                                                                                                                                                     | TODO                                                | TODO                                                                                                      | N/A                                                                                   |
-| Instructor   | [inst-add-1](test-cases.html#inst-add-1)                                                                                                     | N/A                                              | [inst-edit-1](test-cases.html#inst-edit-1)                                                                                                               | [inst-delete-1](test-cases.html#inst-delete-1)      | N/A                                                                                                       | [inst-eval-1](test-cases.html#inst-eval-1) [inst-eval-2](test-cases.html#inst-eval-2) |
+<table>
+    <thead>
+        <tr>
+            <th>BO \ Action</th>
+            <th>add</th>
+            <th>list/browse</th>
+            <th>edit</th>
+            <th>delete</th>
+            <th>search</th>
+            <th>other</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Student</td>
+            <td><a href="test-cases#student-add-1">student-add-1</a><br />
+                <a href="test-cases#student-add-2">student-add-2</a><br /> 
+                <a href="test-cases#student-add-3">student-add-3</a></td>
+            <td><a href="test-cases#student-list-1">student-list-1</a></td>
+            <td><a href="test-cases#student-edit-1">student-edit-1</a><br /> 
+                <a href="test-cases#student-edit-2">student-edit-2</a></td>
+            <td><a href="test-casesstudent-delete-1">student-delete-1</a></td>
+            <td><a href="test-cases#student-search-1">student-search-1</a><br />
+                <a href="test-cases#student-search-2">student-search-2</a></td>
+            <td><a href="#enroll-grid">See grid below</a></td>
+        </tr>
+        <tr>
+            <td>Course</td>
+            <td><a href="test-cases#course-add-1">course-add-1</a><br />
+                <a href="test-cases#course-add-2">course-add-2</a></td>
+            <td><a href="test-cases#course-list-1">course-list-1</a></td>
+            <td><a href="test-cases#course-edit-1">course-edit-1</a><br />
+                <a href="test-cases#course-move-1">course-move-1</a><br />
+                <a href="test-cases#course-add-prereq-1">course-add-prereq-1</a></td>
+            <td><a href="test-cases#course-cancel-1">course-cancel-1</a></td>
+            <td><a href="test-cases#course-search-1">course-search-1</a></td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Room</td>
+            <td><a href="test-cases#room-add-1">room-add-1</a><br />
+                <a href="test-cases#room-add-2">room-add-2</a></td>
+            <td><a href="test-cases#room-list-1">room-list-1</a></td>
+            <td>TODO</td>
+            <td>TODO</td>
+            <td>TODO</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Instructor</td>
+            <td><a href="test-cases#inst-add-1">inst-add-1</a></td>
+            <td>N/A</td>
+            <td><a href="test-cases#inst-edit-1">inst-edit-1</a></td>
+            <td><a href="test-cases#inst-delete-1">inst-delete-1</a></td>
+            <td>N/A</td>
+            <td><a href="test-cases#inst-eval-1">inst-eval-1</a><br />
+                <a href="test-cases#inst-eval-2">inst-eval-2</a></td>
+        </tr>
+    </tbody>
+</table>
 
-#### Test Cases for Enrolling in Courses {#test-cases-for-enrolling-in-courses}
+### Test Cases for Enrolling in Courses {#test-cases-for-enrolling-in-courses}
 
-| Course \\ Student | New Freshman                                           | Senior                                                 | Any Honors                                             | Other                                                                                                          |
-|-------------------|--------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| In Major          | [enroll-priority-2](test-cases.html#enroll-priority-2) | [enroll-priority-1](test-cases.html#enroll-priority-1) | [enroll-priority-1](test-cases.html#enroll-priority-1) | [enroll-1](test-cases.html#enroll-1) [enroll-2](test-cases.html#enroll-2) [enroll-3](test-cases.html#enroll-3) |
-| Non-Major         | [enroll-priority-2](test-cases.html#enroll-priority-2) | [enroll-priority-1](test-cases.html#enroll-priority-1) | [enroll-priority-1](test-cases.html#enroll-priority-1) | [enroll-1](test-cases.html#enroll-1) [enroll-2](test-cases.html#enroll-2) [enroll-3](test-cases.html#enroll-3) |
-| Honors Course     | [enroll-priority-1](test-cases.html#enroll-priority-1) | [enroll-priority-1](test-cases.html#enroll-priority-1) | [enroll-priority-1](test-cases.html#enroll-priority-1) | [enroll-restricted-1](test-cases.html#enroll-restricted-1)                                                     |
+<table>
+    <thead>
+        <tr>
+            <th>Course \ Student</th>
+            <th>New Freshman</th>
+            <th>Senior</th>
+            <th>Any Honors</th>
+            <th>Other</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>In Major</td>
+            <td><a href="test-cases#enroll-priority-2">enroll-priority-2</a></td>
+            <td><a href="test-cases#enroll-priority-1">enroll-priority-1</a></td>
+            <td><a href="test-cases#enroll-priority-1">enroll-priority-1</a></td>
+            <td><a href="test-cases#enroll-1">enroll-1</a><br />
+                <a href="test-cases#enroll-2">enroll-2</a><br />
+                <a href="test-cases#enroll-3">enroll-3</a></td>
+        </tr>
+        <tr>
+            <td>Non-Major</td>
+            <td><a href="test-cases#enroll-priority-2">enroll-priority-2</a></td>
+            <td><a href="test-cases#enroll-priority-1">enroll-priority-1</a></td>
+            <td><a href="test-cases#enroll-priority-1">enroll-priority-1</a></td>
+            <td><a href="test-cases#enroll-1">enroll-1</a><br />
+                <a href="test-cases#enroll-2">enroll-2</a><br />
+                <a href="test-cases#enroll-3">enroll-3</a></td>
+        </tr>
+        <tr>
+            <td>Honors Course</td>
+            <td><a href="test-cases#enroll-priority-1">enroll-priority-1</a></td>
+            <td><a href="test-cases#enroll-priority-1">enroll-priority-1</a></td>
+            <td><a href="test-cases#enroll-priority-1">enroll-priority-1</a></td>
+            <td><a href="test-cases#enroll-restricted-1">enroll-restricted-1</a></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Test Cases by Feature Priority {#test-cases-by-feature-priority}
 
@@ -84,29 +153,29 @@ cases for each feature. If a feature needs more test cases, note that
 with "TODO".
 
 -   Essential
-    -   [F-01](features.html#F-01):
-        [student-add-1](test-cases.html#student-add-1)
-        [student-add-2](test-cases.html#student-add-2)
-        [student-add-3](test-cases.html#student-add-3)
-    -   [F-02](features.html#F-02): [enroll-1](test-cases.html#enroll-1)
-        [enroll-2](test-cases.html#enroll-2)
-        [enroll-3](test-cases.html#enroll-3)
-        [enroll-priority-1](test-cases.html#enroll-priority-1)
-        [enroll-priority-2](test-cases.html#enroll-priority-2)
-        [enroll-restricted-1](test-cases.html#enroll-restricted-1)
+    -   [F-01](features#F-01):
+        [student-add-1](test-cases#student-add-1)
+        [student-add-2](test-cases#student-add-2)
+        [student-add-3](test-cases#student-add-3)
+    -   [F-02](features#F-02): [enroll-1](test-cases#enroll-1)
+        [enroll-2](test-cases#enroll-2)
+        [enroll-3](test-cases#enroll-3)
+        [enroll-priority-1](test-cases#enroll-priority-1)
+        [enroll-priority-2](test-cases#enroll-priority-2)
+        [enroll-restricted-1](test-cases#enroll-restricted-1)
 -   Expected
-    -   [F-22](features.html#F-22):
-        [student-search-1](test-cases.html#student-search-1)
-        [student-search-2](test-cases.html#student-search-2)
-        [course-search-1](test-cases.html#course-search-1)
-    -   [F-23](features.html#F-23):
-        [room-add-1](test-cases.html#room-add-1)
-        [room-add-2](test-cases.html#room-add-2)
-        [room-edit-1](test-cases.html#room-edit-1) TODO
+    -   [F-22](features#F-22):
+        [student-search-1](test-cases#student-search-1)
+        [student-search-2](test-cases#student-search-2)
+        [course-search-1](test-cases#course-search-1)
+    -   [F-23](features#F-23):
+        [room-add-1](test-cases#room-add-1)
+        [room-add-2](test-cases#room-add-2)
+        [room-edit-1](test-cases#room-edit-1) TODO
 -   Desired
-    -   [F-31](features.html#F-31):
-        [inst-eval-1](test-cases.html#inst-eval-1)
-        [inst-eval-2](test-cases.html#inst-eval-2)
+    -   [F-31](features#F-31):
+        [inst-eval-1](test-cases#inst-eval-1)
+        [inst-eval-2](test-cases#inst-eval-2)
 
 ### Test Cases by Use Case Priority {#test-cases-by-use-case-priority}
 
@@ -116,39 +185,39 @@ cases for each use case. If a use case needs more test cases, note that
 with "TODO".
 
 -   Essential
-    -   [UC-01](use-cases.html#UC-01):
-        [student-add-1](test-cases.html#student-add-1)
-        [student-add-2](test-cases.html#student-add-2)
-    -   [UC-01](use-cases.html#UC-01):
-        [student-add-3](test-cases.html#student-add-3)
-    -   [UC-02](use-cases.html#UC-02):
-        [enroll-1](test-cases.html#enroll-1)
-    -   [UC-03](use-cases.html#UC-03):
-        [enroll-2](test-cases.html#enroll-2)
-    -   [UC-04](use-cases.html#UC-04):
-        [enroll-3](test-cases.html#enroll-3)
-    -   [UC-05](use-cases.html#UC-05):
-        [enroll-priority-1](test-cases.html#enroll-priority-1)
-        [enroll-priority-2](test-cases.html#enroll-priority-2)
-    -   [UC-06](use-cases.html#UC-06):
-        [enroll-restricted-1](test-cases.html#enroll-restricted-1)
+    -   [UC-01](use-cases#UC-01):
+        [student-add-1](test-cases#student-add-1)
+        [student-add-2](test-cases#student-add-2)
+    -   [UC-01](use-cases#UC-01):
+        [student-add-3](test-cases#student-add-3)
+    -   [UC-02](use-cases#UC-02):
+        [enroll-1](test-cases#enroll-1)
+    -   [UC-03](use-cases#UC-03):
+        [enroll-2](test-cases#enroll-2)
+    -   [UC-04](use-cases#UC-04):
+        [enroll-3](test-cases#enroll-3)
+    -   [UC-05](use-cases#UC-05):
+        [enroll-priority-1](test-cases#enroll-priority-1)
+        [enroll-priority-2](test-cases#enroll-priority-2)
+    -   [UC-06](use-cases#UC-06):
+        [enroll-restricted-1](test-cases#enroll-restricted-1)
 -   Expected
-    -   [UC-22](use-cases.html#UC-22):
-        [student-search-1](test-cases.html#student-search-1)
-        [student-search-2](test-cases.html#student-search-2)
-    -   [UC-23](use-cases.html#UC-23):
-        [course-search-1](test-cases.html#course-search-1)
-    -   [UC-30](use-cases.html#UC-30):
-        [room-add-1](test-cases.html#room-add-1)
-        [room-add-2](test-cases.html#room-add-2)
-    -   [UC-31](use-cases.html#UC-31):
-        [room-edit-1](test-cases.html#room-edit-1) TODO
-    -   [UC-32](use-cases.html#UC-32): TODO
-    -   [UC-33](use-cases.html#UC-33): TODO
+    -   [UC-22](use-cases#UC-22):
+        [student-search-1](test-cases#student-search-1)
+        [student-search-2](test-cases#student-search-2)
+    -   [UC-23](use-cases#UC-23):
+        [course-search-1](test-cases#course-search-1)
+    -   [UC-30](use-cases#UC-30):
+        [room-add-1](test-cases#room-add-1)
+        [room-add-2](test-cases#room-add-2)
+    -   [UC-31](use-cases#UC-31):
+        [room-edit-1](test-cases#room-edit-1) TODO
+    -   [UC-32](use-cases#UC-32): TODO
+    -   [UC-33](use-cases#UC-33): TODO
 -   Desired
-    -   [UC-40](use-cases.html#UC-40):
-        [inst-eval-1](test-cases.html#inst-eval-1)
-        [inst-eval-2](test-cases.html#inst-eval-2)
+    -   [UC-40](use-cases#UC-40):
+        [inst-eval-1](test-cases#inst-eval-1)
+        [inst-eval-2](test-cases#inst-eval-2)
 
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/test-suite.html) and

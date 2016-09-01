@@ -3,37 +3,17 @@ Demo Script {#demo-script}
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="proposal.html">Project proposal</a> &gt; <a href="target-and-benefits.html">Target audience and benefits</a>
-</div>
-<div>
-<a href="srs.html">SRS</a> &gt; <a href="use-case-suite.html">Use case suite</a>
-</div>
-<div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+Project:
+:   [PROJECTNAME](index)
+
+Internal Release Number:
+:   X.Y.Z
+
+Related Documents:
+:   [Project proposal](proposal) &gt; [Target audience and benefits](target-and-benefits)
+:   [SRS](srs) &gt; [Use case suite](use-case-suite)
+:   LINKS TO RELEVANT STANDARDS
+:   LINKS TO OTHER DOCUMENTS
 
 ### Demo Planning {#demo-planning}
 
@@ -188,7 +168,7 @@ template](http://www.readysetpro.com/ "pro use case template and sample
 Company Proprietary
 
 Copyright © 2003-2004 Jason Robbins. All rights reserved. [License
-terms](readyset-license.html). Retain this copyright statement whenever
+terms](readyset-license). Retain this copyright statement whenever
 this file is used as a template.
 
 

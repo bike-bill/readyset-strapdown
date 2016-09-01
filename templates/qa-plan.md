@@ -7,70 +7,33 @@ those answers that do not apply.
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Release Audience:</td>
-<td><div class="sample1">
-General availability release
-</div>
-<div class="sample2">
-Customer-specific release: CUSTOMER(S)
-</div>
-<div class="sample3">
-Developer release (Internal usage only)
-</div>
-<div class="sample4">
+
+Project:
+:   [PROJECTNAME](index)
+
+Internal Release Number:
+:   X.Y.Z
+
+Release Audience:
+:   General availability release ||
+:   Customer-specific release: CUSTOMER(S) ||
+:   Developer release (Internal usage only)
+
 Early access release (Controlled external access)
-</div></td>
-</tr>
-<tr class="even">
-<td>Attached Worksheets:</td>
-<td><div>
-QA plan &gt; <a href="review-meeting-notes.html">Review meeting notes</a>
-</div>
-<div>
-QA plan &gt; <a href="test-suite.html">System test case suite</a>
-</div>
-<div>
-QA plan &gt; <a href="test-run-suite.html">System test runs</a>
-</div></td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="srs.html">Software Requirements Specification</a>
-</div>
-<div>
-<a href="design.html">Design</a>
-</div>
-<div>
-<a href="plan.html">Project plan</a>
-</div>
-<div>
-<a href="sdm.html">Software development methodology</a>
-</div>
-<div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+
+Attached Worksheets:
+:   QA plan &gt; [Review meeting notes](review-meeting-notes)
+:   QA plan &gt; [System test case suite](test-suite)
+:   QA plan &gt; [System test runs](test-run-suite)
+
+Related Documents:
+:   [Software Requirements Specification](srs)
+:   [Design](design)
+:   [Project plan](plan)
+:   [Software development methodology](sdm)
+:   LINKS TO RELEVANT STANDARDS
+:   LINKS TO OTHER DOCUMENTS
+
 
 **Process impact:** This document specifies quality goals, selects
 strategies for assuring that those goals have been met, and details a
@@ -131,52 +94,52 @@ that make sense for your project on this particular release.
 
 -   Essential
     -   [Functionality &gt;
-        Correctness](glossary-std.html#qg_Func_Correctness){.def}
+        Correctness](glossary-std#qg_Func_Correctness){.def}
     -   [Functionality &gt;
-        Robustness](glossary-std.html#qg_Func_Robustness){.def}
+        Robustness](glossary-std#qg_Func_Robustness){.def}
 -   Expected
     -   [Functionality &gt;
-        Accuracy](glossary-std.html#qg_Func_Accuracy){.def}
+        Accuracy](glossary-std#qg_Func_Accuracy){.def}
     -   [Functionality &gt;
-        Compatibility](glossary-std.html#qg_Func_Compatibility){.def}
+        Compatibility](glossary-std#qg_Func_Compatibility){.def}
     -   [Functionality &gt; Factual
-        correctness](glossary-std.html#qg_Func_Factual){.def}
+        correctness](glossary-std#qg_Func_Factual){.def}
     -   [Usability &gt; Understandability and
-        Readability](glossary-std.html#qg_Use_Understand){.def}
+        Readability](glossary-std#qg_Use_Understand){.def}
     -   [Usability &gt; Learnability and
-        Memorability](glossary-std.html#qg_Use_Learnability){.def}
+        Memorability](glossary-std#qg_Use_Learnability){.def}
     -   [Usability &gt; Task
-        support](glossary-std.html#qg_Use_Task){.def}
+        support](glossary-std#qg_Use_Task){.def}
     -   [Usability &gt;
-        Efficiency](glossary-std.html#qg_Use_Efficiency){.def}
-    -   [Usability &gt; Safety](glossary-std.html#qg_Use_Safety){.def}
+        Efficiency](glossary-std#qg_Use_Efficiency){.def}
+    -   [Usability &gt; Safety](glossary-std#qg_Use_Safety){.def}
     -   [Usability &gt; Consistency and
-        Familiarity](glossary-std.html#qg_Use_Consistency){.def}
+        Familiarity](glossary-std#qg_Use_Consistency){.def}
     -   [Usability &gt; Subjective
-        satisfaction](glossary-std.html#qg_Use_Subjective){.def}
-    -   [Security](glossary-std.html#qg_Security){.def}
+        satisfaction](glossary-std#qg_Use_Subjective){.def}
+    -   [Security](glossary-std#qg_Security){.def}
 -   Desired
     -   [Reliability &gt; Consistency under
-        load](glossary-std.html#qg_Rely_ConsistLoad){.def}
+        load](glossary-std#qg_Rely_ConsistLoad){.def}
     -   [Reliability &gt; Consistency under
-        concurrency](glossary-std.html#qg_Rely_ConsistConcur){.def}
+        concurrency](glossary-std#qg_Rely_ConsistConcur){.def}
     -   [Reliability &gt; Availability under
-        load](glossary-std.html#qg_Rely_AvailLoad){.def}
+        load](glossary-std#qg_Rely_AvailLoad){.def}
     -   [Reliability &gt;
-        Longevity](glossary-std.html#qg_Rely_Longevity){.def}
-    -   [Efficiency](glossary-std.html#qg_Efficiency){.def}
-    -   [Scalability](glossary-std.html#qg_Scalability){.def}
+        Longevity](glossary-std#qg_Rely_Longevity){.def}
+    -   [Efficiency](glossary-std#qg_Efficiency){.def}
+    -   [Scalability](glossary-std#qg_Scalability){.def}
     -   [Scalability &gt; Performance under
-        load](glossary-std.html#qg_Scale_PerformLoad){.def}
+        load](glossary-std#qg_Scale_PerformLoad){.def}
     -   [Scalability &gt; Large data
-        volume](glossary-std.html#qg_Scale_Volume){.def}
-    -   [Operability](glossary-std.html#qg_Operability){.def}
+        volume](glossary-std#qg_Scale_Volume){.def}
+    -   [Operability](glossary-std#qg_Operability){.def}
     -   [Maintainability &gt;
-        Understandability](glossary-std.html#qg_Maint_Understand){.def}
+        Understandability](glossary-std#qg_Maint_Understand){.def}
     -   [Maintainability &gt;
-        Evolvability](glossary-std.html#qg_Maint_Evolvability){.def}
+        Evolvability](glossary-std#qg_Maint_Evolvability){.def}
     -   [Maintainability &gt;
-        Testability](glossary-std.html#qg_Maint_Testability){.def}
+        Testability](glossary-std#qg_Maint_Testability){.def}
 
 ### QA Strategy {#qa-strategy}
 
@@ -427,7 +390,7 @@ and tracked to completion.
     -   Each week, identify reviewers and schedule review meetings
     -   Reviewers study the material individually for 2 hours
     -   Reviewers meet to inspect the material for 2 hours
-    -   Place [review meeting notes](review-meeting-notes.html) in the
+    -   Place [review meeting notes](review-meeting-notes) in the
         repository and track any issues identified in review meetings
 
 3.  Unit tests
@@ -445,7 +408,7 @@ and tracked to completion.
 
 4.  System tests
     -   Design and specify a detailed manual [test
-        suite](test-suite.html).
+        suite](test-suite).
     -   Review the system test suite to make sure that every UI screen
         and element is covered
     -   Execute system tests completely on each release candidate. These
@@ -463,7 +426,7 @@ and tracked to completion.
         issue tracker is available to all project members
         [here](LINK-TO-ISSUE-TRACKER). The meaning of issue states,
         priorities, and other attributes are defined in the
-        [SDM](sdm.html#issuetracking).
+        [SDM](sdm#issuetracking).
 
 ### QA-Plan Checklist {#qa-plan-checklist}
 
@@ -472,23 +435,23 @@ Do the selected activities in the QA Strategy provide enough assurance that the 
     that the quality goals will be satisfied. We will, of course, adjust
     this plan as needed.
 :   No, this plan leaves open several quality risks that have been noted
-    in the [Risk Management](plan.html#risks) section of the [Project
-    Plan](plan.html).
+    in the [Risk Management](plan#risks) section of the [Project
+    Plan](plan).
 
 Have human resources been allocated to carry out the QA activities?
 :   Yes, human resources have been allocated. They are listed in the
-    [Resource Needs](resource-needs.html) document.
+    [Resource Needs](resource-needs) document.
 :   No, human resources have not been allocated. They are listed as
-    "pending" in the [Resource Needs](resource-needs.html) document.
+    "pending" in the [Resource Needs](resource-needs) document.
 
 Have machine and software resources been allocated as needed for the QA activities?
 :   Yes, the QA team will use desktop machines and servers that are
     already allocated to them.
 :   Yes, a QA Lab has been set up. The needed machine and software
     resources are listed in the [Resource
-    Needs](resource-needs.html) document.
+    Needs](resource-needs) document.
 :   No, needed machine and software resources are listed as pending in
-    the [Resource Needs](resource-needs.html) document.
+    the [Resource Needs](resource-needs) document.
 
 Has this QA Plan been communicated to the development team and other stakeholders?
 :   Yes, everyone is aware of our prioritized quality goals for this
@@ -498,8 +461,8 @@ Has this QA Plan been communicated to the development team and other stakeholder
     is welcome.
 :   No, some developers are not aware of the quality goals and planned
     QA activities for this release. This is a risk that is noted in the
-    [Risk Management](plan.html#risks) section of the [Project
-    Plan](plan.html).
+    [Risk Management](plan#risks) section of the [Project
+    Plan](plan).
 
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/qa-plan.html) and
