@@ -1,4 +1,4 @@
-ReadySET: Project Overview {#readyset-project-overview}
+ReadySET: Overview {#readyset-overview}
 --------------------------
 
 ### Mission {#mission}
@@ -88,7 +88,7 @@ Is this project part of a larger effort?
     software engineering. It is also the first product in a product line
     that will provide even better support to professional
     software developers. For more information, see
-    [ReadySET Pro](http://www.readysetpro.com).
+    [ReadySET Pro](http://www.readysetpro.com).
 
 ### Status {#status}
 
