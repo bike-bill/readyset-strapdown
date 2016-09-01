@@ -1,51 +1,26 @@
-[SRS](srs.html) &gt; [Use Case Suite](use-case-suite.html) &gt; Use Cases {#srs-use-case-suite-use-cases}
+[SRS](srs) &gt; [Use Case Suite](use-case-suite) &gt; Use Cases {#srs-use-case-suite-use-cases}
 -------------------------------------------------------------------------
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="proposal.html">Project proposal</a> &gt; <a href="user-needs.html">Use needs</a>
-</div>
-<div>
-<a href="feature-set.html">Feature set</a>
-</div>
-<div>
-<a href="use-case-format.html">Use case format</a>
-</div>
-<div>
-<a href="LINK-TO-DIAGRAM">Use case diagram</a>
-</div>
-<div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+| Project:                      | PROJECTNAME |
+|-------------------------------|-------------|
+| Internal Release Number:      | X.Y.Z       |
+| Related Documents:            |[Project proposal](proposal) > [User needs](user-needs), [SRS](srs) > [Feature set](feature-set), [Use case format](use-case-format), LINK TO USE CASE DIAGRAM, LINKS TO RELEVANT STANDARDS, LINKS TO OTHER DOCUMENTS:  |
 
 TODO: Note any aspects that are common to all use cases here. This helps
 keep the use cases themselves short. If any use case is an exception,
 note it's specific value to replace or add to the default.
 
 ### Default Aspects of All Use Cases {#default-aspects-of-all-use-cases}
+|   |   |
+|---|---|
+|Direct Actors:| User: end-user in any role<BR>
+System: The system being built<BR>
+When actors are not listed, assume User is doing it.<BR>
+Items beginning with "see" indicate that System has presented a new screen.|
+|Stakeholders:| xxx |
+|Prereq:| yyy |
 
 <table>
 <colgroup>

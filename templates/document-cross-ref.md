@@ -20,7 +20,6 @@ This document defines the artifacts the team creates during your software develo
 |Operations                      |                        |               |               |        |           |            |            |              |     |
 |Sales                           |                        |               |               |        |           |            |            |              |     |
 
-
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/sdm.html) and discuss
 ways to improve this template. Or, evaluate the ReadySET Pro

@@ -3,43 +3,10 @@
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index.html">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="proposal">Project proposal</a> &gt; <a href="user-needs">User needs</a>
-</div>
-<div>
-<a href="srs">SRS</a> &gt; <a href="feature-set">Feature set</a>
-</div>
-<div>
-<a href="use-case-format">Use case format</a>
-</div>
-<div>
-<a href="LINK-TO-DIAGRAM">Use case diagram</a>
-</div>
-<div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+|Project:                            |PROJECTNAME     |
+|:-----------------------------------|:-------------  |
+| Internal Release Number:           | X.Y.Z          |
+| Related Documents:                 |[Project proposal](proposal) > [User needs](user-needs), [SRS](srs) > [Feature set](feature-set), [Use case format](use-case-format), LINK TO USE CASE DIAGRAM, LINKS TO RELEVANT STANDARDS, LINKS TO OTHER DOCUMENTS      |
 
 **Process impact:** A use case suite is simply a table of contents for
 the individual use cases. Much like a test suite, organizing the suite
@@ -54,7 +21,7 @@ visible blanks on this page if you are missing use cases. E.g., see
 show below.
 
 TIP: Refer back to the user stories in your [user
-needs](user-needs.html) document. Use them for ideas and make sure that
+needs](user-needs) document. Use them for ideas and make sure that
 you cover all of them. Remember that use cases are more precise than
 user stories, and there may be several use cases for a given user story.
 
