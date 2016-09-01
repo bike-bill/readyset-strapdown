@@ -3,417 +3,240 @@
 
 ### Release Information {#release-information}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Project:</td>
-<td><a href="index">PROJECTNAME</a></td>
-</tr>
-<tr class="even">
-<td>Internal Release Number:</td>
-<td>X.Y.Z</td>
-</tr>
-<tr class="odd">
-<td>Related Documents:</td>
-<td><div>
-<a href="test-suite">Test suite</a>
-</div>
-<div>
-LINKS TO RELEVANT STANDARDS
-</div>
-<div>
-LINKS TO OTHER DOCUMENTS
-</div></td>
-</tr>
-</tbody>
-</table>
+
+Project:
+[PROJECTNAME](index)
+
+Internal Release Number:
+:	X.Y.Z
+
+Related Documents:
+:	[Test suit](test-suite)
+:	LINKS TO RELEVANT STANDARDS
+:	LINKS TO OTHER DOCUMENTS
+
 
 TODO: Use this file to record the results of each test run. Or, use your
 issue tracking tool to plan and track test runs.
 
 ### TR-00: Test Run {#tr-00-test-run}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Date:</td>
-<td>DATE-TEST-WAS-PERFORMED</td>
-</tr>
-<tr class="even">
-<td>Tested by:</td>
-<td>EMAIL-ADDRESS-OF-TEST-ENGINEER</td>
-</tr>
-<tr class="odd">
-<td>Location or Configuration:</td>
-<td>NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT</td>
-</tr>
-<tr class="even">
-<td>Test Description:</td>
-<td>Performed all <a href="test-cases">manual system tests</a>.</td>
-</tr>
-<tr class="odd">
-<td>Test Run Results:</td>
-<td>Pending | Passed | FAILED</td>
-</tr>
-<tr class="even">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Date:
+:	DATE-TEST-WAS-PERFORMED
+
+Tested by:
+:	EMAIL-ADDRESS-OF-TEST-ENGINEER
+
+Location or Configuration:
+:	NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT
+
+Test Description:
+:	Performed all [manual system tests](test-cases).
+
+Test Run Results:
+:	Pending | Passed | FAILED
+
+Notes and Questions:
+
+:	- NOTE
+	- QUESTION
 
 ### TR-01: Test Run {#tr-01-test-run}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Date:</td>
-<td>DATE-TEST-WAS-PERFORMED</td>
-</tr>
-<tr class="even">
-<td>Tested by:</td>
-<td>EMAIL-ADDRESS-OF-TEST-ENGINEER</td>
-</tr>
-<tr class="odd">
-<td>Location or Configuration:</td>
-<td>NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT</td>
-</tr>
-<tr class="even">
-<td>Test Description:</td>
-<td>Performed all <a href="test-cases">manual system tests</a>.</td>
-</tr>
-<tr class="odd">
-<td>Test Run Results:</td>
-<td>Pending | Passed | FAILED</td>
-</tr>
-<tr class="even">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Date:
+:	DATE-TEST-WAS-PERFORMED
+
+Tested by:
+:	EMAIL-ADDRESS-OF-TEST-ENGINEER
+
+Location or Configuration:
+:	NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT
+
+Test Description:
+:	Performed all [manual system tests](test-cases).
+
+Test Run Results:
+:	Pending | Passed | FAILED
+
+Notes and Questions:
+
+:	- NOTE
+	- QUESTION
 
 ### TR-02: Test Run {#tr-02-test-run}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Date:</td>
-<td>DATE-TEST-WAS-PERFORMED</td>
-</tr>
-<tr class="even">
-<td>Tested by:</td>
-<td>EMAIL-ADDRESS-OF-TEST-ENGINEER</td>
-</tr>
-<tr class="odd">
-<td>Location or Configuration:</td>
-<td>NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT</td>
-</tr>
-<tr class="even">
-<td>Test Description:</td>
-<td>Performed all <a href="test-cases">manual system tests</a>.</td>
-</tr>
-<tr class="odd">
-<td>Test Run Results:</td>
-<td>Pending | Passed | FAILED</td>
-</tr>
-<tr class="even">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Date:
+:	DATE-TEST-WAS-PERFORMED
+
+Tested by:
+:	EMAIL-ADDRESS-OF-TEST-ENGINEER
+
+Location or Configuration:
+:	NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT
+
+Test Description:
+:	Performed all [manual system tests](test-cases).
+
+Test Run Results:
+:	Pending | Passed | FAILED
+
+Notes and Questions:
+
+:	- NOTE
+	- QUESTION
 
 ### TR-03: Test Run {#tr-03-test-run}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Date:</td>
-<td>DATE-TEST-WAS-PERFORMED</td>
-</tr>
-<tr class="even">
-<td>Tested by:</td>
-<td>EMAIL-ADDRESS-OF-TEST-ENGINEER</td>
-</tr>
-<tr class="odd">
-<td>Location or Configuration:</td>
-<td>NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT</td>
-</tr>
-<tr class="even">
-<td>Test Description:</td>
-<td>Performed all <a href="test-cases">manual system tests</a>.</td>
-</tr>
-<tr class="odd">
-<td>Test Run Results:</td>
-<td>Pending | Passed | FAILED</td>
-</tr>
-<tr class="even">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Date:
+:	DATE-TEST-WAS-PERFORMED
+
+Tested by:
+:	EMAIL-ADDRESS-OF-TEST-ENGINEER
+
+Location or Configuration:
+:	NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT
+
+Test Description:
+:	Performed all [manual system tests](test-cases).
+
+Test Run Results:
+:	Pending | Passed | FAILED
+
+Notes and Questions:
+
+:	- NOTE
+	- QUESTION
 
 ### TR-10: Test Run {#tr-10-test-run}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Date:</td>
-<td>DATE-TEST-WAS-PERFORMED</td>
-</tr>
-<tr class="even">
-<td>Tested by:</td>
-<td>EMAIL-ADDRESS-OF-TEST-ENGINEER</td>
-</tr>
-<tr class="odd">
-<td>Location or Configuration:</td>
-<td>NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT</td>
-</tr>
-<tr class="even">
-<td>Test Description:</td>
-<td>Performed all <a href="test-cases">manual system tests</a>.</td>
-</tr>
-<tr class="odd">
-<td>Test Run Results:</td>
-<td>Pending | Passed | FAILED</td>
-</tr>
-<tr class="even">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Date:
+:	DATE-TEST-WAS-PERFORMED
 
+Tested by:
+:	EMAIL-ADDRESS-OF-TEST-ENGINEER
+
+Location or Configuration:
+:	NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT
+
+Test Description:
+:	Performed all [manual system tests](test-cases).
+
+Test Run Results:
+:	Pending | Passed | FAILED
+
+Notes and Questions:
+
+:	- NOTE
+	- QUESTION
 ### TR-11: Test Run {#tr-11-test-run}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Date:</td>
-<td>DATE-TEST-WAS-PERFORMED</td>
-</tr>
-<tr class="even">
-<td>Tested by:</td>
-<td>EMAIL-ADDRESS-OF-TEST-ENGINEER</td>
-</tr>
-<tr class="odd">
-<td>Location or Configuration:</td>
-<td>NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT</td>
-</tr>
-<tr class="even">
-<td>Test Description:</td>
-<td>Performed all <a href="test-cases">manual system tests</a>.</td>
-</tr>
-<tr class="odd">
-<td>Test Run Results:</td>
-<td>Pending | Passed | FAILED</td>
-</tr>
-<tr class="even">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Date:
+:	DATE-TEST-WAS-PERFORMED
+
+Tested by:
+:	EMAIL-ADDRESS-OF-TEST-ENGINEER
+
+Location or Configuration:
+:	NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT
+
+Test Description:
+:	Performed all [manual system tests](test-cases).
+
+Test Run Results:
+:	Pending | Passed | FAILED
+
+Notes and Questions:
+
+:	- NOTE
+	- QUESTION
 
 ### TR-12: Test Run {#tr-12-test-run}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Date:</td>
-<td>DATE-TEST-WAS-PERFORMED</td>
-</tr>
-<tr class="even">
-<td>Tested by:</td>
-<td>EMAIL-ADDRESS-OF-TEST-ENGINEER</td>
-</tr>
-<tr class="odd">
-<td>Location or Configuration:</td>
-<td>NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT</td>
-</tr>
-<tr class="even">
-<td>Test Description:</td>
-<td>Performed all <a href="test-cases">manual system tests</a>.</td>
-</tr>
-<tr class="odd">
-<td>Test Run Results:</td>
-<td>Pending | Passed | FAILED</td>
-</tr>
-<tr class="even">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Date:
+:	DATE-TEST-WAS-PERFORMED
+
+Tested by:
+:	EMAIL-ADDRESS-OF-TEST-ENGINEER
+
+Location or Configuration:
+:	NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT
+
+Test Description:
+:	Performed all [manual system tests](test-cases).
+
+Test Run Results:
+:	Pending | Passed | FAILED
+
+Notes and Questions:
+
+:	- NOTE
+	- QUESTION
 
 ### TR-13: Test Run {#tr-13-test-run}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Date:</td>
-<td>DATE-TEST-WAS-PERFORMED</td>
-</tr>
-<tr class="even">
-<td>Tested by:</td>
-<td>EMAIL-ADDRESS-OF-TEST-ENGINEER</td>
-</tr>
-<tr class="odd">
-<td>Location or Configuration:</td>
-<td>NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT</td>
-</tr>
-<tr class="even">
-<td>Test Description:</td>
-<td>Performed all <a href="test-cases">manual system tests</a>.</td>
-</tr>
-<tr class="odd">
-<td>Test Run Results:</td>
-<td>Pending | Passed | FAILED</td>
-</tr>
-<tr class="even">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Date:
+:	DATE-TEST-WAS-PERFORMED
+
+Tested by:
+:	EMAIL-ADDRESS-OF-TEST-ENGINEER
+
+Location or Configuration:
+:	NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT
+
+Test Description:
+:	Performed all [manual system tests](test-cases).
+
+Test Run Results:
+:	Pending | Passed | FAILED
+
+Notes and Questions:
+
+:	- NOTE
+	- QUESTION
 
 ### TR-20: Test Run {#tr-20-test-run}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Date:</td>
-<td>DATE-TEST-WAS-PERFORMED</td>
-</tr>
-<tr class="even">
-<td>Tested by:</td>
-<td>EMAIL-ADDRESS-OF-TEST-ENGINEER</td>
-</tr>
-<tr class="odd">
-<td>Location or Configuration:</td>
-<td>NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT</td>
-</tr>
-<tr class="even">
-<td>Test Description:</td>
-<td>Performed all <a href="test-cases">manual system tests</a>.</td>
-</tr>
-<tr class="odd">
-<td>Test Run Results:</td>
-<td>Pending | Passed | FAILED</td>
-</tr>
-<tr class="even">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Date:
+:	DATE-TEST-WAS-PERFORMED
+
+Tested by:
+:	EMAIL-ADDRESS-OF-TEST-ENGINEER
+
+Location or Configuration:
+:	NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT
+
+Test Description:
+:	Performed all [manual system tests](test-cases).
+
+Test Run Results:
+:	Pending | Passed | FAILED
+
+Notes and Questions:
+
+:	- NOTE
+	- QUESTION
 
 ### TR-21: Test Run {#tr-21-test-run}
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Date:</td>
-<td>DATE-TEST-WAS-PERFORMED</td>
-</tr>
-<tr class="even">
-<td>Tested by:</td>
-<td>EMAIL-ADDRESS-OF-TEST-ENGINEER</td>
-</tr>
-<tr class="odd">
-<td>Location or Configuration:</td>
-<td>NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT</td>
-</tr>
-<tr class="even">
-<td>Test Description:</td>
-<td>Performed all <a href="test-cases">manual system tests</a>.</td>
-</tr>
-<tr class="odd">
-<td>Test Run Results:</td>
-<td>Pending | Passed | FAILED</td>
-</tr>
-<tr class="even">
-<td>Notes and Questions:</td>
-<td><ul>
-<li>NOTE</li>
-<li>QUESTION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+Date:
+:	DATE-TEST-WAS-PERFORMED
+
+Tested by:
+:	EMAIL-ADDRESS-OF-TEST-ENGINEER
+
+Location or Configuration:
+:	NAME-OF-SERVER | DESCRIPTION-OF-TEST-ENVIRONMENT
+
+Test Description:
+:	Performed all [manual system tests](test-cases).
+
+Test Run Results:
+:	Pending | Passed | FAILED
+
+Notes and Questions:
+
+:	- NOTE
+	- QUESTION
 
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/test-runs.html) and

@@ -113,9 +113,8 @@ Who should use this product?
     text editor.
 
 How can users get started?
-:   
-
-    1.  Briefly [browse all templates](templates/index)
+   
+:   1.  Briefly [browse all templates](templates/index)
     2.  [Download](http://readyset.tigris.org/servlets/ProjectDocumentList)
         the templates and unarchive
     3.  Edit the templates to fit the needs of your project

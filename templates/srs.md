@@ -70,16 +70,16 @@ What are the usability requirements?
     mechanics of each step (e.g., typing a book title exactly is hard,
     clicking on a title in a list is easy).
 
-    The user interface should be as familiar as possible to users who
+:   The user interface should be as familiar as possible to users who
     have used other web applications and Windows desktop applications.
     E.g., we will follow the UI guidelines for naming menus, buttons,
     and dialog boxes whenever possible.
 
-    PARAGRAPH
+:   PARAGRAPH
 
-    Details:
+:   Details:
 
-    -   Government customers will demand [section508
+:   -   Government customers will demand [section508
         compliance](http://www.section508.gov/)
     -   Support learnability with principles of [Instructive
         Interaction](http://www.foruse.com/articles/instructive.htm)
@@ -90,11 +90,11 @@ What are the reliability and up-time requirements?
 
 :   PARAGRAPH
 
-    PARAGRAPH
+:   PARAGRAPH
 
-    Details:
+:   Details:
 
-    -   DETAIL
+:   -   DETAIL
     -   DETAIL
     -   DETAIL
 
@@ -102,11 +102,11 @@ What are the safety requirements?
 
 :   PARAGRAPH
 
-    PARAGRAPH
+:   PARAGRAPH
 
-    Details:
+:   Details:
 
-    -   DETAIL
+:   -   DETAIL
     -   DETAIL
     -   DETAIL
 
@@ -114,12 +114,12 @@ What are the security requirements?
 
 :   Access will be controlled with usernames and passwords.
 
-    Only administrator users will have access to administrative
+:   Only administrator users will have access to administrative
     functions, average users will not.
 
-    Details:
+:   Details:
 
-    -   Passwords must be 4-14 characters long
+:   -   Passwords must be 4-14 characters long
     -   We will not use encrypted communications (SSL) for this website
     -   DETAIL
 
@@ -127,11 +127,11 @@ What are the performance and scalability requirements requirements?
 
 :   PARAGRAPH
 
-    PARAGRAPH
+:   PARAGRAPH
 
-    Details:
+:   Details:
 
-    -   DETAIL
+:   -   DETAIL
     -   DETAIL
     -   DETAIL
 
@@ -143,16 +143,16 @@ What are the maintainability and upgradability requirements?
     of change, and by carefully documenting our design
     and implementation.
 
-    Upgradability is our ability to cost-effectively deploy new versions
+:   Upgradability is our ability to cost-effectively deploy new versions
     of the product to customers with minimal downtime or disruption. A
     key feature supporting this goal is automatic download of patches
     and upgrade of the end-user's machine. Also, we shall use data file
     formats that include enough meta-data to allow us to reliably
     transform existing customer data during an upgrade.
 
-    Details:
+:   Details:
 
-    -   DETAIL
+:   -   DETAIL
     -   DETAIL
     -   DETAIL
 
@@ -166,15 +166,15 @@ What are the supportability and operability requirements?
     checklist of information to have at hand before contacting
     technical support.
 
-    Operability is our ability to host and operate the software as an
+:   Operability is our ability to host and operate the software as an
     ASP (Application Service Provider). The product features should help
     us achieve our goal of 99.9% uptime (at most 43 minutes downtime
     each month). Key features supporting that are the ability to do hot
     data backups, and application monitoring.
 
-    Details:
+:   Details:
 
-    -   DETAIL
+:   -   DETAIL
     -   DETAIL
     -   DETAIL
 
@@ -185,9 +185,9 @@ What are the business life-cycle requirements?
     purchase decision, through important but infrequent use cases, until
     product retirement. Key life-cycle requirements are listed below.
 
-    Details:
+:   Details:
 
-    -   Customers must be able to manage the number of licenses that
+:   -   Customers must be able to manage the number of licenses that
         they have and make informed decisions to purchase more licenses
         when needed
     -   The product shall support daily operations and our year-end
@@ -206,11 +206,11 @@ What are the system hardware requirements?
 
 :   PARAGRAPH
 
-    PARAGRAPH
+:   PARAGRAPH
 
-    Details:
+:   Details:
 
-    -   DETAIL
+:   -   DETAIL
     -   DETAIL
     -   DETAIL
 
@@ -218,11 +218,11 @@ What are the system software requirements?
 
 :   PARAGRAPH
 
-    PARAGRAPH
+:   PARAGRAPH
 
-    Details:
+:   Details:
 
-    -   DETAIL
+:   -   DETAIL
     -   DETAIL
     -   DETAIL
 
@@ -230,11 +230,11 @@ What application program interfaces ([APIs](glossary#api){.def}) must be provide
 
 :   PARAGRAPH
 
-    PARAGRAPH
+:   PARAGRAPH
 
-    Details:
+:   Details:
 
-    -   We must implement this [standard API](LINK-TO-STANDARD).
+:   -   We must implement this [standard API](LINK-TO-STANDARD).
     -   DETAIL
     -   DETAIL
 
@@ -242,11 +242,11 @@ What are the data import and export requirements?
 
 :   PARAGRAPH
 
-    PARAGRAPH
+:   PARAGRAPH
 
-    Details:
+:   Details:
 
-    -   The system will store all data in a standard SQL database, where
+:   -   The system will store all data in a standard SQL database, where
         it can be accessed by other programs.
     -   The system will store all data in an XML file, using a [standard
         DTD](LINK-TO-STANDARD).

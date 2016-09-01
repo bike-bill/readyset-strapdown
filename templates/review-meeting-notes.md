@@ -17,9 +17,8 @@ Date and Time of Meeting:
 :	YEAR/MONTH/DAY HH:MM
 
 Attendees:
-:	
 
-	- PERSONNAME
+:	- PERSONNAME
 	- PERSONNAME
 	- PERSONNAME
 	- PERSONNAME

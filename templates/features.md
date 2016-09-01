@@ -56,7 +56,7 @@ Use case(s):
 Description:</td>
 :	The site administrators will be able to configure:
 
-	- The site appearance by choosing a predefined CSS file</li>
+:	- The site appearance by choosing a predefined CSS file</li>
 	- Whether the site makes new clans public or private by default</li>
 	- The email address to be used to send critical error reports</li>
 
@@ -82,7 +82,7 @@ Use case(s):
 Description:
 :	The site administrators will be able to configure:
 
-	-The site appearance by choosing a predefined CSS file
+:	-The site appearance by choosing a predefined CSS file
 	-Whether the site makes new clans public or private by default
 	-The email address to be used to send critical error reports
 
@@ -106,14 +106,14 @@ Use case(s):
 Description:
 :	Visitors can come to the site and register themselves. They must provide the following information:
 
-	- username
+:	- username
 	- email address (twice to catch typos)
 	- real name
 
 Precise Details:
 :
 
-	- username must be unique (not equal to any other existing user name)
+:	- username must be unique (not equal to any other existing user name)
 	- username must be of the form ~~~[a-zA-Z0-9]{2,16}~~~ and is not case sensitive
 	- email address must be of the form ~~~[-a-zA-Z0-9_.]{2,16}@[-a-zA-Z0-9_.]{6,64}~~~
 	- both entries of the email address must match
@@ -149,7 +149,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+:	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:
@@ -180,7 +180,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+: 	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:
@@ -210,7 +210,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+:	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:
@@ -240,7 +240,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+:	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:
@@ -270,7 +270,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+:	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:
@@ -300,7 +300,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+:	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:
@@ -330,7 +330,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+:	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:
@@ -360,7 +360,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+:	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:
@@ -390,7 +390,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+:	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:
@@ -420,7 +420,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+:	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:
@@ -450,7 +450,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+:	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:
@@ -480,7 +480,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+:	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:
@@ -510,7 +510,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+:	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:
@@ -540,7 +540,7 @@ Description:
 :	Precise Details:
 :
 
-	- LOGICAL CONSTRAINT
+:	- LOGICAL CONSTRAINT
 	- LOGICAL CONSTRAINT
 
 Notes and Questions:

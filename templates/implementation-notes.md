@@ -137,21 +137,21 @@ Upgrade:
 Start Server:
 :
 
-    1. STEP 1
+:   1. STEP 1
     2. STEP 2
     3. STEP 3
 
 Stop Server:
 : 
 
-    1. STEP 1
+:   1. STEP 1
     2. STEP 2
     3. STEP 3
 
 Reload Config Files:
 :
 
-    1. STEP 1
+:   1. STEP 1
     2. STEP 2
     3. STEP 3
 

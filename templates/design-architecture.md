@@ -48,7 +48,7 @@ What are the components of this system?
     with Component Diagram](LINK-TO-MODEL).
 :   The components of this system are listed below by type:
 
-    - Presentation/UI Components
+:   - Presentation/UI Components
         -  [C-00: COMPONENTNAME](design-components#C-00)
     -  Application Logic Components
         -  [C-10: COMPONENTNAME](design-components#C-10)
@@ -63,7 +63,7 @@ How will the components be deployed to processes and machines?
 :   The deployment of components to processes and machines is clearly
     defined below:
 
-    -   All-in-one server
+:   -   All-in-one server
         -   Tomcat process
             -   [C-00: Tomcat web server](design-components#C-00)
             -   [C-10: PROJECTNAME
@@ -74,7 +74,7 @@ How will the components be deployed to processes and machines?
 :   The deployment of components to processes and machines is clearly
     defined below:
 
-    -   Load-balanced front-end servers
+:   -   Load-balanced front-end servers
         -   [C-01: COMPONENTNAME](design-components#C-00)
     -   Back-end server
         -   JVM process

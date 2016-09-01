@@ -28,7 +28,7 @@ Test Data:
 Steps:
 :   Steps to carry out the test. See step formating rules below.
 
-    - visit LoginPage
+:   - visit LoginPage
     - enter userID
     - enter password
     - click login
@@ -41,7 +41,7 @@ Steps:
 Notes and Questions:
 :
  
-    - NOTE
+:   - NOTE
     - QUESTION
 
 ### Format of test steps {#format-of-test-steps}

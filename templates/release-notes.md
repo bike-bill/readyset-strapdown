@@ -90,7 +90,7 @@ Installation
 Manifest
 :   This release consists of the following items:
     
-    -   Release notes (this file)
+:   -   Release notes (this file)
     -   Installation instructions / Quick start guide
     -   Product installer binary
     -   User guide

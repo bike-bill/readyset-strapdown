@@ -61,9 +61,8 @@ Direct Actors:
 :   Admin: Web-site administrator
 
 Main Success Scenario:
-:
 
-    1. visit SiteConfiguration page
+:   1. visit SiteConfiguration page
 	2. see site configuration options
 	3. enter timezone abbreviation for date displays
 	4. submit form
@@ -72,14 +71,12 @@ Main Success Scenario:
 
 
 Alternative Scenario Extensions:
-:    
-
-    - If the timezone abbreviation is incorrect, an error message will be displayed and no changes will be made.
+    
+:   - If the timezone abbreviation is incorrect, an error message will be displayed and no changes will be made.
     
 Notes and Questions
-:
  
-    - How will administrators know the right timezone abbreviation? They would know it if they live in that timezone. Maybe we could provide a drop-down list of all choices, but each would need some explanation.
+:   - How will administrators know the right timezone abbreviation? They would know it if they live in that timezone. Maybe we could provide a drop-down list of all choices, but each would need some explanation.
 
 ### UC-01: Register as a new user {#UC-01-register-as-a-new-user}
 
@@ -95,7 +92,7 @@ Use Frequency:
 Main Success Scenario:
 :
 
-    1. visit Login page
+:   1. visit Login page
 	2. click to register as new user
 	3. enter identifying information: username, email, real name, password (twice)
 	4. submit form
@@ -104,14 +101,12 @@ Main Success Scenario:
 	7. log in
 
 Alternative Scenario Extensions:
-:    
 
-    - If the username is taken, then the system will suggest an available username based on the user's email address and/or real name.
+:   - If the username is taken, then the system will suggest an available username based on the user's email address and/or real name.
     
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - QUESTION
 
 ### UC-02: Request new password {#UC-02}
@@ -126,14 +121,13 @@ Use Frequency:
 :   Rarely
 
 Main Success Scenario:
-:
 
-    - TODO
+:    - TODO
 
 Notes and Questions
-:
+
  
-    - Alternatively, we could use password hints.
+:    - Alternatively, we could use password hints.
 
 ### UC-03: Edit user profile {#UC-03}
 
@@ -151,9 +145,8 @@ Use Frequency:
 
 
 Main Success Scenario:
-:
 
-    - TODO
+:    - TODO
 
 
 ### UC-04: View user profile {#UC-04}
@@ -171,9 +164,9 @@ Direct Actors:
 :   Admin: Web-site administrator
 
 Main Success Scenario:
-:
 
-    - TODO
+
+:   - TODO
 
 ### UC-10: Create course {#UC-10}
 
@@ -190,9 +183,8 @@ Direct Actors:
 :   Admin: Web-site adminisator
 
 Main Success Scenario:
-:
 
-    - visit administrative function menu
+:   - visit administrative function menu
 	- click add course
 	- enter course information: name, number, instructor, capacity
 	- submit form
@@ -210,9 +202,8 @@ Use Frequency:
 :   Sometimes
 
 Main Success Scenario:
-:
 
-    - visit one of several in application pages that deal with courses
+:   - visit one of several in application pages that deal with courses
 	- click link to course description
 	- see course description in pop-up window
 	- close pop-up window to continue using application
@@ -220,9 +211,8 @@ Main Success Scenario:
 
 
 Notes and Questions
-:
  
-    - How do we accommodate users that configure their browsers to block pop-ups?
+:   - How do we accommodate users that configure their browsers to block pop-ups?
     
 ### UC-20: Enroll in course {#UC-20}
 
@@ -236,9 +226,8 @@ Use Frequency:
 :   Often
 
 Main Success Scenario:
-:
 
-    - visit main menu
+:   - visit main menu
 	- click link to enroll in courses
 	- enter major and course number
 	- select course section from list of available sections
@@ -247,9 +236,8 @@ Main Success Scenario:
 	- see list of current enrolled courses
 
 Alternative Scenario Extensions:
-:    
 
-    - If a course is full, then the student may join the wait-list.
+:   - If a course is full, then the student may join the wait-list.
 		- Course capacity and number of students currently waiting should be shown so that students may choose the section that they are most likely to be able to get into.
 
 ### UC-21: Drop a course {#UC-21}
@@ -264,9 +252,8 @@ Use Frequency:
 :   Sometimes
 
 Main Success Scenario:
-:
 
-    - visit list of currently enrolled courses
+:   - visit list of currently enrolled courses
 	- select course from list
 	- click button to drop course
 	- see warning that they may not be able to add this course again
@@ -274,9 +261,8 @@ Main Success Scenario:
 	- see revised list of currently enrolled courses
 
 Notes and Questions
-:
  
-    - Only one course can be dropped at a time. There is no need to allow students to quickly drop more than one course.
+:   - Only one course can be dropped at a time. There is no need to allow students to quickly drop more than one course.
 	- It would be nice to offer an atomic "switch sections" operation that drops and adds another, or does nothing.
 
 ### UC-30: View room description {#UC-30}
@@ -291,9 +277,8 @@ Use Frequency:
 :   Rarely
 
 Main Success Scenario:
-:
 
-    - TODO
+:   - TODO
 
 ### UC-31: Assign course to room {#UC-31}
 
@@ -307,9 +292,8 @@ Use Frequency:
 :   Often
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
@@ -336,26 +320,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
     - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -383,26 +363,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
-
-    - If CONDITION, then ALTERNATIVE STEPS.
+    
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
     - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -430,26 +406,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
     - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -477,26 +449,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
     - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -524,26 +492,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
     - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -571,26 +535,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
-    - If CONDITION, then ALTERNATIVE STEPS.
+   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -618,26 +578,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
-    - If CONDITION, then ALTERNATIVE STEPS.
+   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -665,26 +621,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
-    - If CONDITION, then ALTERNATIVE STEPS.
+   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -712,26 +664,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
-    - If CONDITION, then ALTERNATIVE STEPS.
+   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -759,26 +707,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
-    - If CONDITION, then ALTERNATIVE STEPS.
+   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -806,26 +750,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
-    - If CONDITION, then ALTERNATIVE STEPS.
+   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -853,26 +793,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
-    - If CONDITION, then ALTERNATIVE STEPS.
+   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -900,26 +836,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
-    - If CONDITION, then ALTERNATIVE STEPS.
+   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -947,26 +879,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
-    - If CONDITION, then ALTERNATIVE STEPS.
+   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -994,29 +922,26 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
-    - If CONDITION, then ALTERNATIVE STEPS.
+   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
+    
 ### UC-90: USE CASE NAME {#UC-90}
 
 Summary:
@@ -1040,26 +965,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
-    - If CONDITION, then ALTERNATIVE STEPS.
+   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION
@@ -1087,26 +1008,22 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
-
-    - If CONDITION, then ALTERNATIVE STEPS.
+   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:   - NOTE
     - NOTE
     - QUESTION
     - QUESTION

@@ -22,7 +22,7 @@ Stakeholders:
 :   The user who is entering the data, and those who will read it
 
 Prereq:
-:   Project is set up<
+:   Project is set up
 
 
 TODO: Copy and paste this use case template as many times as needed in
@@ -52,26 +52,23 @@ Prereq:
 :   PRECONDITION
 
 Main Success Scenario:
-:
 
-    - STEP
+:   - STEP
     - STEP
     - STEP
 
 
 Alternative Scenario Extensions:
-:    
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
-    - If CONDITION, then ALTERNATIVE STEPS.
+:   - If CONDITION, then ALTERNATIVE STEPS.
         - NOTES or DETAILS.
 
 Notes and Questions
-:
  
-    - NOTE
+:    - NOTE
     - NOTE
     - QUESTION
     - QUESTION

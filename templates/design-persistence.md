@@ -37,10 +37,9 @@ What is the logical database design?
 
 :   The logical database design is described in this [UML
     model](LINK-TO-MODEL) or this [ER diagram](LINK-TO-DIAGRAM).
+:   Additional logical constraints on the database are:
 
-    Additional logical constraints on the database are:
-
-    -   Students can repeat a course (and thus have two records for the
+:   -   Students can repeat a course (and thus have two records for the
         same course in their transcript), if and only if they got a
         grade of "C-" or lower, or the course number is 198, 199, 298,
         or 299.

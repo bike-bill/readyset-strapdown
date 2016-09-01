@@ -30,7 +30,7 @@ Test Data:
 Steps:
 :   Steps to carry out the test. See step formating rules below.
 
-    - visit LoginPage
+:   - visit LoginPage
     - enter userID
     - enter password
     - click login
@@ -41,9 +41,8 @@ Steps:
     - verify that welcome message is correct username
 
 Notes and Questions:
-:
  
-    - This assumes that user has not agreed to terms-of-use already.
+:   - This assumes that user has not agreed to terms-of-use already.
 	- Does this work without browser cookies?
 
 ### login-2: Locked-out User Login {#login-2-locked-out-user-login}
@@ -63,7 +62,7 @@ Test Data:
 Steps:
 :   Steps to carry out the test. See step formating rules below.
 
-    - visit LoginPage
+:   - visit LoginPage
 	- enter usernameOrEmail
 	- enter password
 	- click Login
@@ -71,9 +70,8 @@ Steps:
 	- verify warning message is the locked-out message
 
 Notes and Questions:
-:
  
-    - Does this work without browser cookies?
+:    - Does this work without browser cookies?
 
 ### unique-test-case-id1: Test Case Title {#unique-test-case-id1-test-case-title}
 
@@ -92,7 +90,7 @@ Test Data:
 Steps:
 :   Steps to carry out the test. See step formating rules below.
 
-    - visit LoginPage
+:   - visit LoginPage
     - enter userID
     - enter password
     - click login
@@ -103,9 +101,8 @@ Steps:
     - verify that welcome message is correct username
 
 Notes and Questions:
-:
- 
-    - NOTE
+
+:   - NOTE
     - QUESTION
 
 ### unique-test-case-id2: Test Case Title {#unique-test-case-id2-test-case-title}
@@ -125,7 +122,7 @@ Test Data:
 Steps:
 :   Steps to carry out the test. See step formating rules below.
 
-    - visit LoginPage
+:   - visit LoginPage
     - enter userID
     - enter password
     - click login
@@ -138,7 +135,7 @@ Steps:
 Notes and Questions:
 :
  
-    - NOTE
+:   - NOTE
     - QUESTION
 
 ### unique-test-case-id3: Test Case Title {#unique-test-case-id3-test-case-title}
@@ -158,7 +155,7 @@ Test Data:
 Steps:
 :   Steps to carry out the test. See step formating rules below.
 
-    - visit LoginPage
+:   - visit LoginPage
     - enter userID
     - enter password
     - click login
@@ -171,7 +168,7 @@ Steps:
 Notes and Questions:
 :
  
-    - NOTE
+:   - NOTE
     - QUESTION
 
 ### unique-test-case-id4: Test Case Title {#unique-test-case-id4-test-case-title}
@@ -191,7 +188,7 @@ Test Data:
 Steps:
 :   Steps to carry out the test. See step formating rules below.
 
-    - visit LoginPage
+:   - visit LoginPage
     - enter userID
     - enter password
     - click login
@@ -202,9 +199,8 @@ Steps:
     - verify that welcome message is correct username
 
 Notes and Questions:
-:
  
-    - NOTE
+:   - NOTE
     - QUESTION
 
 ### unique-test-case-id5: Test Case Title {#unique-test-case-id5-test-case-title}
@@ -224,7 +220,7 @@ Test Data:
 Steps:
 :   Steps to carry out the test. See step formating rules below.
 
-    - visit LoginPage
+:   - visit LoginPage
     - enter userID
     - enter password
     - click login
@@ -235,9 +231,8 @@ Steps:
     - verify that welcome message is correct username
 
 Notes and Questions:
-:
  
-    - NOTE
+:   - NOTE
     - QUESTION
 
 ### unique-test-case-id6: Test Case Title {#unique-test-case-id6-test-case-title}
@@ -257,7 +252,7 @@ Test Data:
 Steps:
 :   Steps to carry out the test. See step formating rules below.
 
-    - visit LoginPage
+:   - visit LoginPage
     - enter userID
     - enter password
     - click login
@@ -268,9 +263,8 @@ Steps:
     - verify that welcome message is correct username
 
 Notes and Questions:
-:
  
-    - NOTE
+:   - NOTE
     - QUESTION
 
 TODO: Check for [words of

@@ -110,9 +110,9 @@ Player
     of the site, but they may not have much knowledge of
     computer science.
 
-    Key needs:
+:   Key needs:
 
-    1.  Easily find information about clans
+:   1.  Easily find information about clans
     2.  Keep in touch with members of his/her own clan
     3.  Understand the date and time of tournament play
     4.  Easily report cheaters
@@ -123,9 +123,9 @@ Player &gt; Advanced player
     of discovery. They tend to play over 20 hours a week. They have seen
     more of the game details, now the need to see the "big picture".
 
-    Key needs:
+:   Key needs:
 
-    1.  View metrics that compare multiple clans
+:   1.  View metrics that compare multiple clans
     2.  Understand relationships between clans
     3.  Understand overall schedule of tournaments
 
