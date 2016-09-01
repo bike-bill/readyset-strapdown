@@ -1,4 +1,4 @@
-[QA Plan](qa-plan.html) &gt; [Test Suite](test-suite.html) &gt; Test Cases {#qa-plan-test-suite-test-cases}
+[QA Plan](qa-plan) &gt; [Test Suite](test-suite) &gt; Test Cases {#qa-plan-test-suite-test-cases}
 --------------------------------------------------------------------------
 
 ### Release Information {#release-information}
@@ -84,7 +84,7 @@ Prereq:
 :   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
 
 Test Data:
-:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
 
     - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
     - password = {valid, invalid, empty}
@@ -117,7 +117,7 @@ Prereq:
 :   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
 
 Test Data:
-:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
 
     - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
     - password = {valid, invalid, empty}
@@ -150,7 +150,7 @@ Prereq:
 :   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
 
 Test Data:
-:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
 
     - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
     - password = {valid, invalid, empty}
@@ -183,7 +183,7 @@ Prereq:
 :   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
 
 Test Data:
-:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
 
     - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
     - password = {valid, invalid, empty}
@@ -216,7 +216,7 @@ Prereq:
 :   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
 
 Test Data:
-:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
 
     - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
     - password = {valid, invalid, empty}
@@ -249,7 +249,7 @@ Prereq:
 :   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
 
 Test Data:
-:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each <em>combination</em> of values. These values are written in set notation, one per line. E.g.:
+:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
 
     - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
     - password = {valid, invalid, empty}
