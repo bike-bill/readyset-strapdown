@@ -9,10 +9,13 @@ Project Plan {#project-plan}
 
 Project:
 :   [PROJECTNAME](index)
+
 Project Time-frame:
 :   STARTDATE - ENDDATE
+
 Attached worksheets:
 :   Plan &gt; [Resource needs](resource-needs)
+
 Related Documents:
 :   [Project proposal](proposal) &gt; [Target audience and benefits](target-and-benefits)
 :   [Software development methodology](sdm)
@@ -180,47 +183,47 @@ Please see the [risks worksheet](risks).
 
 The main risks of this project are:
 
-1.  There is a potential conflict between the goals of a high-quality
-    appearance and one that is completely customizable. We can only
-    succeed if players find the web site appealing, and game vendors can
-    customize it with no more effort than would be needed to build a
-    static website. We already have a design in mind that will address
-    this risk and we will review it with a web site designer who worked
-    for a game vendor site.
-2.  There are significant technical difficulties in building a web site
-    and web application. This will be a risk because one person on our
-    team has much experience with the relevant tools and technologies.
-    Although the others will learn, we will certainly make some mistakes
-    and suboptimal choices. We will address this risk by scoping the
-    project such that we have enough time to train and to review the
-    design and implementation.
-3.  The schedule for this project is very short. We will manage this by
-    planning a conservatively scoped functional core and series of
-    functional enhancements that can be individually slipped to later
-    releases if needed.
-4.  The performance of the system will be significantly impacted by the
-    decisions made during the [database design task](#3.2.C). None of
-    our current team members has experience with database optimization.
-    To address this, we will arrange a review meeting with an
-    experienced DBA or hire a consultant from the database vendor.
-5.  We could be underestimating known tasks. HOW TO AVOID/MITIGATE?
-6.  We could be underestimating the impact of unknown tasks. HOW TO
-    AVOID/MITIGATE?
-7.  We could be underestimating the dependencies between tasks. HOW TO
-    AVOID/MITIGATE?
-8.  We could have misunderstood the customer's requirements. HOW TO
-    AVOID/MITIGATE?
-9.  The customer could change the requirements. HOW TO AVOID/MITIGATE?
-10. We could face major difficulties with the technology chosen for
-    this project. HOW TO AVOID/MITIGATE?
-11. We could have low quality that demands significant rework. HOW TO
-    AVOID/MITIGATE?
-12. We could incorrectly assess our progress until it is too late
-    to react. HOW TO AVOID/MITIGATE?
-13. We could lose resources. E.g., team members could get sick, spend
-    time on other projects, or quit. HOW TO AVOID/MITIGATE?
-14. There may be a mis-alignment of stakeholder goals or expectations.
-    HOW TO AVOID/MITIGATE?
+:   1.  There is a potential conflict between the goals of a high-quality
+        appearance and one that is completely customizable. We can only
+        succeed if players find the web site appealing, and game vendors can
+        customize it with no more effort than would be needed to build a
+        static website. We already have a design in mind that will address
+        this risk and we will review it with a web site designer who worked
+        for a game vendor site.
+    2.  There are significant technical difficulties in building a web site
+        and web application. This will be a risk because one person on our
+        team has much experience with the relevant tools and technologies.
+        Although the others will learn, we will certainly make some mistakes
+        and suboptimal choices. We will address this risk by scoping the
+        project such that we have enough time to train and to review the
+        design and implementation.
+    3.  The schedule for this project is very short. We will manage this by
+        planning a conservatively scoped functional core and series of
+        functional enhancements that can be individually slipped to later
+        releases if needed.
+    4.  The performance of the system will be significantly impacted by the
+        decisions made during the [database design task](#3.2.C). None of
+        our current team members has experience with database optimization.
+        To address this, we will arrange a review meeting with an
+        experienced DBA or hire a consultant from the database vendor.
+    5.  We could be underestimating known tasks. HOW TO AVOID/MITIGATE?
+    6.  We could be underestimating the impact of unknown tasks. HOW TO
+        AVOID/MITIGATE?
+    7.  We could be underestimating the dependencies between tasks. HOW TO
+        AVOID/MITIGATE?
+    8.  We could have misunderstood the customer's requirements. HOW TO
+        AVOID/MITIGATE?
+    9.  The customer could change the requirements. HOW TO AVOID/MITIGATE?
+    10. We could face major difficulties with the technology chosen for
+        this project. HOW TO AVOID/MITIGATE?
+    11. We could have low quality that demands significant rework. HOW TO
+        AVOID/MITIGATE?
+    12. We could incorrectly assess our progress until it is too late
+        to react. HOW TO AVOID/MITIGATE?
+    13. We could lose resources. E.g., team members could get sick, spend
+        time on other projects, or quit. HOW TO AVOID/MITIGATE?
+    14. There may be a mis-alignment of stakeholder goals or expectations.
+        HOW TO AVOID/MITIGATE?
 
 ### Project Planning Dependencies {#project-planning-dependencies}
 
