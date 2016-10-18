@@ -219,8 +219,6 @@ discuss ways to improve this template. Or, evaluate the ReadySET Pro
 
 Company Proprietary
 
-Copyright © 2003-2004 Jason Robbins. All rights reserved. [License
-terms](readyset-license.html). Retain this copyright statement whenever
-this file is used as a template.
+Copyright © 2003-2004 Jason Robbins. All rights reserved. [License terms](readyset-license.html). Retain this copyright statement whenever this file is used as a template.
 
 

@@ -115,11 +115,9 @@ might depend on memory or other hardware specs.
     -   Firewire drive: Pending
     -   USB drive: [FAILED](test-runs#TR-12)
 
-TODO: Check for [words of
-wisdom](http://readyset.tigris.org/words-of-wisdom/test-runs.html) and
+TODO: Check for [words of wisdom](http://readyset.tigris.org/words-of-wisdom/test-runs.html) and
 discuss ways to improve this template. Or, evaluate the ReadySET Pro
-[professional test runs
-template](http://www.readysetpro.com/ "pro use case template and sample test plan").
+[professional test runs template](http://www.readysetpro.com/ "pro use case template and sample test plan").
 
 Company Proprietary
 

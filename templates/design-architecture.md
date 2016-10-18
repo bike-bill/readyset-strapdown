@@ -67,7 +67,7 @@ How will the components be deployed to processes and machines?
         -   Tomcat process
             -   [C-00: Tomcat web server](design-components#C-00)
             -   [C-10: PROJECTNAME
-                application](design-components.html#C-10)
+                application](design-components#C-10)
         -   Database process
             -   [C-20: COMPONENTNAME](design-components#C-30)
 

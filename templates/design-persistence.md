@@ -1,4 +1,4 @@
-[Design](design.html) &gt; Persistence {#design-persistence}
+[Design](design) &gt; Persistence {#design-persistence}
 --------------------------------------
 
 ### Release Information {#release-information}

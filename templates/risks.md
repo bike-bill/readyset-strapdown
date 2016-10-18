@@ -1,4 +1,4 @@
-[Project Plan](plan.html) &gt; Risk List {#project-plan-risk-list}
+[Project Plan](plan) &gt; Risk List {#project-plan-risk-list}
 ----------------------------------------
 
 ### Release Information {#release-information}
@@ -10,7 +10,7 @@ Internal Release Number:
 :   X.Y.Z
 
 Related Documents:
-[Project plan](plan.html)
+[Project plan](plan)
 :   [Software development methodology](sdm)
 
 References:
@@ -71,7 +71,7 @@ OTHER RISK TYPE
 |---------------|---------------------------------------------------------------------------------------------------------------------------------|------------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-------------------|
 | Requirements  | Requirements are only partly known at project start. Customers may not allocate sufficient resources to exploring requirements. | Medium     | Critical to Catastrophic | Requirements will be detailed first for the top priority goals. Indicator: Track the rate at which requirements are discovered. Contingency: request more customer effort.    | Amber  | Requirements Lead |
 | Goals         | Stakeholders goals may conflict.                                                                                                | Medium     | Critical                 | Keep an explicit list of stakeholders goals. The project manager will report progress to each declared goal.                                                                  | Green  | Customers         |
-| Communication | Communication problems in development team. They are dispersed among several sites, and have not worked together before.        | Medium     | Critical                 | Use these [tools](sdm.html#communication) to help communication. The main indicator of miscommunication will be software defects detected by our [QA activity](qa-plan.html). | Green  | QA lead           |
+| Communication | Communication problems in development team. They are dispersed among several sites, and have not worked together before.        | Medium     | Critical                 | Use these [tools](sdm#communication) to help communication. The main indicator of miscommunication will be software defects detected by our [QA activity](qa-plan). | Green  | QA lead           |
 | Acceptance    | Customer may accept delivery of the system although it does not really meet their goals.                                        | Medium     | Critical                 | Customers are asked to declare acceptance criteria as each release is planned.                                                                                                | Green  | Customers         |
 | Scope         | The total features requested may be beyond what the development team can deliver in the time available.                         | High       | Marginal                 | Assign levels of important to the use cases. Make the first review of project scope after 12 months.                                                                          | Green  | Customers         |
 
@@ -84,7 +84,7 @@ impact of a risk has increased to make it a "major" risk.
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|-------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|-----------------|
 | Estimate        | The development team might not be able to estimate the work time, preventing customers from deciding priorities effectively.                                                                 | Medium              | Marginal                                        | The development team will gain experience in estimating the work, and deliver the first estimates after 12 months. We will compare estimated work to actual work.                                                                                                                                      | Green               | Project Manager |
 | Retention       | Some developers may leave the project before it is finished.                                                                                                                                 | Medium              | Marginal                                        | Employing locations should provide support for continuing professional development. The project manager will discuss career goals with each developer, and try to assign tasks appropriately.                                                                                                          | Green               | Project Manager |
-| Correctness     | The system as delivered may have low take-up because of a lack of confidence in its correctness.                                                                                             | Low                 | Catastrophic                                    | State of the art [QA activity](qa-plan.html). Contingency: stop development of new facilities until the quality of the existing code is assured.                                                                                                                                                       | Green               | QA Lead         |
+| Correctness     | The system as delivered may have low take-up because of a lack of confidence in its correctness.                                                                                             | Low                 | Catastrophic                                    | State of the art [QA activity](qa-plan). Contingency: stop development of new facilities until the quality of the existing code is assured.                                                                                                                                                       | Green               | QA Lead         |
 | Usability       | The system as delivered may have low take-up because of poor usability.                                                                                                                      | Low                 | Critical                                        | We will have a UI style guide. Most of the development of the front end will be in close contact with customers. We will review usability later in the project.                                                                                                                                        | Green               | UI design lead  |
 | Desire          | The stated requirements might not match the customers' desires and ambitions for the system.                                                                                                 | Low                 | Critical                                        | Incremental delivery of versions will provide experience of using the system, which will help the customers to identify the real requirements. Indicator: a developer saying "I think they mean ...", a customer saying "They know what I mean". Contingency: request customer review of requirements. | Green               | Customers       |
 | Changes         | After requirements have been documented and agreed, development activities begin to based on them, first design then implementation. If the requirements change later then effort is wasted. | Low                 | Critical                                        | A change control procedure is required, so changes are only made when the cost is worthwhile. Indicator: compare cost of change to new development. Contingency: request customer review of requirements.                                                                                              | Green               | Project Manager |
@@ -148,11 +148,9 @@ Is there an anonymous reporting channel, to allow developers to communicate conc
 :   No, everything depends on the alertness and strength of character of
     the project manager.
 
-TODO: Check for [words of
-wisdom](http://readyset.tigris.org/words-of-wisdom/risks.html) and
+TODO: Check for [words of wisdom](http://readyset.tigris.org/words-of-wisdom/risks.html) and
 discuss ways to improve this template. Or, evaluate the ReadySET Pro
-[professional risk management
-template](http://www.readysetpro.com/ "pro use case template and sample test plan").
+[professional risk management template](http://www.readysetpro.com/ "pro use case template and sample test plan").
 
 Company Proprietary
 

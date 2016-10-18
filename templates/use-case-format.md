@@ -119,21 +119,15 @@ perform USE-CASE-NAME
 
 For more information on advice, see:
 
--   Words of wisdom on [use case
-    suites](http://readyset.tigris.org/words-of-wisdom/use-case-suite.html).
--   Words of wisdom on [use
-    cases](http://readyset.tigris.org/words-of-wisdom/use-cases.html).
+-   Words of wisdom on [use case suites](http://readyset.tigris.org/words-of-wisdom/use-case-suite.html).
+-   Words of wisdom on [use cases](http://readyset.tigris.org/words-of-wisdom/use-cases.html).
 
-TODO: Check for [words of
-wisdom](http://readyset.tigris.org/words-of-wisdom/use-case-format.html)
+TODO: Check for [words of wisdom](http://readyset.tigris.org/words-of-wisdom/use-case-format.html)
 and discuss ways to improve this template. Or, evaluate the ReadySET Pro
-[professional use case format
-document](http://www.readysetpro.com/ "pro use case template and sample test plan").
+[professional use case format document](http://www.readysetpro.com/ "pro use case template and sample test plan").
 
 Company Proprietary
 
-Copyright © 2003-2004 Jason Robbins. All rights reserved. [License
-terms](readyset-license.html). Retain this copyright statement whenever
-this file is used as a template.
+Copyright © 2003-2004 Jason Robbins. All rights reserved. [License terms](readyset-license). Retain this copyright statement whenever this file is used as a template.
 
 
