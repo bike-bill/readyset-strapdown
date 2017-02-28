@@ -3,14 +3,14 @@ Glossary {#glossary}
 
 |                                |                |
 |--------------------------------|----------------|
-| [Project terms](glossary.html) | Standard terms |
+| [Project terms](glossary) | Standard terms |
 
 **Process impact:** This file as a dictionary of standard terms defined
 as they are used across projects. Individual projects should not need to
 edit this file. Writing out the definitions of terms and acronyms here
 helps keep other documents more concise and easy to edit. Check the
 [ReadySET
-glossary](http://readyset.tigris.org/templates/glossary-std.html) for
+glossary](http://readyset.tigris.org/templates/glossary-std) for
 updates.
 
 Jump to: [General](#general_section) | [Computer science &

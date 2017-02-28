@@ -1,4 +1,4 @@
-[User Needs](user-needs.html) &gt; [Interview Notes](interview-notes.html) &gt; Interview Checklist {#user-needs-interview-notes-interview-checklist}
+[User Needs](user-needs) &gt; [Interview Notes](interview-notes) &gt; Interview Checklist {#user-needs-interview-notes-interview-checklist}
 ---------------------------------------------------------------------------------------------------
 
 **Process impact:** This checklist will help you plan customer

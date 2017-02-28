@@ -10,6 +10,7 @@ templates](http://readyset.tigris.org/servlets/ProjectDocumentList)
 [Professional version](http://www.readysetpro.com/)
 
 What problem does this project address?
+
 :   Software development projects require a lot of "paperwork" in the
     form of requirements documents, design documents, test plans,
     schedules, checklists, release notes, etc. It seems that everyone
@@ -21,6 +22,7 @@ What problem does this project address?
     professional engineering projects.
 
 What is the goal of this project?
+
 :   ReadySET is an open source project to produce and maintain a library
     of reusable software engineering document templates. These templates
     provide a ready starting point for the documents used in software
@@ -43,20 +45,24 @@ What are some key features that define the product?
         -   Release checklist template
 
 What makes this product different from others?
+
 :   This is an open source project that you are welcome to use for free
     and help make better. Existing packages of software engineering
     templates are highly costly and biased by the authorship of only a
     few people, by vendor-client relationships, or by the set of tools
     offered by a particular vendor.
+
 :   These templates are in pure XHTML with CSS, not a proprietary
     file format. That makes them easier to edit and to track changes
     using freely available tools and version control systems. The
     templates are designed to always be used on the web; they use
     hyperlinks to avoid duplicating information.
+
 :   The templates are not burdened with information about individual
     authorship or document change history. It is assumed that
     professional software developers will keep all project documents in
     version control systems that provide those capabilities.
+
 :   These templates are not one-size-fits-all and they do not attempt to
     provide prescriptive guidance on the overall development process. We
     are developing a broad library of template modules for many purposes
@@ -67,15 +73,18 @@ What makes this product different from others?
 ### Scope {#scope}
 
 What is the scope of this project?
+
 :   We will build templates for common software engineering documents
     inspired by our own exprience.
 
 What are the high-level assumptions or ground rules for the project?
+
 :   I assume that the user takes ultimate responsibility for the content
     of all their actual project documents. The templates are merely
     starting points and low-level guidance.
 
 What are we not going to do?
+
 :   This project does not attempt to provide powerful tools for
     reorganizing the templates, mapping them to a given software
     development process, or generating templates from a underlying
@@ -84,6 +93,7 @@ What are we not going to do?
     the templates.
 
 Is this project part of a larger effort?
+
 :   Yes. It is part of the Tigris.org mission of promoting open source
     software engineering. It is also the first product in a product line
     that will provide even better support to professional
@@ -93,20 +103,24 @@ Is this project part of a larger effort?
 ### Status {#status}
 
 What is the status of this project?
+
 :   These templates are based on templates originally used to teach
     software engineering in a university project course. They are now
     being enhanced, expanded, and used more widely by professionals
     in industry.
+
 :   The template set is fairly complete and ready for use in
     real projects. You can
     [download](http://readyset.tigris.org/servlets/ProjectDocumentList)
     recent releases. We welcome your feedback.
+
 :   For the latest news, see the [Project
     Announcements](http://readyset.tigris.org/servlets/ProjectNewsList).
 
 ### Applicability {#applicability}
 
 Who should use this product?
+
 :   ReadySET is aimed at software engineers who wish that their projects
     could go more smoothly and professionally. ReadySET can be used by
     anyone who is able to use an HTML editor or edit HTML in a

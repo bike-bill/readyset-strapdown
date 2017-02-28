@@ -1,5 +1,6 @@
 ---
 Title: All Documents
+Placing: 3
 ---
 
 Workflows and Indices {#workflows-and-indices}
@@ -7,173 +8,145 @@ Workflows and Indices {#workflows-and-indices}
 
 1.  [](#default){#default .folder}By Activity
     1.  [](#default.planning){#planning .folder}Project Planning
-        1.  [](index.html){.doc}[Overview](index.html)
-        2.  [](proposal.html){.doc}[Proposal](proposal.html)
-            -   [](target-and-benefits.html)[Target and
-                benefits](target-and-benefits.html)
-
-        3.  [](plan.html){.doc}[Project plan](plan.html)
-            -   [Resource needs](resource-needs.html)
-
-        4.  [](legal.html){.doc}[Legal issues](legal.html)
-        5.  [](qa-plan.html){.doc}[QA Plan](qa-plan.html)
-
+        1.  [](index){.doc}[Overview](index)
+        2.  [](proposal){.doc}[Proposal](proposal)
+            -   [](target-and-benefits)[Target and
+                benefits](target-and-benefits)
+        3.  [](plan){.doc}[Project plan](plan)
+            -   [Resource needs](resource-needs)
+        4.  [](legal){.doc}[Legal issues](legal)
+        5.  [](qa-plan){.doc}[QA Plan](qa-plan)
     2.  [](#default.req){#req .folder}Requirements and Specification
-        1.  [](user-needs.html){.doc}[User needs](user-needs.html)
-            -   [Interview notes](interview-notes.html)
-
-        2.  [](srs.html){.doc}[Software Requirements
-            Specification](srs.html)
-            -   [Use case suite](use-case-suite.html)
-            -   [Feature set](feature-set.html)
-
+        1.  [](user-needs){.doc}[User needs](user-needs)
+            -   [Interview notes](interview-notes)
+        2.  [](srs){.doc}[Software Requirements
+            Specification](srs)
+            -   [Use case suite](use-case-suite)
+            -   [Feature set](feature-set)
     3.  [](#default.design){#design .folder}Architecture and Design
-        1.  [](design.html){.doc}[Design](design.html)
-            -   [Architecture worksheet](design-architecture.html)
-            -   [Source and build](design-src-org.html)
-            -   [User interface worksheet](design-ui.html)
-            -   [Persistence worksheet](design-persistence.html)
-            -   [Security worksheet](design-security.html)
-
+        1.  [](design){.doc}[Design](design)
+            -   [Architecture worksheet](design-architecture)
+            -   [Source and build](design-src-org)
+            -   [User interface worksheet](design-ui)
+            -   [Persistence worksheet](design-persistence)
+            -   [Security worksheet](design-security)
     4.  [](#default.impl){#impl .folder}Implementation and Testing
-        1.  [](userguide.html){.doc}[User guide](userguide.html)
-        2.  [](test-suite.html){.doc}[Test suite](test-suite.html)
-            -   [Test case format](test-case-format.html)
-            -   [Test cases](test-cases.html)
-
+        1.  [](userguide){.doc}[User guide](userguide)
+        2.  [](test-suite){.doc}[Test suite](test-suite)
+            -   [Test case format](test-case-format)
+            -   [Test cases](test-cases)
     5.  [](#default.deploy){#deploy .folder}Deployment and Installation
-        1.  [](release-checklist.html){.doc}[Release
-            checklist](release-checklist.html)
-        2.  [](install.html){.doc}[Installation / Quick start
-            guide](install.html)
-        3.  [](release-notes.html){.doc}[Release
-            notes](release-notes.html)
-        4.  [](demo-script.html){.doc}[Demo script](demo-script.html)
-
+        1.  [](release-checklist){.doc}[Release
+            checklist](release-checklist)
+        2.  [](install){.doc}[Installation / Quick start
+            guide](install)
+        3.  [](release-notes){.doc}[Release
+            notes](release-notes)
+        4.  [](demo-script){.doc}[Demo script](demo-script)
     6.  [](#default.ops){#ops .folder}Operations and Support
-        1.  [](faq.html){.doc}[FAQ / Troubleshooting](faq.html)
-        2.  [](implementation-notes.html){.doc}[Implementation
-            notes](implementation-notes.html)
-
+        1.  [](faq){.doc}[FAQ / Troubleshooting](faq)
+        2.  [](implementation-notes){.doc}[Implementation
+            notes](implementation-notes)
     7.  [](#default.continuous){#continuous .folder}Continuous or Final
-        1.  [](glossary.html){.doc}[Glossary](glossary.html)
-        2.  [](status-report.html){.doc}[Status
-            report](status-report.html)
-        3.  [](review-meeting-notes.html){.doc}[Review meeting
-            notes](review-meeting-notes.html)
-        4.  [](sdm.html){.doc}[Software development
-            methodology](sdm.html)
-
+        1.  [](glossary){.doc}[Glossary](glossary)
+        2.  [](status-report){.doc}[Status
+            report](status-report)
+        3.  [](review-meeting-notes){.doc}[Review meeting
+            notes](review-meeting-notes)
+        4.  [](sdm){.doc}[Software development
+            methodology](sdm)
 2.  [](#week){#week .folder}By Suggested Sequence
     1.  [](#week.two){#two .folder}Step 1
-        1.  [](index.html){.doc}[Overview](index.html)
-        2.  [](proposal.html){.doc}[Proposal](proposal.html)
-            -   [](target-and-benefits.html)[Target and
-                benefits](target-and-benefits.html)
-
-        3.  [](plan.html){.doc}[Project plan](plan.html)
-            -   [Resource needs](resource-needs.html)
-
-        4.  [](legal.html){.doc}[Legal issues](legal.html)
-        5.  [](glossary.html){.doc}[Glossary](glossary.html)
-
+        1.  [](index){.doc}[Overview](index)
+        2.  [](proposal){.doc}[Proposal](proposal)
+            -   [](target-and-benefits)[Target and
+                benefits](target-and-benefits)
+        3.  [](plan){.doc}[Project plan](plan)
+            -   [Resource needs](resource-needs)
+        4.  [](legal){.doc}[Legal issues](legal)
+        5.  [](glossary){.doc}[Glossary](glossary)
     2.  [](#week.three){#three .folder}Step 2
-        1.  [](user-needs.html){.doc}[User needs](user-needs.html)
-            -   [Interview notes](interview-notes.html)
-
-        2.  [](srs.html){.doc}[Software Requirements
-            Specification](srs.html)
-            -   [Use case suite](use-case-suite.html)
-            -   [Feature set](feature-set.html)
-
+        1.  [](user-needs){.doc}[User needs](user-needs)
+            -   [Interview notes](interview-notes)
+        2.  [](srs){.doc}[Software Requirements
+            Specification](srs)
+            -   [Use case suite](use-case-suite)
+            -   [Feature set](feature-set)
     3.  [](#week.five){#five .folder}Step 3
-        1.  [](design.html){.doc}[Design](design.html)
-            -   [Architecture worksheet](design-architecture.html)
-            -   [Source and build](design-src-org.html)
-            -   [User interface worksheet](design-ui.html)
-            -   [Persistence worksheet](design-persistence.html)
-            -   [Security worksheet](design-security.html)
-
+        1.  [](design){.doc}[Design](design)
+            -   [Architecture worksheet](design-architecture)
+            -   [Source and build](design-src-org)
+            -   [User interface worksheet](design-ui)
+            -   [Persistence worksheet](design-persistence)
+            -   [Security worksheet](design-security)
     4.  [](#week.seven){#seven .folder}Step 4
-        1.  [](qa-plan.html){.doc}[QA Plan](qa-plan.html)
-        2.  [](test-suite.html){.doc}[Test suite](test-suite.html)
-            -   [Test case format](test-case-format.html)
-            -   [Test cases](test-cases.html)
-
+        1.  [](qa-plan){.doc}[QA Plan](qa-plan)
+        2.  [](test-suite){.doc}[Test suite](test-suite)
+            -   [Test case format](test-case-format)
+            -   [Test cases](test-cases)
     5.  [](#week.eight){#eight .folder}Step 5
-        1.  [](review-meeting-notes.html){.doc}[Review meeting
-            notes](review-meeting-notes.html)
-
+        1.  [](review-meeting-notes){.doc}[Review meeting
+            notes](review-meeting-notes)
     6.  [](#week.nine){#nine .folder}Step 6
-        1.  [](release-checklist.html){.doc}[Release
-            checklist](release-checklist.html)
-
+        1.  [](release-checklist){.doc}[Release
+            checklist](release-checklist)
     7.  [](#week.ten){#ten .folder}Step 7
-        1.  [](install.html){.doc}[Installation / Quick start
-            guide](install.html)
-        2.  [](release-notes.html){.doc}[Release
-            notes](release-notes.html)
-        3.  [](userguide.html){.doc}[User guide](userguide.html)
-        4.  [](demo-script.html){.doc}[Demo script](demo-script.html)
-        5.  [](faq.html){.doc}[FAQ / Troubleshooting](faq.html)
-        6.  [](implementation-notes.html){.doc}[Implementation
-            notes](implementation-notes.html)
-
+        1.  [](install){.doc}[Installation / Quick start
+            guide](install)
+        2.  [](release-notes){.doc}[Release
+            notes](release-notes)
+        3.  [](userguide){.doc}[User guide](userguide)
+        4.  [](demo-script){.doc}[Demo script](demo-script)
+        5.  [](faq){.doc}[FAQ / Troubleshooting](faq)
+        6.  [](implementation-notes){.doc}[Implementation
+            notes](implementation-notes)
     8.  [](#week.most){#most .folder}Every week
-        1.  [](status-report.html){.doc}[Status
-            report](status-report.html)
-
+        1.  [](status-report){.doc}[Status
+            report](status-report)
 3.  [](#all){#all .folder}All Templates
-    1.  [](all-in-one.html){.doc}[All-in-one](all-in-one.html)
-    2.  [](index.html){.doc}[Overview](index.html)
-    3.  [](proposal.html){.doc}[Proposal](proposal.html)
-        -   [](target-and-benefits.html)[Target and
-            benefits](target-and-benefits.html)
-
-    4.  [](plan.html){.doc}[Project plan](plan.html)
-        -   [](resource-needs.html)[Resource needs](resource-needs.html)
-
-    5.  [](qa-plan.html){.doc}[QA Plan](qa-plan.html)
-        -   [](test-suite.html)[Test suite](test-suite.html)
-            -   [Test case format](test-case-format.html)
-            -   [Test cases](test-cases.html)
-        -   [](review-meeting-notes.html)[Review meeting
-            notes](review-meeting-notes.html)
-
-    6.  [](legal.html){.doc}[Legal issues](legal.html)
-    7.  [](user-needs.html){.doc}[User needs](user-needs.html)
-        -   [Interview notes](interview-notes.html)
-
-    8.  [](srs.html){.doc}[Software Requirements
-        Specification](srs.html)
-        -   [Use case suite](use-case-suite.html)
-        -   [Feature set](feature-set.html)
-
-    9.  [](glossary.html){.doc}[Glossary](glossary.html)
-    10. [](design.html){.doc}[Design](design.html)
-        -   [Architecture worksheet](design-architecture.html)
-        -   [Source and build](design-src-org.html)
-        -   [User interface worksheet](design-ui.html)
-        -   [Persistence worksheet](design-persistence.html)
-        -   [Security worksheet](design-security.html)
-
-    11. [](userguide.html){.doc}[User guide](userguide.html)
-    12. [](release-checklist.html){.doc}[Release
-        checklist](release-checklist.html)
-    13. [](install.html){.doc}[Installation / Quick start
-        guide](install.html)
-    14. [](release-notes.html){.doc}[Release notes](release-notes.html)
-    15. [](demo-script.html){.doc}[Demo script](demo-script.html)
-    16. [](faq.html){.doc}[FAQ / Troubleshooting](faq.html)
-    17. [](implementation-notes.html){.doc}[Implementation
-        notes](implementation-notes.html)
-    18. [](status-report.html){.doc}[Status report](status-report.html)
-    19. [](sdm.html){.doc}[Software development methodology](sdm.html)
+    1.  [](all-in-one){.doc}[All-in-one](all-in-one)
+    2.  [](index){.doc}[Overview](index)
+    3.  [](proposal){.doc}[Proposal](proposal)
+        -   [](target-and-benefits)[Target and
+            benefits](target-and-benefits)
+    4.  [](plan){.doc}[Project plan](plan)
+        -   [](resource-needs)[Resource needs](resource-needs)
+    5.  [](qa-plan){.doc}[QA Plan](qa-plan)
+        -   [](test-suite)[Test suite](test-suite)
+            -   [Test case format](test-case-format)
+            -   [Test cases](test-cases)
+        -   [](review-meeting-notes)[Review meeting
+            notes](review-meeting-notes)
+    6.  [](legal){.doc}[Legal issues](legal)
+    7.  [](user-needs){.doc}[User needs](user-needs)
+        -   [Interview notes](interview-notes)
+    8.  [](srs){.doc}[Software Requirements
+        Specification](srs)
+        -   [Use case suite](use-case-suite)
+        -   [Feature set](feature-set)
+    9.  [](glossary){.doc}[Glossary](glossary)
+    10. [](design){.doc}[Design](design)
+        -   [Architecture worksheet](design-architecture)
+        -   [Source and build](design-src-org)
+        -   [User interface worksheet](design-ui)
+        -   [Persistence worksheet](design-persistence)
+        -   [Security worksheet](design-security)
+    11. [](userguide){.doc}[User guide](userguide)
+    12. [](release-checklist){.doc}[Release
+        checklist](release-checklist)
+    13. [](install){.doc}[Installation / Quick start
+        guide](install)
+    14. [](release-notes){.doc}[Release notes](release-notes)
+    15. [](demo-script){.doc}[Demo script](demo-script)
+    16. [](faq){.doc}[FAQ / Troubleshooting](faq)
+    17. [](implementation-notes){.doc}[Implementation
+        notes](implementation-notes)
+    18. [](status-report){.doc}[Status report](status-report)
+    19. [](sdm){.doc}[Software development methodology](sdm)
 
 How to download these templates:
 
--   [Download template archive](/servlets/ProjectDocumentList), or
--   Use CVS to [check
-    out](http://readyset.tigris.org/servlets/ProjectSource) project
+-   [Download template archive](http://readyset.tigris.org/servlets/ProjectDocumentList), or
+-   Use CVS to [check out](http://readyset.tigris.org/servlets/ProjectSource) project
     "readyset"
 

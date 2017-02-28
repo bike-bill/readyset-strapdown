@@ -1,5 +1,6 @@
 ---
 Title: FAQ
+Placing: 4
 ---
 
 User FAQ {#user-faq}

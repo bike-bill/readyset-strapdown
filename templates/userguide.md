@@ -50,8 +50,7 @@ roles, or in other ways.
     -   SUB-SECTION-NAME
     -   SUB-SECTION-NAME
 
-TODO: Check for [words of
-wisdom](http://readyset.tigris.org/words-of-wisdom/userguide.html) and
+TODO: Check for [words of wisdom](http://readyset.tigris.org/words-of-wisdom/userguide.html) and
 discuss ways to improve this template. Or, evaluate the ReadySET Pro
 [professional user guide template](http://www.readysetpro.com/).
 

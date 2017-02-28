@@ -150,27 +150,27 @@ more noticeable.
         <tr>
             <td>Student record</td>
             <td>N/A</td>
-            <td><a href="use-cases.html#UC-01">Register as new user</a><br />
-                <a href="use-cases.html#UC-02">Request new password</a><br /> 
-                <a href="use-cases.html#UC-03">Edit user profile</a></td>
-            <td><a href="use-cases.html#UC-04">View user profile</a></td>
+            <td><a href="use-cases#UC-01">Register as new user</a><br />
+                <a href="use-cases#UC-02">Request new password</a><br /> 
+                <a href="use-cases#UC-03">Edit user profile</a></td>
+            <td><a href="use-cases#UC-04">View user profile</a></td>
             <td>N/A</td>
         </tr>
         <tr>
             <td>Course</td>
-            <td><a href="use-cases.html#UC-11">View catalog description</a></td>
-            <td><a href="use-cases.html#UC-20">Enroll in course</a><br /> 
-                <a href="use-cases.html#UC-21">Drop course</a></td>
+            <td><a href="use-cases#UC-11">View catalog description</a></td>
+            <td><a href="use-cases#UC-20">Enroll in course</a><br /> 
+                <a href="use-cases#UC-21">Drop course</a></td>
             <td>TODO</td>
-            <td><a href="use-cases.html#UC-10">Create course</a><br /> 
-                <a href="use-cases.html#UC-31">Assign room</a></td>
+            <td><a href="use-cases#UC-10">Create course</a><br /> 
+                <a href="use-cases#UC-31">Assign room</a></td>
         </tr>
         <tr>
             <td>Room</td>
-            <td><a href="use-cases.html#UC-30">View room description</a></td>
+            <td><a href="use-cases#UC-30">View room description</a></td>
             <td>N/A</td>
             <td>N/A</td>
-            <td><a href="use-cases.html#UC-31">Assign room</a></td>
+            <td><a href="use-cases#UC-31">Assign room</a></td>
         </tr>
     </tbody>
 </table>
@@ -183,8 +183,6 @@ and discuss ways to improve this template. Or, evaluate the ReadySET Pro
 
 Company Proprietary
 
-Copyright © 2003-2004 Jason Robbins. All rights reserved. [License
-terms](readyset-license). Retain this copyright statement whenever
-this file is used as a template.
+Copyright © 2003-2004 Jason Robbins. All rights reserved. [License terms](readyset-license). Retain this copyright statement whenever this file is used as a template.
 
 

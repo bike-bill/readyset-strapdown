@@ -1,4 +1,4 @@
-[Plan](plan.html) &gt; Resource Needs {#plan-resource-needs}
+[Plan](plan) &gt; Resource Needs {#plan-resource-needs}
 -------------------------------------
 
 ### Project Information {#project-information}
@@ -205,7 +205,7 @@ otherwise be missed. It does not help with the actual estimated number
 of hours needed. Those estimates should be based on the project plan.
 
 TODO: Answer the questions below. If multiple sample answers are
-provided, [chip away](glossary-std.html#chipaway){.def} the ones that do
+provided, [chip away](glossary-std#chipaway){.def} the ones that do
 not apply. Edit any provided answers as needed. Use this exercise to
 help you fill in the tables above.
 
@@ -344,7 +344,7 @@ Are any of the personnel assignments of capital allocations conditional?
 Have these resource assignments been communicated to the people being assigned and their managers?
 :   Yes, everyone understands. Feedback is welcome.
 :   No, this is a risk that is noted in the [Risk
-    Management](plan.html#risks) section.
+    Management](plan#risks) section.
 
 TODO: Check for [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/resource-needs.html)

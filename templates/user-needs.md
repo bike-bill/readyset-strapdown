@@ -212,8 +212,7 @@ following system capacity:
 -   100 game vendors posting advertisements on the site
 -   1000 actual advertisements in the database
 
-TODO: Check for [words of
-wisdom](http://readyset.tigris.org/words-of-wisdom/user-needs.html) and
+TODO: Check for [words of wisdom](http://readyset.tigris.org/words-of-wisdom/user-needs.html) and
 discuss ways to improve this template. Or, evaluate the ReadySET Pro
 [professional user needs template](http://www.readysetpro.com/).
 

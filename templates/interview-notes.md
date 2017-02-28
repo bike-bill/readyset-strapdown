@@ -26,13 +26,13 @@ Related Documents:
 
 TODO: Copy this file once for each interview. Fill in the details. Link
 to this file from the "Notes from Interviews and Brainstorming" section
-of user-needs.html.
+of user-needs.md.
 
 **Process impact:** Planning questions for interviews with stakeholders
 is key to effective requirements gathering. Good requirements are needed
 to build the right system. These notes should be kept as part of the
-documentation on [user needs](user-needs.html) are referred to when the
-[software requirements specification](srs.html) is written or updated.
+documentation on [user needs](user-needs) are referred to when the
+[software requirements specification](srs) is written or updated.
 
 ### Interview Questions and Answers {#interview-questions-and-answers}
 
@@ -73,7 +73,7 @@ Note these new questions and what you must do to find the answer.
 -   Do we support Y?
 -   Action item: research topic Z
 -   Action item: Send follow-up email as per [post-interview
-    checklist](interview-checklist.html)
+    checklist](interview-checklist)
 -   Action item: prepare for next interview with PERSON(S) on DATE
 
 ### Other Interview Notes {#other-interview-notes}

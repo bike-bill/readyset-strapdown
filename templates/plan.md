@@ -1,5 +1,6 @@
 ---
 Title: Project Plan
+Placing: 2
 ---
 
 Project Plan {#project-plan}
@@ -41,16 +42,19 @@ BULLETS.
 ### Summary of Methodology {#summary-of-methodology}
 
 What general development approach will be used?
+
 :   THREE TO FIVE SENTENCES OR BULLETS HERE. COVER GENERAL APPROACH,
     IMPORTANT ASSUMPTIONS, KEY PRACTICES, AND PROJECT
     COORDINATION CONTROLS. For more information see the [Software
     Development Methodology](sdm).
 
 How will the project team be organized?
-:   The development team will consist of ...
-:   The change control board will consist of ...
+
+:   -   The development team will consist of ...
+    -   The change control board will consist of ...
 
 What development and collaboration tools will be use?
+
 :   We plan to use the following tools extensively through out the
     project:
     -   Project website
@@ -77,6 +81,7 @@ How will changes be controlled?
         issue ID, after the feature complete milestone.
 
 How will this plan be updated?
+
 :   This project plan will be updated as needed throughout the project.
     It will be placed under version control and instructions for
     accessing it will be on the [project website](index). Any
@@ -136,12 +141,12 @@ finished. Don't worry about renumbering if you delete a step.
 
 TODO: List project deliverables in detail, with delivery dates.
 
-| Deliverable Name | Description                                                                                     | Delivery Date |
-|------------------|-------------------------------------------------------------------------------------------------|---------------|
-| Deliverable Name | Description                                                                                     | Delivery Date |
-| Deliverable Name | Description                                                                                     | Delivery Date |
-| Deliverable Name | Description Description Description Description Description Description Description Description | Delivery Date |
-| Deliverable Name | Description                                                                                     | Delivery Date |
+| Deliverable Name | Description                                                 | Delivery Date |
+|------------------|-------------------------------------------------------------|---------------|
+| Deliverable Name | Description                                                 | Delivery Date |
+| Deliverable Name | Description                                                 | Delivery Date |
+| Deliverable Name | Description Description Description Description Description | Delivery Date |
+| Deliverable Name | Description                                                 | Delivery Date |
 
 ### Schedule for this Release {#schedule-for-this-release}
 

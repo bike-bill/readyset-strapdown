@@ -25,7 +25,7 @@ TIPs:
 -   If a term was used in the past, but is no longer going to be used,
     you should keep it in the list, mark it as "deprecated", and link to
     the term or terms that replace it. E.g., deprecated standard term
-    [bug](glossary-std.html#bug).
+    [bug](glossary-std#bug).
 -   Define only project-specific terms, or ones that a new team member
     would not know. Don't define standard textbook terms that can be
     easily found elsewhere.

@@ -81,7 +81,7 @@ information can be helpful.
 TODO: Fill in these sections. The text here is only an example.
 
 Installation
-:   See the [installation instructions](install.html) for full details.
+:   See the [installation instructions](install) for full details.
     Please note that in this release, ...
 :   IMPORTANT: You must completely uninstall any previous "developer
     release" or "early access" version of this product before installing

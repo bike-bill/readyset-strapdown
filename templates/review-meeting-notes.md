@@ -1,4 +1,4 @@
-[QA Plan](qa-plan.html) &gt; Review Meeting Notes {#qa-plan-review-meeting-notes}
+[QA Plan](qa-plan) &gt; Review Meeting Notes {#qa-plan-review-meeting-notes}
 -------------------------------------------------
 
 ### Review Meeting Information {#review-meeting-information}
