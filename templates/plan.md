@@ -8,7 +8,7 @@ Project Plan {#project-plan}
 
 ### Project Information {#project-information}
 
-Project:
+Project
 :   [PROJECTNAME](index)
 
 Project Time-frame:
@@ -259,16 +259,11 @@ Are there any other important dependencies that will affect this project?
 :   No, everything is covered above.
 :   Yes. DETAILS....
 
-TODO: Check for [words of
-wisdom](http://readyset.tigris.org/words-of-wisdom/plan.html) and
-discuss ways to improve this template. Or, evaluate the ReadySET Pro
-[professional project plan
-template](http://www.readysetpro.com/ "pro use case template and sample test plan").
+TODO: Check for [words of wisdom](http://readyset.tigris.org/words-of-wisdom/plan.html) and
+discuss ways to improve this template. Or, evaluate the ReadySET Pro [professional project plan template](http://www.readysetpro.com/).
 
 Company Proprietary
 
-Copyright © 2003-2004 Jason Robbins. All rights reserved. [License
-terms](readyset-license.html). Retain this copyright statement whenever
-this file is used as a template.
+Copyright © 2003-2004 Jason Robbins. All rights reserved. [License terms](readyset-license.html). Retain this copyright statement whenever this file is used as a template.
 
 

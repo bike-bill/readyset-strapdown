@@ -95,11 +95,7 @@ Where should I send comments on this FAQ?
 :   You can write to [EMAIL-ADDRESS](mailto:#) or any of the developers
     on the [developers' mailing list](mailto:#).
 
-TODO: Check for [words of
-wisdom](http://readyset.tigris.org/words-of-wisdom/faq.html) and discuss
-ways to improve this template. Or, evaluate the ReadySET Pro
-[professional FAQ
-template](http://www.readysetpro.com/ "pro use case template and sample test plan").
+TODO: Check for [words of wisdom](http://readyset.tigris.org/words-of-wisdom/faq.html) and discuss ways to improve this template. Or, evaluate the ReadySET Pro [professional FAQ template](http://www.readysetpro.com/) pro use case template and sample test plan.
 
 Company Proprietary
 
