@@ -1,5 +1,5 @@
 Glossary {#glossary}
---------
+-----------
 
 |                                |                |
 |--------------------------------|----------------|
@@ -21,8 +21,9 @@ development tools](#tools_section) |
 goals](#qagoals_section) | [Additional terms](#additional_section)
 
 ### General Terms {#general-terms}
+&nbsp;
 
-Chipping away
+#### Chipping away
 :   The process of removing sample text from templates when that text
     does not apply to the current project. Often some of the sample text
     will be kept or revised to fit the current project. Even if the

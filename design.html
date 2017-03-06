@@ -11,14 +11,153 @@
 <topbar style="display:none;">
 	<item><a href="index.html">Overview</a></item>
 	<item><a href="plan.html">Project Plan</a></item>
-	<item><a href="index-all.html">Workflows & Indices</a></item>
+	<item><a href="index-all.html">Workflows &gt; Indices</a></item>
 	<menu name="Themes"><item><a id="settheme"><b>Current</b></a></item></menu>
 	<toc></toc>
 </topbar>
 
 <xmp theme="readable" style="display:none;">
 
-   <!-- Markdown content here -->
+## [Design](#design)
+
+-----------
+
+#### Project
+[PROJECTNAME](index) 
+
+#### Internal Release Number
+X.Y.Z 
+
+#### Attached Worksheets 
+* Design &gt; [Architecture Worksheet](design-architecture.html)
+* Design &gt; [Source Organization and Build Worksheet](design-src-org.html)
+<!-- Design &gt; [Scalability Worksheet](design-scalability.html) -->
+* Design &gt; [User Interface Worksheet](design-ui.html)
+* Design &gt; [Persistent Storage Worksheet](design-persistence.html)
+* Design &gt; [Security Worksheet](design-security.html)
+
+#### Related Documents
+*    [SRS](srs) &gt; [Use case suite](use-case-suite.html)
+*    [SRS](srs) &gt; [Feature set](feature-set.html)
+*    [Glossary](glossary.html)
+*    LINKS TO RELEVANT STANDARDS
+*    LINKS TO OTHER DOCUMENTS
+
+-----------
+
+**Process impact:** This design document describes a system that will
+satisfy the requirements of the [SRS](srs.html). Decisions made in
+creating this design document are based on those requirements and an
+understanding of available technologies and components. Once the design
+has been drafted, work on the system implementation and unit testing may
+begin.
+
+*TODO: Fill in the sections below. Add ore remove items as needed for
+your project.*
+
+### [Introduction](#introduction)
+
+#### How is this design document organized?
+This main page describes the system design in terms of packages,
+classes, relationships, and behavior. Several attached worksheets
+address specific aspects of the overall system design, such as user
+interface and database design.
+
+#### What are the most important facts that a developer should know about this design?
+PARAGRAPH or BULLETS
+
+#### What are the prioritized goals of this design?
+1.  [Correctness](glossary-std.html#dg_correctness)
+2.  [Feasibility](glossary-std.html#dg_feasibility)
+3.  [Understandability](glossary-std.html#dg_understandability)
+4.  [Implementation phase guidance](glossary-std.html#dg_guidance)
+5.  [Modularity](glossary-std.html#dg_modularity)
+6.  [Extensibility](glossary-std.html#dg_extensibility)
+7.  [Testability](glossary-std.html#dg_testability)
+8.  [Efficiency](glossary-std.html#dg_efficiency)
+
+### [UML Structural Design](#uml-structural-design)
+
+*TODO: Link to a design model and/or design diagrams that describe your
+system's structure in detail.*
+
+#### The system's structural design is described in the following UML model:
+[MODELNAME](LINK-TO-MODEL-FILE).
+
+#### The system's structural design is described in the following UML structural diagrams:
+
+- [PACKAGE OVERVIEW DIAGRAM](LINK-TO-DIAGRAM)
+- PACKAGENAME
+  - [DIAGRAMNAME](LINK-TO-DIAGRAM)
+  - [DIAGRAMNAME](LINK-TO-DIAGRAM)
+- PACKAGENAME
+  - [DIAGRAMNAME](LINK-TO-DIAGRAM)
+- PACKAGENAME
+  - [DIAGRAMNAME](LINK-TO-DIAGRAM)
+
+ANY ADDITIONAL NOTES OR COMMENTS
+
+### [UML Behavioral Design](#uml-behavioral-design)
+
+*TODO: Link to a design model and/or design diagrams that describe your
+system's behavior in detail.*
+
+#### The system's behavioral design is described in the following UML model:
+[MODELNAME](LINK-TO-MODEL-FILE)
+
+#### The system's behavioral design is described in the following UML behavioral diagrams:
+
+- State Diagrams
+  - [DIAGRAMNAME](LINK-TO-DIAGRAM)
+  - [DIAGRAMNAME](LINK-TO-DIAGRAM)
+- Sequence Diagrams
+  - [DIAGRAMNAME](LINK-TO-DIAGRAM)
+  - [DIAGRAMNAME](LINK-TO-DIAGRAM)
+  - [DIAGRAMNAME](LINK-TO-DIAGRAM)
+  - [DIAGRAMNAME](LINK-TO-DIAGRAM)
+  - [DIAGRAMNAME](LINK-TO-DIAGRAM)
+- Collaboration Diagrams
+  - [DIAGRAMNAME](LINK-TO-DIAGRAM)
+  - [DIAGRAMNAME](LINK-TO-DIAGRAM)
+
+ANY ADDITIONAL NOTES OR COMMENTS
+
+### [UML Design Checklist](#uml-design-checklist)
+
+*TODO: Answer the following questions to help evaluate your design. Add
+or remove questions to fit your project. If you cannot answer a question
+positively, that may indicate an aspect of the design that should be
+revised.*
+
+#### Correctness: How do you know that this design is correct?
+2-4 SENTENCES
+
+#### Feasibility: What indicates that this design can be implemented and tested with the planned amount of time and effort?
+2-4 SENTENCES
+
+#### Understandability: What makes this design understandable? 
+2-4 SENTENCES
+
+#### Implementation phase guidance: Does the design suggest reasonable implementation tasks?
+2-4 SENTENCES
+
+#### Modularity: How have concerns been separated and addressed in distinct modules?
+2-4 SENTENCES
+
+#### Extensibility: How can new features can be easily added later?
+2-4 SENTENCES
+
+#### Testability: What makes this system easy to test?
+2-4 SENTENCES
+
+#### Efficiency: Does the system consume an acceptable amount of time, storage space, bandwidth, and other resources?
+2-4 SENTENCES
+
+#### Has the design been communicated to the development team and other stakeholders?
+- Yes, everyone understands. Feedback is welcome.
+- No, this is a risk that is noted in the 
+  [Risk  Management](plan.html#risks) section.
+
 
 </xmp>
 
