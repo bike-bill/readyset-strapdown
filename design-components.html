@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link type="image/png" href="assets/logo.png" rel="icon">
+    <title>ReadySet Markdown</title>
+</head>
+<script src="https://www.w3schools.com/lib/w3data.js"></script>
+<body>
+
+<topbar style="display:none;">
+    <item><a href="index.html">Overview</a></item>
+    <item><a href="plan.html">Project Plan</a></item>
+    <item><a href="index-all.html">Workflows &gt; Indices</a></item>
+    <menu name="Themes"><item><a id="settheme"><b>Current</b></a></item></menu>
+    <toc></toc>
+</topbar>
+
+<xmp theme="readable" style="display:none;">
+<!-- Markdown content here -->
+
+[Design](design.html) &gt; [Architecture](design-architecture.html) &gt; Components {#design-architecture-components}
+-----------------------------------------------------------------------------------
+
+### Release Information {#release-information}
+
+Project:
+:   PROJECTNAME
+
+Internal Release Number:
+:   X.Y.Z
+
+Related Documents:
+:   LINKS TO RELEVANT STANDARDS
+:   LINKS TO OTHER DOCUMENTS
+
+TODO: Briefly describe each component in the system. Focus on
+architectural issues such as communication mechanisms, environmental
+concerns that affect deployment options, and concurrency. Note key
+aspects of each interface, but avoid duplicating details of interfaces
+that are specified in the UML class diagrams or other documents.
+
+Each interface can be an API (application program interface), standard
+protocol (e.g., HTTP), config files, input data file format, or
+interactive user interface (e.g., command-line or GUI). One component
+may have multiple interfaces: e.g., a server may handle requests in a
+standard protocol, but also have a config file, command-line options, an
+administrative control panel GUI, and a performance monitoring API.
+
+TIP: Use an HTML anchor for each component so that a direct link can be
+made from other documents, issues, and email messages.
+
+### C-00: COMPONENT NAME {#C-00}
+
+Description:               
+:	DESCRIPTION
+                          
+Environmental Constraints: 
+:	REQUIRED OPERATING SYSTEM, RAM, ETC.
+
+Available Interfaces:      
+:	BRIEFLY DESCRIBE INTERFACES
+
+### C-01: COMPONENT NAME {#C-01}
+
+Description:               
+:	DESCRIPTION
+                          
+Environmental Constraints: 
+:	REQUIRED OPERATING SYSTEM, RAM, ETC.
+
+Available Interfaces:      
+:	BRIEFLY DESCRIBE INTERFACES
+### C-10: COMPONENT NAME {#C-10}
+
+Description:               
+:	DESCRIPTION
+                          
+Environmental Constraints: 
+:	REQUIRED OPERATING SYSTEM, RAM, ETC.
+
+Available Interfaces:      
+:	BRIEFLY DESCRIBE INTERFACES
+
+### C-11: COMPONENT NAME {#C-11}
+
+Description:               
+:	DESCRIPTION
+                          
+Environmental Constraints: 
+:	REQUIRED OPERATING SYSTEM, RAM, ETC.
+
+Available Interfaces:      
+:	BRIEFLY DESCRIBE INTERFACES
+
+### C-12: COMPONENT NAME {#C-12}
+
+Description:               
+:	DESCRIPTION
+                          
+Environmental Constraints: 
+:	REQUIRED OPERATING SYSTEM, RAM, ETC.
+
+Available Interfaces:      
+:	BRIEFLY DESCRIBE INTERFACES
+
+### C-20: COMPONENT NAME {#C-20}
+
+Description:               
+:	DESCRIPTION
+                          
+Environmental Constraints: 
+:	REQUIRED OPERATING SYSTEM, RAM, ETC.
+
+Available Interfaces:      
+:	BRIEFLY DESCRIBE INTERFACES
+
+<!-- End Markdown content -->
+</xmp>
+
+<div w3-include-html="_words-of-wisdom.html"></div>
+<div w3-include-html="_footer.html"></div>
+
+<script>
+    w3IncludeHTML();
+</script>
+
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+<!-- Include it AFTER strapdown -->
+<script src="assets/strapdown/strapdown-topbar.min.js"></script>
+<!-- Include it AFTER EVERYTHING -->
+<script src="assets/logo.js"></script>
+<script src="assets/themeswitcher.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link type="image/png" href="assets/logo.png" rel="icon">
+    <title>ReadySet Markdown</title>
+</head>
+<script src="https://www.w3schools.com/lib/w3data.js"></script>
+<body>
+
+<topbar style="display:none;">
+    <item><a href="index.html">Overview</a></item>
+    <item><a href="plan.html">Project Plan</a></item>
+    <item><a href="index-all.html">Workflows &gt; Indices</a></item>
+    <menu name="Themes"><item><a id="settheme"><b>Current</b></a></item></menu>
+    <toc></toc>
+</topbar>
+
+<xmp theme="readable" style="display:none;">
+<!-- Markdown content here -->
+
+[User Needs](user-needs) &gt; Interview Notes {#user-needs-interview-notes}
+--------------------------------------------------
+
+### Project Information {#project-information}
+
+
+Project:
+:	[PROJECTNAME](index)
+
+Interviewer(s):
+:	PERSONNAME
+
+Interviewee(s):
+:	PERSONNAME
+
+Date of Interview:
+:	DATE
+
+Interview Location:
+:	LOCATION
+
+Related Documents:
+:	[Project proposal](proposal) &gt; [Target audience and benefits](target-and-benefits)
+:	[Interview checklist](interview-checklist)
+:	[Glossary](glossary)
+
+TODO: Copy this file once for each interview. Fill in the details. Link
+to this file from the "Notes from Interviews and Brainstorming" section
+of user-needs.md.
+
+**Process impact:** Planning questions for interviews with stakeholders
+is key to effective requirements gathering. Good requirements are needed
+to build the right system. These notes should be kept as part of the
+documentation on [user needs](user-needs) are referred to when the
+[software requirements specification](srs) is written or updated.
+
+### Interview Questions and Answers {#interview-questions-and-answers}
+
+TODO: Before the interview, plan the questions you will ask. Afterwords,
+type up the answers you received and any additional questions and
+answers, and any new follow-up questions.
+
+How did you learn about the need for this product?
+:   ANSWER
+
+What types of users are likely to use this product?
+:   ANSWER
+
+Can you give an example of how a user might actually use the product?
+:   ANSWER
+
+Is there any risk or downside to using the product?
+:   ANSWER
+
+QUESTION1
+:   ANSWER1
+
+QUESTION2
+:   ANSWER2
+
+QUESTION3
+:   ANSWER3
+
+QUESTION4
+:   ANSWER4
+
+### New Questions and Action Items {#new-questions-and-action-items}
+
+TODO: Often early interviews will raise more questions than they answer.
+Note these new questions and what you must do to find the answer.
+
+-   Can we do X?
+-   Do we support Y?
+-   Action item: research topic Z
+-   Action item: Send follow-up email as per [post-interview
+    checklist](interview-checklist)
+-   Action item: prepare for next interview with PERSON(S) on DATE
+
+### Other Interview Notes {#other-interview-notes}
+
+TODO: Note anything else that came out of the interview, either
+explicitly or implicitly. Remember to confirm things that you picked up
+implicitly if there is any doubt. E.g., make a note if the interviewee
+uses an unusual meaning for a certain term. Add links to any documents
+provided to you by the interviewee.
+
+-   NOTE
+-   NOTE
+-   NOTE
+
+<!-- End Markdown content -->
+</xmp>
+
+<div w3-include-html="_words-of-wisdom.html"></div>
+<div w3-include-html="_footer.html"></div>
+
+<script>
+    w3IncludeHTML();
+</script>
+
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+<!-- Include it AFTER strapdown -->
+<script src="assets/strapdown/strapdown-topbar.min.js"></script>
+<!-- Include it AFTER EVERYTHING -->
+<script src="assets/logo.js"></script>
+<script src="assets/themeswitcher.js"></script>
+
+</body>
+</html>
+

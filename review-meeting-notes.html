@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link type="image/png" href="assets/logo.png" rel="icon">
+    <title>ReadySet Markdown</title>
+</head>
+<script src="https://www.w3schools.com/lib/w3data.js"></script>
+<body>
+
+<topbar style="display:none;">
+    <item><a href="index.html">Overview</a></item>
+    <item><a href="plan.html">Project Plan</a></item>
+    <item><a href="index-all.html">Workflows &gt; Indices</a></item>
+    <menu name="Themes"><item><a id="settheme"><b>Current</b></a></item></menu>
+    <toc></toc>
+</topbar>
+
+<xmp theme="readable" style="display:none;">
+<!-- Markdown content here -->
+
+[QA Plan](qa-plan) &gt; Review Meeting Notes {#qa-plan-review-meeting-notes}
+-------------------------------------------------
+
+### Review Meeting Information {#review-meeting-information}
+
+
+Product:
+:	[PRODUCTNAME](index)
+
+Release Number:
+:	X.Y.Z
+
+Location of Meeting:
+:	LOCATION, BUILDING, ROOM
+
+Date and Time of Meeting:
+:	YEAR/MONTH/DAY HH:MM
+
+Attendees:
+
+:	- PERSONNAME
+	- PERSONNAME
+	- PERSONNAME
+	- PERSONNAME
+
+Related documents:
+:	[Review Meeting Checklists](review-meeting-checklists)
+
+### Documents and Code Reviewed at this Meeting {#documents-and-code-reviewed-at-this-meeting}
+
+-   [Feature list section of requirements](requirements#functional)
+-   [Multi-user section of requirements](requirements#multiuser)
+-   [Hello.java](/source/browse/PROJECTNAME/src/Hello.java)
+-   [HelloStream.java](/source/browse/PROJECTNAME/src/HelloStream.java)
+-   [HelloPanel.java](/source/browse/PROJECTNAME/src/HelloPanel.java)
+
+### Meeting Minutes {#meeting-minutes}
+
+TODO: Fill in the information above and write a brief summary of what
+happened at the meeting. The text below is just a sample.
+
+We started on time with 3 members and the other team members arrived
+shortly thereafter.
+
+In the first hour of the review meeting, we went over issues that the
+team had entered individually. Most of the issues raised questions about
+the error handling capability of Hello.java, but there were also issues
+about multi-user robustness requirements and UI.
+
+In the second hour, we read through all of the methods of
+HelloStream.java. All team members agreed that they understood each
+method and thought is was correct before we moved on to the next method.
+We raised issues of consistency between the constructors in that class
+and other classes. The checklist was helpful in identifying the fact
+that we needed to implement hash() and equals(). All raised issues were
+entered into the issue tracker and marked with the word "review".
+
+Although, some issues were found, we do not feel that Hello.java and
+HelloStream.java need to be inspected again. HelloPanel was not
+inspected, it still needs review.
+
+### Action Items {#action-items}
+
+All defects and tasks identified in this review are being tracked in the
+issue tracker.
+
+
+<!-- End Markdown content -->
+</xmp>
+
+<div w3-include-html="_words-of-wisdom.html"></div>
+<div w3-include-html="_footer.html"></div>
+
+<script>
+    w3IncludeHTML();
+</script>
+
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+<!-- Include it AFTER strapdown -->
+<script src="assets/strapdown/strapdown-topbar.min.js"></script>
+<!-- Include it AFTER EVERYTHING -->
+<script src="assets/logo.js"></script>
+<script src="assets/themeswitcher.js"></script>
+
+</body>
+</html>
+
