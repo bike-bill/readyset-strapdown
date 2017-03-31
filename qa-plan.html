@@ -19,155 +19,150 @@
 <xmp theme="readable" style="display:none;">
 <!-- Markdown content here -->
 
-QA Plan {#qa-plan}
--------
+## QA Plan
+---
 
-TODO: For each release, update this file by filling in answers to the
+*TODO: For each release, update this file by filling in answers to the
 questions. In cases where multiple answers are already written, delete
-those answers that do not apply.
+those answers that do not apply.*
 
-### Release Information {#release-information}
+##### Project:
+::[PROJECTNAME](index.html)
 
+##### Internal Release Number:
+::X.Y.Z
 
-Project:
-:   [PROJECTNAME](index)
+##### Release Audience:
+* ::General availability release ||
+* ::Customer-specific release: CUSTOMER(S) ||
+* ::Developer release (Internal usage only) ||
+* ::Early access release (Controlled external access)
 
-Internal Release Number:
-:   X.Y.Z
+##### Attached Worksheets:
+* QA plan &gt; [Review meeting notes](review-meeting-notes.html)
+* QA plan &gt; [System test case suite](test-suite.html)
+* QA plan &gt; [System test runs](test-run-suite.html)
 
-Release Audience:
-:   General availability release ||
-:   Customer-specific release: CUSTOMER(S) ||
-:   Developer release (Internal usage only)
+##### Related Documents:
+* [Software Requirements Specification](srs.html)
+* [Design](design.html)
+* [Project plan](plan.html)
+* [Software development methodology](sdm.html)
+* ::LINKS TO RELEVANT STANDARDS
+* ::LINKS TO OTHER DOCUMENTS
 
-Early access release (Controlled external access)
-
-Attached Worksheets:
-:   QA plan &gt; [Review meeting notes](review-meeting-notes)
-:   QA plan &gt; [System test case suite](test-suite)
-:   QA plan &gt; [System test runs](test-run-suite)
-
-Related Documents:
-:   [Software Requirements Specification](srs)
-:   [Design](design)
-:   [Project plan](plan)
-:   [Software development methodology](sdm)
-:   LINKS TO RELEVANT STANDARDS
-:   LINKS TO OTHER DOCUMENTS
-
+---
 
 **Process impact:** This document specifies quality goals, selects
 strategies for assuring that those goals have been met, and details a
 plan of action to carry out those strategies.
 
-### Introduction {#introduction}
+### Introduction
 
-Why is this QA plan needed?
-:   "Quality" refers to all the good things that we would like to see in
-    our product. We build a quality product and assure its quality by
-    keeping quality in mind all the time and performing the selected
-    activities below. Testing is one QA activity, but it is not the best
-    or only one, other QA activities include the use of style guides and
-    checklists, review meetings, use of analysis tools, and careful
-    quality measurements and estimates. A plan is needed to select and
-    coordinate all the QA activities.
+#### Why is this QA plan needed?
+::"Quality" refers to all the good things that we would like to see in
+our product. We build a quality product and assure its quality by
+keeping quality in mind all the time and performing the selected
+activities below. Testing is one QA activity, but it is not the best
+or only one, other QA activities include the use of style guides and
+checklists, review meetings, use of analysis tools, and careful
+quality measurements and estimates. A plan is needed to select and
+coordinate all the QA activities.
 
-What QA lessons were learned in previous releases?
-:   None yet. This is the first release.
-:   -   Different browsers render the same HTML page differently, so we
-        must test each version of each supported browser.
-    -   In a previous release, customers found that punctuation (e.g.,
-        quotation marks and less-than signs) were entered and processed
-        properly, but not displayed properly. From now on, we must test
-        both validation and display of special characters.
-    -   Large datasets can sometimes make our system fail if the space
-        used for temporary data is used up. Our test plans should
-        include more data volume tests.
+#### What QA lessons were learned in previous releases?
 
-What is the scope of this QA plan?
-:   All components and aspects of the system will be evaluated in
-    this release.
-:   There are many quality goals and approaches to assuring them. Since
-    we have limited time and resources for this release, we will focus
-    on the following components and aspects:
-    -   COMPONENT-1
-    -   COMPONENT-2
-    -   COMPONENT-3
-    -   FEATURE-1
-    -   FEATURE-2
+::None yet. This is the first release.
 
-What is the summary of this plan?
-:   In this release we will continue to use development practices that
-    support all of our quality goals, but we will focus on functional
-    correctness and robustness. We will do that with the following major
-    activities:
-    -   using if-statements to test preconditions and assert statements
-        to test invariants and postconditions
-    -   conducting frequent reviews
-    -   performing automated unit and regression testing with JUnit
-    -   carrying out structured manual system testing
-    -   keeping all issues up-to-date in an issue tracking database
+- ::Different browsers render the same HTML page differently, so we
+  must test each version of each supported browser.
+- ::In a previous release, customers found that punctuation (e.g.,
+  quotation marks and less-than signs) were entered and processed
+  properly, but not displayed properly. From now on, we must test
+  both validation and display of special characters.
+- ::Large datasets can sometimes make our system fail if the space
+  used for temporary data is used up. Our test plans should
+  include more data volume tests.
 
-### Quality Goals for this Release {#quality-goals-for-this-release}
+#### What is the scope of this QA plan?
 
-TODO: Add or edit goals to fit your project. Group them by priorities
-that make sense for your project on this particular release.
+::All components and aspects of the system will be evaluated in 
+this release.
 
--   Essential
+::There are many quality goals and approaches to assuring them. Since
+we have limited time and resources for this release, we will focus
+on the following components and aspects:
+  
+- ::COMPONENT-1
+- ::COMPONENT-2
+- ::COMPONENT-3
+- ::FEATURE-1
+- ::FEATURE-2
+
+#### What is the summary of this plan?
+::In this release we will continue to use development practices that
+support all of our quality goals, but we will focus on functional
+correctness and robustness. We will do that with the following major
+activities:
+
+-   ::using if-statements to test preconditions and assert statements
+    to test invariants and postconditions
+-   ::conducting frequent reviews
+-   ::performing automated unit and regression testing with JUnit
+-   ::carrying out structured manual system testing
+-   ::keeping all issues up-to-date in an issue tracking database
+
+### Quality Goals for this Release
+
+*TODO: Add or edit goals to fit your project. Group them by priorities
+that make sense for your project on this particular release.*
+
+-   ::Essential
     -   [Functionality &gt;
-        Correctness](glossary-std#qg_Func_Correctness){.def}
+        Correctness](glossary-std.html#functionality_gt_correctness)
     -   [Functionality &gt;
-        Robustness](glossary-std#qg_Func_Robustness){.def}
--   Expected
-    -   [Functionality &gt;
-        Accuracy](glossary-std#qg_Func_Accuracy){.def}
-    -   [Functionality &gt;
-        Compatibility](glossary-std#qg_Func_Compatibility){.def}
-    -   [Functionality &gt; Factual
-        correctness](glossary-std#qg_Func_Factual){.def}
-    -   [Usability &gt; Understandability and
-        Readability](glossary-std#qg_Use_Understand){.def}
-    -   [Usability &gt; Learnability and
-        Memorability](glossary-std#qg_Use_Learnability){.def}
-    -   [Usability &gt; Task
-        support](glossary-std#qg_Use_Task){.def}
-    -   [Usability &gt;
-        Efficiency](glossary-std#qg_Use_Efficiency){.def}
-    -   [Usability &gt; Safety](glossary-std#qg_Use_Safety){.def}
-    -   [Usability &gt; Consistency and
-        Familiarity](glossary-std#qg_Use_Consistency){.def}
-    -   [Usability &gt; Subjective
-        satisfaction](glossary-std#qg_Use_Subjective){.def}
-    -   [Security](glossary-std#qg_Security){.def}
--   Desired
+        Robustness](glossary-std.html#functionality_gt_robustness)
+-   ::Expected
+    -   [Functionality &gt; Accuracy](glossary-std.html#functionality_gt_accuracy)
+    -   [Functionality &gt; Compatibility](glossary-std.html#functionality_gt_compatibility)
+    -   [Functionality &gt; Factual correctness](glossary-std.html#functionality_gt_factual_correctness)
+    -   [Usability &gt; Understandability 
+        and Readability](glossary-std.html#usability_gt_understandability_and_readability)
+    -   [Usability &gt; Learnability 
+        and Memorability](glossary-std.html#usability_gt_learnability_and_memorability)
+    -   [Usability &gt; Task support](glossary-std.html#usability_gt_task_support)
+    -   [Usability &gt; Efficiency](glossary-std.html#usability_gt_efficiency)
+    -   [Usability &gt; Safety](glossary-std.html#usability_gt_safety)
+    -   [Usability &gt; Consistency and Familiarity](glossary-std.html#usability_gt_consistency_and_familiarity)
+    -   [Usability &gt; Subjective satisfaction](glossary-std.html#usability_gt_subjective_satisfaction)
+    -   [Security](glossary-std.html#security)
+-   ::Desired
     -   [Reliability &gt; Consistency under
-        load](glossary-std#qg_Rely_ConsistLoad){.def}
+        load](glossary-std.html#reliability_gt_consistency_under_load)
     -   [Reliability &gt; Consistency under
-        concurrency](glossary-std#qg_Rely_ConsistConcur){.def}
+        concurrency](glossary-std.html#reliability_gt_consistency_under_concurrency)
     -   [Reliability &gt; Availability under
-        load](glossary-std#qg_Rely_AvailLoad){.def}
-    -   [Reliability &gt;
-        Longevity](glossary-std#qg_Rely_Longevity){.def}
-    -   [Efficiency](glossary-std#qg_Efficiency){.def}
-    -   [Scalability](glossary-std#qg_Scalability){.def}
+        load](glossary-std.html#reliability_gt_availability_under_load)
+    -   [Reliability &gt; Longevity](glossary-std.html#reliability_gt_longevity)
+    -   [Efficiency](glossary-std.html#efficiency)
+    -   [Scalability](glossary-std.html#scalability)
     -   [Scalability &gt; Performance under
-        load](glossary-std#qg_Scale_PerformLoad){.def}
+        load](glossary-std.html#scalability_gt_performance_under_load)
     -   [Scalability &gt; Large data
-        volume](glossary-std#qg_Scale_Volume){.def}
-    -   [Operability](glossary-std#qg_Operability){.def}
+        volume](glossary-std.html#scalability_gt_large_data_volume)
+    -   [Operability](glossary-std.html#operability)
     -   [Maintainability &gt;
-        Understandability](glossary-std#qg_Maint_Understand){.def}
+        Understandability](glossary-std.html#maintainability_gt_understandability)
     -   [Maintainability &gt;
-        Evolvability](glossary-std#qg_Maint_Evolvability){.def}
+        Evolvability](glossary-std.html#maintainability_gt_evolvability)
     -   [Maintainability &gt;
-        Testability](glossary-std#qg_Maint_Testability){.def}
+        Testability](glossary-std.html#maintainability_gt_testability)
 
-### QA Strategy {#qa-strategy}
+### QA Strategy
 
-TODO: Consider the activities listed below and delete those that are not
+*TODO: Consider the activities listed below and delete those that are not
 applicable to your project. Edit and add new activities if needed. For
 each activity, specify the coverage or frequency that you plan to
-achieve. If you do not plan to perform an activity, write "N/A".
+achieve. If you do not plan to perform an activity, write "N/A".*
 
 <table>
 <colgroup>
@@ -343,10 +338,10 @@ Automatically report failures
 </tbody>
 </table>
 
-### QA Strategy Evaluation {#qa-strategy-evaluation}
+### QA Strategy Evaluation
 
-TODO: Use the following table to evaluate how well your QA Strategy will
-assure your QA goals.
+*TODO: Use the following table to evaluate how well your QA Strategy will
+assure your QA goals.*
 
 | Goal            | Preconditions | Assertions | Buddy review | Review meeting | Unit testing | Manual system testing | Overall assurance |
 |-----------------|---------------|------------|--------------|----------------|--------------|-----------------------|-------------------|
@@ -365,7 +360,7 @@ Cell values in the table above are subjective estimates of the
 effectiveness of each activity. This table helps to identify quality
 goals that are not being adequately assured.
 
-#### Evaluation cell values: {#evaluation-cell-values}
+#### Evaluation cell values
 
 -   High: This activity gives a strong assurance that the goal has been
     met in development.
@@ -375,7 +370,7 @@ goals that are not being adequately assured.
     been met in development.
 -   None: This activity does not address the goal.
 
-#### Overall assurance values: {#overall-assurance-values}
+#### Overall assurance values
 
 -   Strong: The set of activities together provide strong assurance that
     the goal has been met in development.
@@ -389,12 +384,12 @@ one "medium" to give a "strong" overall rating. Likewise, it takes at
 least two "medium" and one "low" activities to rate a "weak" overall
 rating.
 
-### Plan of Action {#plan-of-action}
+### Plan of Action
 
-TODO: Adjust this plan to fit your project.
+*TODO: Adjust this plan to fit your project.*
 
-TODO: Once the plan is outlined, tasks should be assigned to individuals
-and tracked to completion.
+*TODO: Once the plan is outlined, tasks should be assigned to individuals
+and tracked to completion.*
 
 1.  Preconditions and Assertions
     -   Refine requirements document whenever preconditions are not
@@ -449,7 +444,7 @@ and tracked to completion.
         priorities, and other attributes are defined in the
         [SDM](sdm#issuetracking).
 
-### QA-Plan Checklist {#qa-plan-checklist}
+### QA-Plan Checklist
 
 Do the selected activities in the QA Strategy provide enough assurance that the project will meet it's quality goals?
 :   Yes, if all activities are carried out as planned, we are confident
