@@ -19,51 +19,53 @@
 <xmp theme="readable" style="display:none;">
 <!-- Markdown content here -->
 
-[SRS](srs) &gt; [Feature Set](feature-set) &gt; Feature Specification Format {#srs-feature-set-feature-specification-format}
---------------------------------------------------------------------------------------
+## SRS &gt; Feature Set &gt; Feature Specification Format
+---
 
 **Process impact:** This reference page documents the format of feature
 descriptions and gives tips on writing them. You can copy and paste the
-feature specification template into your [Features](features)
+feature specification template into your [Features](features.html)
 document. This file itself should not be edited to hold specific
 features.
 
-TODO: Copy and paste this feature specification template as many times
-as needed in your [Features](features) document.
+*TODO: Copy and paste this feature specification template as many times
+as needed in your [Features](features.html) document.*
 
-### F-00: FEATURE NAME {#f-00-feature-name}
+### ::F-00: FEATURE NAME
+---
+#### Priority:
+::Essential | Expected | Desired | Optional
 
-Priority:
-:   Essential | Expected | Desired | Optional
+#### Effort:
+::Months | Weeks | Days | Hours
 
-Effort:
-:   Months | Weeks | Days | Hours
+#### Risk:
+::Dangerous | 3-Risk | 2-Risk | 1-Risk | Safe
 
-Risk:
-:   Dangerous | 3-Risk | 2-Risk | 1-Risk | Safe
+#### Functional area(s):
+::WORD, WORD, WORD
 
-Functional area(s):
-:   WORD, WORD, WORD
+#### Use case(s):
+::[UC-01](use-cases.html#UC-01)
 
-Use case(s):
-:   [UC-01](use-cases#UC-01)
+#### Description:
 
-Description:
-:   1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:   Precise Details:
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+::Precise Details:
     
-    - LOGICAL CONSTRAINT  
-    - LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT  
+- ::LOGICAL CONSTRAINT
 
-Notes and Questions:
-:   
+#### Notes and Questions:
 
-    - NOTE
-    - NOTE
-    - QUESTION
-    - QUESTION
+- ::NOTE
+- ::NOTE
+- ::QUESTION
+- ::QUESTION
+---
 
-### Feature Attribute Values {#feature-attribute-values}
+### Feature Attribute Values
 
 -   Priority
     -   Essential: The system could not or would never be used without
