@@ -1,4 +1,4 @@
-ReadySET: How to upgrade {#readyset-how-to-upgrade}
+[ReadySET: How to upgrade](#readyset-how-to-upgrade)
 ------------------------
 
 ### [Disclaimer](#disclaimer)
