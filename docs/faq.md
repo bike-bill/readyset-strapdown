@@ -178,7 +178,7 @@ different so that readers whill know that they can quickly read the
 definition of that term without being side-tracked. Also, the dashed
 underlines do not appear when the document is printed.
 
-### Configuring and Customizing ReadySET {#configuring-and-customizing-readyset}
+### [Configuring and Customizing ReadySET](#configuring-and-customizing-readyset)
 
 One of the ReadySET templates is not needed for my project. How do I remove it?
 
@@ -215,7 +215,7 @@ Who uses ReadySET?
 
 Stay tuned to the ReadySET mailing list for user testimonials.
 
-### Contributing to the Project {#contributing-to-the-project}
+### [Contributing to the Project](#contributing-to-the-project)
 
 Who can contribute to this project?
 
