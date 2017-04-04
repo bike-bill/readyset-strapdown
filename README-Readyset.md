@@ -70,7 +70,6 @@ sequence or in any sequence that fits your existing process. They
 may be easily customized with any text or HTML editor.
 
 ### Scope
-&nbsp;
 
 #### What is the scope of this project?
 
@@ -101,7 +100,6 @@ software developers. For more information, see
 [ReadySET Pro](http://www.readysetpro.com).
 
 ### Status
-&nbsp;
 
 #### What is the status of this project?
 
@@ -113,7 +111,6 @@ software developers. For more information, see
 * For the latest news, see the [Project Announcements](http://readyset.tigris.org/servlets/ProjectNewsList).
 
 ### Applicability
-&nbsp;
 
 #### Who should use this product?
 
