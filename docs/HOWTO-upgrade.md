@@ -1,7 +1,7 @@
 ReadySET: How to upgrade {#readyset-how-to-upgrade}
 ------------------------
 
-### Disclaimer {#disclaimer}
+### [Disclaimer](#disclaimer)
 
 ReadySET is still in fairly early releases that are rapidly evolving.
 The differences between any two early releases may be quite large,
@@ -15,7 +15,7 @@ grow over time is not part of the templates at all, it is the [words of
 wisdom](http://readyset.tigris.org/words-of-wisdom/) hosted on the
 ReadySET web site.
 
-### Low-Tech Upgrade Proceedure {#low-tech-upgrade-proceedure}
+### [Low-Tech Upgrade Proceedure](#low-tech-upgrade-proceedure)
 
 You may simply cut and paste sections of HTML source code between new
 ReadySET templates and files that you have been using in your project.
@@ -27,7 +27,7 @@ very easy to update only as many or as few files as you desire.
 Check the release-notes.html in the new release of ReadySET for a
 summary of changes.
 
-### High-Tech Upgrade Proceedure {#high-tech-upgrade-proceedure}
+### [High-Tech Upgrade Proceedure](#high-tech-upgrade-proceedure)
 
 For users that use CVS for their own project: you can use CVS's [vendor
 branch](http://cvsbook.red-bean.com/cvsbook.html#Tracking_Third-Party_Sources__Vendor_Branches_)
