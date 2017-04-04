@@ -58,8 +58,9 @@ strategies for assuring that those goals have been met, and details a
 plan of action to carry out those strategies.
 
 ### Introduction
-
+&nbsp;
 #### Why is this QA plan needed?
+
 ::"Quality" refers to all the good things that we would like to see in
 our product. We build a quality product and assure its quality by
 keeping quality in mind all the time and performing the selected
@@ -164,179 +165,23 @@ applicable to your project. Edit and add new activities if needed. For
 each activity, specify the coverage or frequency that you plan to
 achieve. If you do not plan to perform an activity, write "N/A".*
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Activity</th>
-<th>Coverage or Frequency</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Preconditions</td>
-<td><div class="sample1">
-Every public method
-</div>
-<div class="sample2">
-Every public method in COMPONENT-NAME
-</div>
-<div class="sample3">
-All public methods that modify data
-</div></td>
-<td>We will use if-statements at the beginning of public methods to validate each argument value. This helps to document assumptions and catch invalid values before they can cause faults.</td>
-</tr>
-<tr class="even">
-<td>Assertions</td>
-<td><div class="sample1">
-Every private method
-</div>
-<div class="sample2">
-Every private method in COMPONENT-NAME
-</div>
-<div class="sample3">
-All private methods that modify data
-</div></td>
-<td>Assertions will be used to validate all arguments to private methods. Since these methods are only called from our other methods, arguments passed to them should always be valid, unless our code is defective. Assertions will also be used to test class invariants and some postconditions.</td>
-</tr>
-<tr class="odd">
-<td>Static analysis</td>
-<td><div class="sample1">
-Strict compiler warnings
-</div>
-<div class="sample2">
-Automated style checking
-</div>
-<div class="sample3">
-XML validation
-</div>
-<div class="sample4">
-Detect common errors
-</div></td>
-<td>We will use source code analysis tools to automatically detect errors. Style checkers will help make all of our code consistent with our coding standards. XML validation ensures that each XML document conforms to its DTD. Lint-like tools help detect common programming errors. E.g.: <a href="http://www.freebsd.org/cgi/man.cgi?query=lint">lint</a>, <a href="http://www.splint.org/">lclint/splint</a>, <a href="http://artho.com/jlint/">jlint</a>, <a href="http://sourceforge.net/projects/checkstyle/">checkstyle</a>, <a href="http://sourceforge.net/projects/jcsc">Jcsc</a>, <a href="http://www.logilab.org/projects/pylint">PyLint</a>, <a href="http://pychecker.sourceforge.net/">PyChecker</a>, <a href="http://tidy.sourceforge.net/">Tidy</a></td>
-</tr>
-<tr class="even">
-<td>Buddy review</td>
-<td><div class="sample1">
-All changes to release branches
-</div>
-<div class="sample2">
-All changes to COMPONENT-NAME
-</div>
-<div class="sample3">
-All changes
-</div></td>
-<td>Whenever changes must be made to code on a release branch (e.g., to prepare a maintenance release) the change will be reviewed by another developer before it is committed. The goal is to make sure that fixes do not introduce new defects.</td>
-</tr>
-<tr class="odd">
-<td>Review meetings</td>
-<td><div class="sample1">
-Weekly
-</div>
-<div class="sample2">
-Once before release
-</div>
-<div class="sample3">
-Every source file
-</div></td>
-<td>We will hold review meetings where developers will perform formal inspections of selected code or documents. We choose to spend a small, predetermined amount of time and try to maximize the results by selecting review documents carefully. In the review process we will use and maintain a variety of checklists.</td>
-</tr>
-<tr class="even">
-<td>Unit testing</td>
-<td><div class="sample1">
-100% of public methods, and 75% of statements
-</div>
-<div class="sample2">
-100% of public methods
-</div>
-<div class="sample3">
-75% of statements
-</div></td>
-<td>We will develop and maintain a unit test suite using the JUnit framework. We will consider the boundary conditions for each argument and test both sides of each boundary. Tests must be run and passed before each commit, and they will also be run by the testing team. Each public method will have at least one test. And, the overall test suite will exercise at least 75% of all executable statements in the system.</td>
-</tr>
-<tr class="odd">
-<td>Manual system testing</td>
-<td><div class="sample1">
-100% of UI screens and fields
-</div>
-<div class="sample2">
-100% of specified requirements
-</div></td>
-<td>The QA team will author and maintain a detailed written suite of manual tests to test the entire system through the user interface. This plan will be detailed enough that a person could repeatably carry out the tests from the test suite document and other associated documents.</td>
-</tr>
-<tr class="even">
-<td>Automated system testing</td>
-<td><div class="sample1">
-100% of UI screens and fields
-</div>
-<div class="sample2">
-100% of specified requirements
-</div></td>
-<td>The QA team will use a system test automation tool to author and maintain a suite of test scripts to test the entire system through the user interface.</td>
-</tr>
-<tr class="odd">
-<td>Regression testing</td>
-<td><div class="sample1">
-Run all unit tests before each commit
-</div>
-<div class="sample2">
-Run all unit tests nightly
-</div>
-<div class="sample3">
-Add new unit test when verifying fixes
-</div></td>
-<td>We will adopt a policy of frequently re-running all automated tests, including those that have previously been successful. This will help catch regressions (bugs that we thought were fixed, but that appear again).</td>
-</tr>
-<tr class="even">
-<td>Load, stress, and capacity testing</td>
-<td><div class="sample1">
-Simple load testing
-</div>
-<div class="sample2">
-Detailed analysis of each scalability parameter
-</div></td>
-<td>We use a load testing tool and/or custom scripts to simulate heavy usage of the system. Load will be defined by scalability parameters such as number of concurrent users, number of transactions per second, or number/size of data items stored/processed. We will verify that the system can handle loads within its capacity without crashing, producing incorrect results, mixing up results for distinct users, or corrupting the data. We will verify that when capacity limits are exceeded, the system safely rejects, ignores, or defers requests that it cannot handle.</td>
-</tr>
-<tr class="odd">
-<td>Beta testing</td>
-<td><div class="sample1">
-4 current customers
-</div>
-<div class="sample2">
-40 members of our developers network
-</div>
-<div class="sample3">
-1000 members of the public
-</div></td>
-<td>We will involve outsiders in a beta test, or early access, program. We will beta testers directions to focus on specific features of the system. We will actively follow up with beta testers to encourage them to report issues.</td>
-</tr>
-<tr class="even">
-<td>Instrumentation and monitoring</td>
-<td><div class="sample1">
-Monitor our ASP servers
-</div>
-<div class="sample2">
-Remotely monitor customer servers
-</div></td>
-<td>As part of our SLA, we will monitor the behavior of servers to automatically detect service outages or performance degradation. We have policies and procedures in place for failure notification, escalation, and correction.</td>
-</tr>
-<tr class="odd">
-<td>Field failure reports</td>
-<td><div class="sample1">
-Prompt users to report failures
-</div>
-<div class="sample2">
-Automatically report failures
-</div></td>
-<td>We want to understand each post-deployment system failure and actively take steps to correct the defect. The system has built-in capabilities for gathering detailed information from each system failure (e.g., error message, stack traceback, operating system version). This information will be transmitted back to us so that we may analyze it and act on it.</td>
-</tr>
-</tbody>
-</table>
+<!-- Hint: view this large table with text wrapping turned off -->
+
+| Activity                             | Coverage or Frequency                                                                                                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ::Preconditions                      | <ul><li>::Every public method</li><li>::Every public method in COMPONENT-NAME</li><li>::All public methods that modify data</li></ul>           | ::We will use if-statements at the beginning of public methods to validate each argument value. This helps to document assumptions and catch invalid values before they can cause faults.                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ::Assertions                         | <ul><li>::Every private method</li><li>::Every private method in COMPONENT-NAME</li><li>::All private methods that modify data</li></ul>        | ::Assertions will be used to validate all arguments to private methods. Since these methods are only called from our other methods, arguments passed to them should always be valid, unless our code is defective. Assertions will also be used to test class invariants and some postconditions.                                                                                                                                                                                                                                                                                                                                                            |
+| ::Static analysis                    | <ul><li>::Strict compiler warnings</li><li>::Automated style checking</li><li>::XML validation</li><li>Detetect common errors</li></ul>         | ::We will use source code analysis tools to automatically detect errors. Style checkers will help make all of our code consistent with our coding standards. XML validation ensures that each XML document conforms to its DTD. Lint-like tools help detect common programming errors. E.g.: [lint](http://www.freebsd.org/cgi/man.cgi?query=lint), [lclint/splint](http://www.splint.org/), [jlint](http://artho.com/jlint/), [checkstyle](http://sourceforge.net/projects/checkstyle/), [Jcsc](http://sourceforge.net/projects/jcsc), [PyLint](https://www.pylint.org/), [PyChecker](http://pychecker.sourceforge.net/), [Tidy](http://www.html-tidy.org/) |
+| ::Buddy review                       | <ul><li>::All changes to release branches</li><li>::All changes to COMPONENT-NAME</li><li>::All changes</li></ul>                               | ::Whenever changes must be made to code on a release branch (e.g., to prepare a maintenance release) the change will be reviewed by another developer before it is committed. The goal is to make sure that fixes do not introduce new defects.                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ::Review meetings                    | <ul><li>::Weekly</li><li>::Once before release</li><li>::Every source file</li></ul>                                                            | ::We will hold review meetings where developers will perform formal inspections of selected code or documents. We choose to spend a small, predetermined amount of time and try to maximize the results by selecting review documents carefully. In the review process we will use and maintain a variety of checklists.                                                                                                                                                                                                                                                                                                                                     |
+| ::Unit testing                       | <ul><li>::100% of public methods, and 75% of statements</li><li>::100% of public methods</li><li>::75% of statements</li></ul>                  | ::We will develop and maintain a unit test suite using the JUnit framework. We will consider the boundary conditions for each argument and test both sides of each boundary. Tests must be run and passed before each commit, and they will also be run by the testing team. Each public method will have at least one test. And, the overall test suite will exercise at least 75% of all executable statements in the system.                                                                                                                                                                                                                              |
+| ::Manual system testing              | <ul><li>::100% of UI screens and fields</li><li>::100% of specified requirements</li></ul>                                                      | ::The QA team will author and maintain a detailed written suite of manual tests to test the entire system through the user interface. This plan will be detailed enough that a person could repeatably carry out the tests from the test suite document and other associated documents.                                                                                                                                                                                                                                                                                                                                                                      |
+| ::Automated system testing           | <ul><li>::100% of UI screens and fields</li><li>::100% of specified requirements</li></ul>                                                      | ::The QA team will use a system test automation tool to author and maintain a suite of test scripts to test the entire system through the user interface.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ::Regression testing                 | <ul><li>::Run all unit tests before each commit</li><li>::Run all unit tests nightly</li><li>::Add new unit test when verifying fixes</li></ul> | ::We will adopt a policy of frequently re-running all automated tests, including those that have previously been successful. This will help catch regressions (bugs that we thought were fixed, but that appear again).                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ::Load, stress, and capacity testing | <ul><li>::Simple load testing</li><li>::Detailed analysis of each scalability parameter</li></ul>                                               | ::We use a load testing tool and/or custom scripts to simulate heavy usage of the system. Load will be defined by scalability parameters such as number of concurrent users, number of transactions per second, or number/size of data items stored/processed. We will verify that the system can handle loads within its capacity without crashing, producing incorrect results, mixing up results for distinct users, or corrupting the data. We will verify that when capacity limits are exceeded, the system safely rejects, ignores, or defers requests that it cannot handle.                                                                         |
+| ::Beta testing                       | <ul><li>::4 current customers</li><li>::40 members of our developers network</li><li>::1000 members of the public</li></ul>                     | ::We will involve outsiders in a beta test, or early access, program. We will beta testers directions to focus on specific features of the system. We will actively follow up with beta testers to encourage them to report issues.                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ::Instrumentation and monitoring     | <ul><li>::Monitor our ASP servers</li><li>::Remotely monitor customer servers</li></ul>                                                         | ::As part of our SLA, we will monitor the behavior of servers to automatically detect service outages or performance degradation. We have policies and procedures in place for failure notification, escalation, and correction.                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ::Field failure reports              | <ul><li>::Prompt users to report failures</li><li>::Automatically report failures</li></ul>                                                     | ::We want to understand each post-deployment system failure and actively take steps to correct the defect. The system has built-in capabilities for gathering detailed information from each system failure (e.g., error message, stack traceback, operating system version). This information will be transmitted back to us so that we may analyze it and act on it.                                                                                                                                                                                                                                                                                       |
 
 ### QA Strategy Evaluation
 
@@ -346,8 +191,8 @@ assure your QA goals.*
 | Goal            | Preconditions | Assertions | Buddy review | Review meeting | Unit testing | Manual system testing | Overall assurance |
 |-----------------|---------------|------------|--------------|----------------|--------------|-----------------------|-------------------|
 | Functionality   | Medium        | Medium     | Medium       | High           | High         | High                  | Strong            |
-|    Correctness  | High          | High       | Medium       | Medium         | High         | Medium                | Strong            |
-|    Robustness   | High          | High       | Medium       | Medium         | High         | Medium                | Strong            |
+| Correctness     | High          | High       | Medium       | Medium         | High         | Medium                | Strong            |
+| Robustness      | High          | High       | Medium       | Medium         | High         | Medium                | Strong            |
 | Usability       | None          | None       | None         | High           | None         | Medium                | Strong            |
 | Security        | Medium        | None       | Medium       | High           | None         | Medium                | Strong            |
 | Reliability     | None          | Medium     | Low          | Medium         | Medium       | Medium                | Weak              |

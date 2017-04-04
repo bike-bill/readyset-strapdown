@@ -112,157 +112,38 @@ interaction contexts. A use case that requires three interaction
 contexts could be hard to use. However, interaction contexts with too
 many components can also be hard to use.*
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><div>
-Interaction Context
-</div>
-<div>
---Abstract UI Components
-</div></th>
-<th>Purpose</th>
-<th>Contents / Constraints / Behavior</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="LINK-TO-MOCKUP">::Login dialog</a></td>
-<td>::Verify that the current user is actually the person that they claim to be.</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>::--Prompt</td>
-<td>::Tell the user that this dialog is to log in.</td>
-<td>::&quot;Please log in&quot;.</td>
-</tr>
-<tr class="odd">
-<td>::--Message area</td>
-<td>::Give the user some feedback about the login process.</td>
-<td>::Initially blank. Changes to &quot;Checking username and password&quot; when the user presses &quot;Login&quot;. Changes to &quot;Invalid username or password, please try again&quot;, if login fails.</td>
-</tr>
-<tr class="even">
-<td>::--Username</td>
-<td>::Identify the user account that the current user is trying to access.</td>
-<td>::The name of the user account. Regex: <code>[-_a-z0-9]{1-16}</code>. The application should not do anything that would help users guess usernames. E.g., this should not be a combo-box with recent users listed, and it should not offer auto-complete.</td>
-</tr>
-<tr class="odd">
-<td>::--Password</td>
-<td>::Verify that the current user knows a secret password that only the true user of that user account should know.</td>
-<td>::The password of 4-16 characters. Do not display the password on the screen. The application should not do anything that would help users guess passwords.</td>
-</tr>
-<tr class="even">
-<td>::--Login</td>
-<td>::Allow the user to indicate that they have completed entry of their username and password.</td>
-<td>::&quot;Login&quot; Only enabled when Username != &quot;&quot;. If the username or password is incorrect, delay a few seconds, and then clear all fields.</td>
-</tr>
-<tr class="odd">
-<td>::--Lost Password</td>
-<td>::Allow the current user to start a process of generating a new password for a given username.</td>
-<td>::&quot;Forgot your password? Click here.&quot; Only enabled when Username != &quot;&quot;.</td>
-</tr>
-<tr class="even">
-<td><a href="LINK-TO-MOCKUP">::PAGE-NAME</a></td>
-<td>::PURPOSE</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-<tr class="even">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-<tr class="odd">
-<td><a href="LINK-TO-MOCKUP">::PAGE-NAME</a></td>
-<td>::PURPOSE</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-<tr class="odd">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-<tr class="even">
-<td><a href="LINK-TO-MOCKUP">::MAIN-WINDOW-NAME</a></td>
-<td>::PURPOSE</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-<tr class="even">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-<tr class="odd">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-<tr class="even">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-<tr class="odd">
-<td><a href="LINK-TO-MOCKUP">::DIALOG-NAME</a></td>
-<td>::PURPOSE</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-<tr class="odd">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-<tr class="even">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-<tr class="odd">
-<td><a href="LINK-TO-MOCKUP">::DIALOG-NAME</a></td>
-<td>::PURPOSE</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-<tr class="odd">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-<tr class="even">
-<td>::--ABSTRACT-COMPONENT-NAME</td>
-<td>::PURPOSE</td>
-<td>::CONTENTS</td>
-</tr>
-</tbody>
-</table>
+| Interaction Context --Abstract UI Components   | Purpose                                                                                                          | Contents / Constraints / Behavior                                                                                                                                                                                                            |                                                                       
+|------------------------------------------------|------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ::[Login dialog](LINK-TO-MOCKUP)               | ::Verify that the current user is actually the person that they claim to be.                                     |                                                                                                                                                                                                                                              |                     
+| ::--Prompt	                                 | ::Tell the user that this dialog is to log in.	                                                                | ::"Please log in".                                                                                                                                                                                                                           |
+| ::--Message area                               | ::Give the user some feedback about the login process.	                                                        | ::Initially blank. Changes to "Checking username and password" when the user presses "Login". Changes to "Invalid username or password, please try again", if login fails.                                                                   |
+| ::--Username	                                 | ::Identify the user account that the current user is trying to access.	                                        | ::The name of the user account. Regex: [-_a-z0-9]{1-16}. The application should not do anything that would help users guess usernames. E.g., this should not be a combo-box with recent users listed, and it should not offer auto-complete. |
+| ::--Password	                                 | ::Verify that the current user knows a secret password that only the true user of that user account should know.	| ::The password of 4-16 characters. Do not display the password on the screen. The application should not do anything that would help users guess passwords.                                                                                  |
+| ::--Login	                                     | ::Allow the user to indicate that they have completed entry of their username and password.	                    | ::"Login" Only enabled when Username != "". If the username or password is incorrect, delay a few seconds, and then clear all fields.                                                                                                        |
+| ::--Lost Password	                             | ::Allow the current user to start a process of generating a new password for a given username.                   | ::"Forgot your password? Click here." Only enabled when Username != "".                                                                                                                                                                      |
+| ::[PAGE-NAME](LINK-TO-MOCKUP)                  | ::PURPOSE	                                                                                                    |                                                                                                                                                                                                                                              |
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   |
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE 	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   |
+| ::[PAGE-NAME](LINK-TO-MOCKUP)                  | ::PURPOSE	                                                                                                    |                                                                                                                                                                                                                                              | 
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   |
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   |
+| ::[MAIN-WINDOW-NAME](LINK-TO-MOCKUP)           | ::PURPOSE	                                                                                                    |                                                                                                                                                                                                                                              |
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE                                                                                                        | ::CONTENTS                                                                                                                                                                                                                                   |
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   | 
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   |
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   |
+| ::[DIALOG-NAME](LINK-TO-MOCKUP)                | ::PURPOSE	                                                                                                    |                                                                                                                                                                                                                                              |
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   |
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   |
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   |
+| ::[DIALOG-NAME](LINK-TO-MOCKUP)                | ::PURPOSE	                                                                                                    |                                                                                                                                                                                                                                              |
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   |
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   | 
+| ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   |
+
+Interaction Context --Abstract UI Components	Purpose	Contents / Constraints / Behavior
+::Login dialog	::Verify that the current user is actually the person that they claim to be.
+
 
 ### Technical Constraints / Operational Contextualization
 &nbsp;
