@@ -63,107 +63,22 @@ done for the enrollment feature below.*
 
 ### Test Cases by Business Object and Operation
 
-<table>
-    <thead>
-        <tr>
-            <th>::BO \ Action</th>
-            <th>::add</th>
-            <th>::list/browse</th>
-            <th>::edit</th>
-            <th>::delete</th>
-            <th>::search</th>
-            <th>::other</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>::Student</td>
-            <td><a href="test-cases.html#student-add-1">student-add-1</a><br />
-                <a href="test-cases.html#student-add-2">student-add-2</a><br /> 
-                <a href="test-cases.html#student-add-3">student-add-3</a></td>
-            <td><a href="test-cases.html#student-list-1">student-list-1</a></td>
-            <td><a href="test-cases.html#student-edit-1">student-edit-1</a><br /> 
-                <a href="test-cases.html#student-edit-2">student-edit-2</a></td>
-            <td><a href="test-casesstudent-delete-1">student-delete-1</a></td>
-            <td><a href="test-cases.html#student-search-1">student-search-1</a><br />
-                <a href="test-cases.html#student-search-2">student-search-2</a></td>
-            <td><a href="#enroll-grid">See grid below</a></td>
-        </tr>
-        <tr>
-            <td>::Course</td>
-            <td><a href="test-cases.html#course-add-1">course-add-1</a><br />
-                <a href="test-cases.html#course-add-2">course-add-2</a></td>
-            <td><a href="test-cases.html#course-list-1">course-list-1</a></td>
-            <td><a href="test-cases.html#course-edit-1">course-edit-1</a><br />
-                <a href="test-cases.html#course-move-1">course-move-1</a><br />
-                <a href="test-cases.html#course-add-prereq-1">course-add-prereq-1</a></td>
-            <td><a href="test-cases.html#course-cancel-1">course-cancel-1</a></td>
-            <td><a href="test-cases.html#course-search-1">course-search-1</a></td>
-            <td>N/A</td>
-        </tr>
-        <tr>
-            <td>::Room</td>
-            <td><a href="test-cases.html#room-add-1">room-add-1</a><br />
-                <a href="test-cases.html#room-add-2">room-add-2</a></td>
-            <td><a href="test-cases.html#room-list-1">room-list-1</a></td>
-            <td>TODO</td>
-            <td>TODO</td>
-            <td>TODO</td>
-            <td>N/A</td>
-        </tr>
-        <tr>
-            <td>::Instructor</td>
-            <td><a href="test-cases.html#inst-add-1">inst-add-1</a></td>
-            <td>N/A</td>
-            <td><a href="test-cases.html#inst-edit-1">inst-edit-1</a></td>
-            <td><a href="test-cases.html#inst-delete-1">inst-delete-1</a></td>
-            <td>N/A</td>
-            <td><a href="test-cases.html#inst-eval-1">inst-eval-1</a><br />
-                <a href="test-cases.html#inst-eval-2">inst-eval-2</a></td>
-        </tr>
-    </tbody>
-</table>
+<!-- Hint: turn off text wrapping to edit this big table -->
+
+| BO \ Action   | ::add | ::list/browse | ::edit | ::delete | ::search | ::other |
+|---------------|-------|---------------|--------|----------|----------|---------|
+| ::Student     | <ul><li>::[student-add-1](test-cases.html#student-add-1)</li><li>::[student-add-2](test-cases.html#student-add-2)</li><li>::[student-add-3](test-cases.html#student-add-3)</li></ul> | ::[student-list-1](test-cases.html#student-list-1) | <ul><li>::[student-edit-1](test-cases.html#student-edit-1)</li><li>::[student-edit-2](test-cases.html#student-edit-2)</li></ul> | ::[student-delete-1](test-casesstudent-delete-1) | <ul><li>::[student-search-1](test-cases.html#student-search-1)</li><li>::[student-search-2](test-cases.html#student-search-2)</li></ul> | ::[See grid below](#enroll-grid) |
+| ::Course      | <ul><li>::[course-add-1](test-cases.html#course-add-1)</li><li>::[course-add-2](test-cases.html#course-add-2)</li></ul> | ::[course-list-1](test-cases.html#course-list-1) | <ul><li>::[course-edit-1](test-cases.html#course-edit-1)</li><li>::[course-move-1](test-cases.html#course-move-1)</li><li>::[course-add-prereq-1](test-cases.html#course-add-prereq-1)</li></ul> | ::[course-cancel-1](test-cases.html#course-cancel-1) | ::[course-search-1](test-cases.html#course-search-1) | ::N/A |
+| ::Room        | <ul><li>::[room-add-1](test-cases.html#room-add-1)</li><li>::[room-add-2](test-cases.html#room-add-2)</li></ul> | ::[room-list-1](test-cases.html#room-list-1) | ::TODO | ::TODO | ::TODO | ::N/A |
+| ::Instructor  | ::[inst-add-1](test-cases.html#inst-add-1) | ::N/A | ::[inst-edit-1](test-cases.html#inst-edit-1) | ::[inst-delete-1](test-cases.html#inst-delete-1) | ::N/A | <ul><li>::[inst-eval-1](test-cases.html#inst-eval-1)</li><li>::[inst-eval-2](test-cases.html#inst-eval-2)</li></ul> |
 
 ### ::Test Cases for Enrolling in Courses
 
-<table>
-    <thead>
-        <tr>
-            <th>::Course \ Student</th>
-            <th>::New Freshman</th>
-            <th>::Senior</th>
-            <th>::Any Honors</th>
-            <th>::Other</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>::In Major</td>
-            <td><a href="test-cases.html#enroll-priority-2">enroll-priority-2</a></td>
-            <td><a href="test-cases.html#enroll-priority-1">enroll-priority-1</a></td>
-            <td><a href="test-cases.html#enroll-priority-1">enroll-priority-1</a></td>
-            <td><a href="test-cases.html#enroll-1">enroll-1</a><br />
-                <a href="test-cases.html#enroll-2">enroll-2</a><br />
-                <a href="test-cases.html#enroll-3">enroll-3</a></td>
-        </tr>
-        <tr>
-            <td>::Non-Major</td>
-            <td><a href="test-cases.html#enroll-priority-2">enroll-priority-2</a></td>
-            <td><a href="test-cases.html#enroll-priority-1">enroll-priority-1</a></td>
-            <td><a href="test-cases.html#enroll-priority-1">enroll-priority-1</a></td>
-            <td><a href="test-cases.html#enroll-1">enroll-1</a><br />
-                <a href="test-cases.html#enroll-2">enroll-2</a><br />
-                <a href="test-cases.html#enroll-3">enroll-3</a></td>
-        </tr>
-        <tr>
-            <td>::Honors Course</td>
-            <td><a href="test-cases.html#enroll-priority-1">enroll-priority-1</a></td>
-            <td><a href="test-cases.html#enroll-priority-1">enroll-priority-1</a></td>
-            <td><a href="test-cases.html#enroll-priority-1">enroll-priority-1</a></td>
-            <td><a href="test-cases.html#enroll-restricted-1">enroll-restricted-1</a></td>
-        </tr>
-    </tbody>
-</table>
+| ::Course \ Student | ::New Freshman | ::Senior | ::Any Honors | ::Other |
+|--------------------|----------------|----------|--------------|---------|
+| ::In Major         | [::enroll-priority-2](test-cases.html#enroll-priority-2) | [::enroll-priority-1](test-cases.html#enroll-priority-1) | [::enroll-priority-1](test-cases.html#enroll-priority-1) | <ul><li>[::enroll-1](test-cases.html#enroll-1)</li><li>[::enroll-2](test-cases.html#enroll-2)</li><li>[::enroll-3](test-cases.html#enroll-3)</li></ul> |
+| ::Non-Major        | [::enroll-priority-2](test-cases.html#enroll-priority-2) | [::enroll-priority-1](test-cases.html#enroll-priority-1) | [::enroll-priority-1](test-cases.html#enroll-priority-1) | <ul><li>[::enroll-1](test-cases.html#enroll-1)</li><li>[::enroll-2](test-cases.html#enroll-2)</li><li>[::enroll-3](test-cases.html#enroll-3)</li></ul> |
+| ::Honors Course    | [::enroll-priority-1](test-cases.html#enroll-priority-1) | [::enroll-priority-1](test-cases.html#enroll-priority-1) | [::enroll-priority-1](test-cases.html#enroll-priority-1) | [::enroll-restricted-1](test-cases.html#enroll-restricted-1) |
 
 ### Test Cases by Feature Priority
 
