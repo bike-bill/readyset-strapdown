@@ -105,58 +105,46 @@ support all of our quality goals, but we will focus on functional
 correctness and robustness. We will do that with the following major
 activities:
 
--   ::using if-statements to test preconditions and assert statements
-    to test invariants and postconditions
--   ::conducting frequent reviews
--   ::performing automated unit and regression testing with JUnit
--   ::carrying out structured manual system testing
--   ::keeping all issues up-to-date in an issue tracking database
+- ::using if-statements to test preconditions and assert statements
+  to test invariants and postconditions
+- ::conducting frequent reviews
+- ::performing automated unit and regression testing with JUnit
+- ::carrying out structured manual system testing
+- ::keeping all issues up-to-date in an issue tracking database
 
 ### Quality Goals for this Release
 
 *TODO: Add or edit goals to fit your project. Group them by priorities
 that make sense for your project on this particular release.*
 
--   ::Essential
-    -   [Functionality &gt;
-        Correctness](glossary-std.html#functionality_gt_correctness)
-    -   [Functionality &gt;
-        Robustness](glossary-std.html#functionality_gt_robustness)
--   ::Expected
-    -   [Functionality &gt; Accuracy](glossary-std.html#functionality_gt_accuracy)
-    -   [Functionality &gt; Compatibility](glossary-std.html#functionality_gt_compatibility)
-    -   [Functionality &gt; Factual correctness](glossary-std.html#functionality_gt_factual_correctness)
-    -   [Usability &gt; Understandability 
-        and Readability](glossary-std.html#usability_gt_understandability_and_readability)
-    -   [Usability &gt; Learnability 
-        and Memorability](glossary-std.html#usability_gt_learnability_and_memorability)
-    -   [Usability &gt; Task support](glossary-std.html#usability_gt_task_support)
-    -   [Usability &gt; Efficiency](glossary-std.html#usability_gt_efficiency)
-    -   [Usability &gt; Safety](glossary-std.html#usability_gt_safety)
-    -   [Usability &gt; Consistency and Familiarity](glossary-std.html#usability_gt_consistency_and_familiarity)
-    -   [Usability &gt; Subjective satisfaction](glossary-std.html#usability_gt_subjective_satisfaction)
-    -   [Security](glossary-std.html#security)
--   ::Desired
-    -   [Reliability &gt; Consistency under
-        load](glossary-std.html#reliability_gt_consistency_under_load)
-    -   [Reliability &gt; Consistency under
-        concurrency](glossary-std.html#reliability_gt_consistency_under_concurrency)
-    -   [Reliability &gt; Availability under
-        load](glossary-std.html#reliability_gt_availability_under_load)
-    -   [Reliability &gt; Longevity](glossary-std.html#reliability_gt_longevity)
-    -   [Efficiency](glossary-std.html#efficiency)
-    -   [Scalability](glossary-std.html#scalability)
-    -   [Scalability &gt; Performance under
-        load](glossary-std.html#scalability_gt_performance_under_load)
-    -   [Scalability &gt; Large data
-        volume](glossary-std.html#scalability_gt_large_data_volume)
-    -   [Operability](glossary-std.html#operability)
-    -   [Maintainability &gt;
-        Understandability](glossary-std.html#maintainability_gt_understandability)
-    -   [Maintainability &gt;
-        Evolvability](glossary-std.html#maintainability_gt_evolvability)
-    -   [Maintainability &gt;
-        Testability](glossary-std.html#maintainability_gt_testability)
+- ::Essential
+  - [Functionality &gt; Correctness](glossary-std.html#functionality_gt_correctness)
+  - [Functionality &gt; Robustness](glossary-std.html#functionality_gt_robustness)
+- ::Expected
+  - [Functionality &gt; Accuracy](glossary-std.html#functionality_gt_accuracy)
+  - [Functionality &gt; Compatibility](glossary-std.html#functionality_gt_compatibility)
+  - [Functionality &gt; Factual correctness](glossary-std.html#functionality_gt_factual_correctness)
+  - [Usability &gt; Understandability and Readability](glossary-std.html#usability_gt_understandability_and_readability)
+  - [Usability &gt; Learnability and Memorability](glossary-std.html#usability_gt_learnability_and_memorability)
+  - [Usability &gt; Task support](glossary-std.html#usability_gt_task_support)
+  - [Usability &gt; Efficiency](glossary-std.html#usability_gt_efficiency)
+  - [Usability &gt; Safety](glossary-std.html#usability_gt_safety)
+  - [Usability &gt; Consistency and Familiarity](glossary-std.html#usability_gt_consistency_and_familiarity)
+  - [Usability &gt; Subjective satisfaction](glossary-std.html#usability_gt_subjective_satisfaction)
+  - [Security](glossary-std.html#security)
+- ::Desired
+  - [Reliability &gt; Consistency under load](glossary-std.html#reliability_gt_consistency_under_load)
+  - [Reliability &gt; Consistency under concurrency](glossary-std.html#reliability_gt_consistency_under_concurrency)
+  - [Reliability &gt; Availability under load](glossary-std.html#reliability_gt_availability_under_load)
+  - [Reliability &gt; Longevity](glossary-std.html#reliability_gt_longevity)
+  - [Efficiency](glossary-std.html#efficiency)
+  - [Scalability](glossary-std.html#scalability)
+  - [Scalability &gt; Performance under load](glossary-std.html#scalability_gt_performance_under_load)
+  - [Scalability &gt; Large data volume](glossary-std.html#scalability_gt_large_data_volume)
+  - [Operability](glossary-std.html#operability)
+  - [Maintainability &gt; Understandability](glossary-std.html#maintainability_gt_understandability)
+  - [Maintainability &gt; Evolvability](glossary-std.html#maintainability_gt_evolvability)
+  - [Maintainability &gt; Testability](glossary-std.html#maintainability_gt_testability)
 
 ### QA Strategy
 
@@ -188,18 +176,18 @@ achieve. If you do not plan to perform an activity, write "N/A".*
 *TODO: Use the following table to evaluate how well your QA Strategy will
 assure your QA goals.*
 
-| Goal            | Preconditions | Assertions | Buddy review | Review meeting | Unit testing | Manual system testing | Overall assurance |
-|-----------------|---------------|------------|--------------|----------------|--------------|-----------------------|-------------------|
-| Functionality   | Medium        | Medium     | Medium       | High           | High         | High                  | Strong            |
-| Correctness     | High          | High       | Medium       | Medium         | High         | Medium                | Strong            |
-| Robustness      | High          | High       | Medium       | Medium         | High         | Medium                | Strong            |
-| Usability       | None          | None       | None         | High           | None         | Medium                | Strong            |
-| Security        | Medium        | None       | Medium       | High           | None         | Medium                | Strong            |
-| Reliability     | None          | Medium     | Low          | Medium         | Medium       | Medium                | Weak              |
-| Efficiency      | None          | None       | Low          | Medium         | None         | Low                   | At-Risk           |
-| Scalability     | None          | None       | Low          | Medium         | Low          | Low                   | At-Risk           |
-| Operability     | None          | None       | None         | Low            | None         | Low                   | At-Risk           |
-| Maintainability | Medium        | Low        | Medium       | High           | Low          | None                  | Weak              |
+| Goal            | Preconditions   | Assertions   | Buddy review   | Review meeting   | Unit testing   | Manual system testing   | Overall assurance   |  
+|-----------------|-----------------|--------------|----------------|------------------|----------------|-------------------------|---------------------|
+| Functionality   | ::Medium        | ::Medium     | ::Medium       | ::High           | ::High         | ::High                  | ::Strong            |
+| Correctness     | ::High          | ::High       | ::Medium       | ::Medium         | ::High         | ::Medium                | ::Strong            |
+| Robustness      | ::High          | ::High       | ::Medium       | ::Medium         | ::High         | ::Medium                | ::Strong            |
+| Usability       | ::None          | ::None       | ::None         | ::High           | ::None         | ::Medium                | ::Strong            |
+| Security        | ::Medium        | ::None       | ::Medium       | ::High           | ::None         | ::Medium                | ::Strong            |
+| Reliability     | ::None          | ::Medium     | ::Low          | ::Medium         | ::Medium       | ::Medium                | ::Weak              |
+| Efficiency      | ::None          | ::None       | ::Low          | ::Medium         | ::None         | ::Low                   | ::At-Risk           |
+| Scalability     | ::None          | ::None       | ::Low          | ::Medium         | ::Low          | ::Low                   | ::At-Risk           |
+| Operability     | ::None          | ::None       | ::None         | ::Low            | ::None         | ::Low                   | ::At-Risk           |
+| Maintainability | ::Medium        | ::Low        | ::Medium       | ::High           | ::Low          | ::None                  | ::Weak              |
 
 Cell values in the table above are subjective estimates of the
 effectiveness of each activity. This table helps to identify quality
@@ -207,22 +195,22 @@ goals that are not being adequately assured.
 
 #### Evaluation cell values
 
--   High: This activity gives a strong assurance that the goal has been
-    met in development.
--   Medium: This activity gives a medium assurance that the goal has
-    been met in development.
--   Low: This activity gives only a little assurance that the goal has
-    been met in development.
--   None: This activity does not address the goal.
+- High: This activity gives a strong assurance that the goal has been
+  met in development.
+- Medium: This activity gives a medium assurance that the goal has
+  been met in development.
+- Low: This activity gives only a little assurance that the goal has
+  been met in development.
+- None: This activity does not address the goal.
 
 #### Overall assurance values
 
--   Strong: The set of activities together provide strong assurance that
-    the goal has been met in development.
--   Weak: The activities together provide limited assurance that the
-    goal has been met in development.
--   At-Risk: There is little or no assurance that this goal has
-    been met.
+- Strong: The set of activities together provide strong assurance that
+  the goal has been met in development.
+- Weak: The activities together provide limited assurance that the
+  goal has been met in development.
+- At-Risk: There is little or no assurance that this goal has
+  been met.
 
 Note: As a rule of thumb, it takes at least two "high" activities and
 one "medium" to give a "strong" overall rating. Likewise, it takes at
@@ -236,94 +224,101 @@ rating.
 *TODO: Once the plan is outlined, tasks should be assigned to individuals
 and tracked to completion.*
 
-1.  Preconditions and Assertions
-    -   Refine requirements document whenever preconditions are not
-        already determined
-    -   Create validation functions for use by preconditions and
-        assertions, as needed
-    -   Write preconditions and assertions in code
+1. Preconditions and Assertions
+   - ::Refine requirements document whenever preconditions are not
+     already determined
+   - ::Create validation functions for use by preconditions and
+     assertions, as needed
+   - ::Write preconditions and assertions in code
 
-2.  Review meetings
-    -   Assign buddy reviewers whenever a change to a release branch is
-        considered
-    -   Select an at-risk document or section of code for weekly review
-        meetings
-    -   Each week, identify reviewers and schedule review meetings
-    -   Reviewers study the material individually for 2 hours
-    -   Reviewers meet to inspect the material for 2 hours
-    -   Place [review meeting notes](review-meeting-notes) in the
-        repository and track any issues identified in review meetings
+2. Review meetings
+   - ::Assign buddy reviewers whenever a change to a release branch is
+     considered
+   - ::Select an at-risk document or section of code for weekly review
+     meetings
+   - ::Each week, identify reviewers and schedule review meetings
+   - ::Reviewers study the material individually for 2 hours
+   - ::Reviewers meet to inspect the material for 2 hours
+   - ::Place [review meeting notes](review-meeting-notes) in the
+     repository and track any issues identified in review meetings
 
-3.  Unit tests
-    -   Set up infrastructure for easy execution of JUnit tests (this is
-        just an Ant target)
-    -   Create unit tests for each class when the class is created
-    -   Execute unit tests before each commit. All tests must pass
-        before developer can commit, otherwise open new issue(s) for
-        failed tests. These "smoke tests" will be executed in each
-        developer's normal development environment.
-    -   Execute unit tests completely on each release candidate to check
-        for regressions. These regression tests will be executed on a
-        dedicated QA machine.
-    -   Update unit tests whenever requirements change
+3. Unit tests
+   - ::Set up infrastructure for easy execution of JUnit tests (this is
+     just an Ant target)
+   - ::Create unit tests for each class when the class is created
+   - ::Execute unit tests before each commit. All tests must pass
+     before developer can commit, otherwise open new issue(s) for
+     failed tests. These "smoke tests" will be executed in each
+     developer's normal development environment.
+   - ::Execute unit tests completely on each release candidate to check
+     for regressions. These regression tests will be executed on a
+     dedicated QA machine.
+   - ::Update unit tests whenever requirements change
 
-4.  System tests
-    -   Design and specify a detailed manual [test
-        suite](test-suite).
-    -   Review the system test suite to make sure that every UI screen
-        and element is covered
-    -   Execute system tests completely on each release candidate. These
-        system tests will be carried out on a dedicated QA machine.
-    -   Update system tests whenever requirements change
+4. System tests
+   - ::Design and specify a detailed manual [test suite](test-suite).
+   - ::Review the system test suite to make sure that every UI screen
+     and element is covered
+   - ::Execute system tests completely on each release candidate. These
+     system tests will be carried out on a dedicated QA machine.
+   - ::Update system tests whenever requirements change
 
-5.  QA Management
-    -   Update this test plan whenever requirements change
-    -   Document test results and communicate them to the entire
-        development team
-    -   Estimate remaining (not yet detected) defects based on current
-        issue tracking data, defect rates, and metrics on code size and
-        the impact of changes.
-    -   Keep all issues up-to-date in an issue tracking database. The
-        issue tracker is available to all project members
-        [here](LINK-TO-ISSUE-TRACKER). The meaning of issue states,
-        priorities, and other attributes are defined in the
-        [SDM](sdm#issuetracking).
+5. QA Management
+   - ::Update this test plan whenever requirements change
+   - ::Document test results and communicate them to the entire
+     development team
+   - ::Estimate remaining (not yet detected) defects based on current
+     issue tracking data, defect rates, and metrics on code size and
+     the impact of changes.
+   - ::Keep all issues up-to-date in an issue tracking database. The
+     issue tracker is available to all project members
+     [here](LINK-TO-ISSUE-TRACKER). The meaning of issue states,
+     priorities, and other attributes are defined in the
+     [SDM](sdm#issuetracking).
 
 ### QA-Plan Checklist
+&nbsp;
+#### Do the selected activities in the QA Strategy provide enough assurance that the project will meet it's quality goals?
 
-Do the selected activities in the QA Strategy provide enough assurance that the project will meet it's quality goals?
-:   Yes, if all activities are carried out as planned, we are confident
-    that the quality goals will be satisfied. We will, of course, adjust
-    this plan as needed.
-:   No, this plan leaves open several quality risks that have been noted
+::Yes, if all activities are carried out as planned, we are confident
+  that the quality goals will be satisfied. We will, of course, adjust
+  this plan as needed.
+
+::No, this plan leaves open several quality risks that have been noted
     in the [Risk Management](plan#risks) section of the [Project
     Plan](plan).
 
-Have human resources been allocated to carry out the QA activities?
-:   Yes, human resources have been allocated. They are listed in the
-    [Resource Needs](resource-needs) document.
-:   No, human resources have not been allocated. They are listed as
-    "pending" in the [Resource Needs](resource-needs) document.
+#### Have human resources been allocated to carry out the QA activities?
 
-Have machine and software resources been allocated as needed for the QA activities?
-:   Yes, the QA team will use desktop machines and servers that are
-    already allocated to them.
-:   Yes, a QA Lab has been set up. The needed machine and software
-    resources are listed in the [Resource
-    Needs](resource-needs) document.
-:   No, needed machine and software resources are listed as pending in
-    the [Resource Needs](resource-needs) document.
+::Yes, human resources have been allocated. They are listed in the
+[Resource Needs](resource-needs) document.
 
-Has this QA Plan been communicated to the development team and other stakeholders?
-:   Yes, everyone is aware of our prioritized quality goals for this
-    release and understands how their work will help achieve
-    those goals. Feedback is welcome.
-:   Yes, this document is being posted to the project website. Feedback
-    is welcome.
-:   No, some developers are not aware of the quality goals and planned
-    QA activities for this release. This is a risk that is noted in the
-    [Risk Management](plan#risks) section of the [Project
-    Plan](plan).
+::No, human resources have not been allocated. They are listed as
+"pending" in the [Resource Needs](resource-needs) document.
+
+#### Have machine and software resources been allocated as needed for the QA activities?
+
+::Yes, the QA team will use desktop machines and servers that are
+already allocated to them.
+
+::Yes, a QA Lab has been set up. The needed machine and software
+resources are listed in the [Resource Needs](resource-needs) document.
+
+::No, needed machine and software resources are listed as pending in
+the [Resource Needs](resource-needs) document.
+
+#### Has this QA Plan been communicated to the development team and other stakeholders?
+
+::Yes, everyone is aware of our prioritized quality goals for this
+release and understands how their work will help achieve
+those goals. Feedback is welcome.
+
+::Yes, this document is being posted to the project website. Feedback
+is welcome.
+
+::No, some developers are not aware of the quality goals and planned
+QA activities for this release. This is a risk that is noted in the
+[Risk Management](plan#risks) section of the [Project Plan](plan).
 
 
 <!-- End Markdown content -->

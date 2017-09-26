@@ -22,17 +22,17 @@
 ## Software Requirements Specification 
 ---
 
-##### Project:                
+##### Project:
 ::PROJECTNAME
 
 ##### Internal Release Number:
 ::X.Y.Z 
 
-##### Attached worksheets:    
+##### Attached worksheets:
 * SRS > [Use case suite](use-case-suite.html)
 * SRS > [Feature set](feature-set.html)
 
-##### Related Documents:      
+##### Related Documents:
 * [Project proposal](proposal.html) > [User needs](user-needs.html)
 * ::LINKS TO RELEVANT STANDARDS
 * ::LINKS TO OTHER DOCUMENTS
@@ -84,27 +84,27 @@ examples are provided below.*
 #### What are the usability requirements?
 
 ::Our main criteria for making the system usable is the difficulty of
-  performing each high-frequency use case. Difficulty depends on the
-  number of steps, the knowledge that the user must have at each step,
-  the decisions that the user must make at each step, and the
-  mechanics of each step (e.g., typing a book title exactly is hard,
-  clicking on a title in a list is easy).
+performing each high-frequency use case. Difficulty depends on the
+number of steps, the knowledge that the user must have at each step,
+the decisions that the user must make at each step, and the
+mechanics of each step (e.g., typing a book title exactly is hard,
+clicking on a title in a list is easy).
 
 ::The user interface should be as familiar as possible to users who
-  have used other web applications and Windows desktop applications.
-  E.g., we will follow the UI guidelines for naming menus, buttons,
-  and dialog boxes whenever possible.
+have used other web applications and Windows desktop applications.
+E.g., we will follow the UI guidelines for naming menus, buttons,
+and dialog boxes whenever possible.
 
 ::PARAGRAPH
 
 Details:
 
--   ::Government customers will demand [section508
-    compliance](http://www.section508.gov/)
--   ::Support learnability with principles of [Instructive
-    Interaction](http://www.foruse.com/articles/instructive.htm)
--   ::The customer wants extensive on-line help, but is not demanding
-    a printed manual.
+- ::Government customers will demand [section508
+  compliance](http://www.section508.gov/)
+- ::Support learnability with principles of [Instructive
+  Interaction](http://www.foruse.com/articles/instructive.htm)
+- ::The customer wants extensive on-line help, but is not demanding
+  a printed manual.
 
 #### What are the reliability and up-time requirements?
 
@@ -132,10 +132,10 @@ Details:
 
 #### What are the security requirements?
 
-::  Access will be controlled with usernames and passwords.
+::Access will be controlled with usernames and passwords.
 
-::  Only administrator users will have access to administrative
-    functions, average users will not.
+::Only administrator users will have access to administrative
+functions, average users will not.
 
 Details:
 
@@ -157,18 +157,18 @@ Details:
 
 #### What are the maintainability and upgradability requirements?
 
-::  Maintainability is our ability to make changes to the product
-    over time. We need strong maintainability in order to retain our
-    early customers. We will address this by anticipating several types
-    of change, and by carefully documenting our design
-    and implementation.
+::Maintainability is our ability to make changes to the product
+over time. We need strong maintainability in order to retain our
+early customers. We will address this by anticipating several types
+of change, and by carefully documenting our design
+and implementation.
 
-::  Upgradability is our ability to cost-effectively deploy new versions
-    of the product to customers with minimal downtime or disruption. A
-    key feature supporting this goal is automatic download of patches
-    and upgrade of the end-user's machine. Also, we shall use data file
-    formats that include enough meta-data to allow us to reliably
-    transform existing customer data during an upgrade.
+::Upgradability is our ability to cost-effectively deploy new versions
+of the product to customers with minimal downtime or disruption. A
+key feature supporting this goal is automatic download of patches
+and upgrade of the end-user's machine. Also, we shall use data file
+formats that include enough meta-data to allow us to reliably
+transform existing customer data during an upgrade.
 
 Details:
 
@@ -178,19 +178,19 @@ Details:
 
 #### What are the supportability and operability requirements?
 
-::  Supportability is our ability to provide cost effective
-    technical support. Our goal is to limit our support costs to only 5%
-    of annual licensing fees. The product's automatic upgrade feature
-    will help us easily deploy defect fixes to end-users. The user guide
-    and product website will include a troubleshooting guide and
-    checklist of information to have at hand before contacting
-    technical support.
+::Supportability is our ability to provide cost effective
+technical support. Our goal is to limit our support costs to only 5%
+of annual licensing fees. The product's automatic upgrade feature
+will help us easily deploy defect fixes to end-users. The user guide
+and product website will include a troubleshooting guide and
+checklist of information to have at hand before contacting
+technical support.
 
-::  Operability is our ability to host and operate the software as an
-    ASP (Application Service Provider). The product features should help
-    us achieve our goal of 99.9% uptime (at most 43 minutes downtime
-    each month). Key features supporting that are the ability to do hot
-    data backups, and application monitoring.
+::Operability is our ability to host and operate the software as an
+ASP (Application Service Provider). The product features should help
+us achieve our goal of 99.9% uptime (at most 43 minutes downtime
+each month). Key features supporting that are the ability to do hot
+data backups, and application monitoring.
 
 Details:
 
@@ -200,20 +200,20 @@ Details:
 
 #### What are the business life-cycle requirements?
 
-::  The business life-cycle of a product includes everything that
-    happens to that product over a period of several years, from initial
-    purchase decision, through important but infrequent use cases, until
-    product retirement. Key life-cycle requirements are listed below.
+::The business life-cycle of a product includes everything that
+happens to that product over a period of several years, from initial
+purchase decision, through important but infrequent use cases, until
+product retirement. Key life-cycle requirements are listed below.
 
 Details:
 
--   ::Customers must be able to manage the number of licenses that
-    they have and make informed decisions to purchase more licenses
-    when needed
--   ::The product shall support daily operations and our year-end
-    audit
--   ::The customer data shall be stored in a format that is still
-    accessible even after the application has been retired
+- ::Customers must be able to manage the number of licenses that
+  they have and make informed decisions to purchase more licenses
+  when needed
+- ::The product shall support daily operations and our year-end
+  audit
+- ::The customer data shall be stored in a format that is still
+  accessible even after the application has been retired
 
 ### Environmental Requirements
 
@@ -246,7 +246,7 @@ Details:
 - ::DETAIL
 - ::DETAIL
 
-#### What application program interfaces ([APIs](glossary#api){.def}) must be provided?
+#### What application program interfaces ([APIs](glossary-std.html#api_application_programming_interface)) must be provided?
 
 ::PARAGRAPH
 
@@ -268,10 +268,10 @@ Details:
 
 - ::The system will store all data in a standard SQL database, where
   it can be accessed by other programs.
-- ::The system will store all data in an XML file, using a [standard
-  DTD](LINK-TO-STANDARD).
-- ::The system will read and write valid .XYZ files used by OTHER
-  APPLICATION
+- ::The system will store all data in an XML file, using a 
+  [standard DTD](LINK-TO-STANDARD).
+- ::The system will read and write valid .XYZ files used by 
+  OTHER APPLICATION
 - ::DETAIL
 
 <!-- End Markdown content -->
