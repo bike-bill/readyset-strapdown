@@ -19,7 +19,7 @@
 <xmp theme="readable" style="display:none;">
 <!-- Markdown content here -->
 
-## [QA Plan](qa-plan)&nbsp;&gt;&nbsp;[Test Suite](test-suite)&nbsp;&gt;&nbsp;Test&nbsp;Cases
+# [QA Plan](qa-plan)&nbsp;&gt;&nbsp;[Test Suite](test-suite)&nbsp;&gt;&nbsp;Test&nbsp;Cases
 ---
 
 ##### Project:
@@ -37,7 +37,8 @@
 ### login-1: Normal User Login
 &nbsp;
 #### Purpose:
-::Test that users can log in with the proper username or email address and their password.
+::Test that users can log in with the proper username or 
+email address and their password.
 
 #### Prereq:
 ::User is not already logged in.
@@ -45,7 +46,8 @@
 ::User testuser exists, and account is in good standing.
 
 #### Test Data:
-::usernameOrEmail = {testuser, bogususer, testuser@nospam.com, test@user@nospam.com, empty}
+::usernameOrEmail = {testuser, bogususer, testuser@nospam.com, 
+test@user@nospam.com, empty}
 
 ::password = {valid, invalid, empty}
 
@@ -70,7 +72,9 @@
 ### login-2: Locked-out User Login
 &nbsp;
 #### Purpose:
-::Test that a user who has been locked out by a moderator, cannot log in, They should see a message indicating that they were locked out.
+::Test that a user who has been locked out by a moderator, cannot 
+log in, They should see a message indicating that they were locked 
+out.
 
 #### Prereq:
 ::User is not already logged in.
@@ -98,15 +102,23 @@
 ### unique-test-case-id1: Test Case Title
 
 #### Purpose:
-::Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+::Short sentence or two about the aspect of the system is 
+being tested. If this gets too long, break the test case 
+up or put more information into the feature descriptions.
 
 #### Prereq:
-::Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+::Assumptions that must be met before the test case can be run. 
+E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, 
+&quot;user testuser exists&quot;.
 
 #### Test Data:
-::List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
+::List of variables and their possible values used in the test case. 
+You can list specific values or describe value ranges. The test case 
+should be performed once for each *combination* of values. These 
+values are written in set notation, one per line. E.g.:
 
-- loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
+- loginID = {Valid loginID, invalid loginID, valid email, invalid 
+  email, empty}
 - password = {valid, invalid, empty}
 
 #### Steps:
@@ -130,15 +142,23 @@
 ### unique-test-case-id2: Test Case Title
 &nbsp;
 #### Purpose:
-::Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+::Short sentence or two about the aspect of the system is 
+being tested. If this gets too long, break the test case 
+up or put more information into the feature descriptions.
 
 #### Prereq:
-::Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+::Assumptions that must be met before the test case can be run. 
+E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, 
+&quot;user testuser exists&quot;.
 
 #### Test Data:
-::List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
+::List of variables and their possible values used in the test case. 
+You can list specific values or describe value ranges. The test case 
+should be performed once for each *combination* of values. These 
+values are written in set notation, one per line. E.g.:
 
-- ::loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
+- ::loginID = {Valid loginID, invalid loginID, valid email, invalid 
+  email, empty}
 - ::password = {valid, invalid, empty}
 
 #### Steps:
@@ -161,15 +181,23 @@
 ### unique-test-case-id3: Test Case Title
 
 #### Purpose:
-::Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+::Short sentence or two about the aspect of the system is 
+being tested. If this gets too long, break the test case 
+up or put more information into the feature descriptions.
 
 #### Prereq:
-::Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+::Assumptions that must be met before the test case can be run. 
+E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, 
+&quot;user testuser exists&quot;.
 
 #### Test Data:
-::List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
+::List of variables and their possible values used in the test case. 
+You can list specific values or describe value ranges. The test case 
+should be performed once for each *combination* of values. These 
+values are written in set notation, one per line. E.g.:
 
-- ::loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
+- ::loginID = {Valid loginID, invalid loginID, valid email, invalid 
+  email, empty}
 - ::password = {valid, invalid, empty}
 
 #### Steps:
@@ -193,15 +221,23 @@
 ### unique-test-case-id4: Test Case Title
 &nbsp;
 #### Purpose:
-::Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+::Short sentence or two about the aspect of the system is 
+being tested. If this gets too long, break the test case 
+up or put more information into the feature descriptions.
 
 #### Prereq:
-::Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+::Assumptions that must be met before the test case can be run. 
+E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, 
+&quot;user testuser exists&quot;.
 
 #### Test Data:
-::List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
+::List of variables and their possible values used in the test case. 
+You can list specific values or describe value ranges. The test case 
+should be performed once for each *combination* of values. These 
+values are written in set notation, one per line. E.g.:
 
-- ::loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
+- ::loginID = {Valid loginID, invalid loginID, valid email, invalid 
+  email, empty}
 - ::password = {valid, invalid, empty}
 
 #### Steps:
@@ -224,15 +260,23 @@
 ### unique-test-case-id5: Test Case Title
 
 #### Purpose:
-::Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+::Short sentence or two about the aspect of the system is 
+being tested. If this gets too long, break the test case 
+up or put more information into the feature descriptions.
 
 #### Prereq:
-::Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+::Assumptions that must be met before the test case can be run. 
+E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, 
+&quot;user testuser exists&quot;.
 
 #### Test Data:
-::List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
+::List of variables and their possible values used in the test case. 
+You can list specific values or describe value ranges. The test case 
+should be performed once for each *combination* of values. These 
+values are written in set notation, one per line. E.g.:
 
-- ::loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
+- ::loginID = {Valid loginID, invalid loginID, valid email, invalid 
+  email, empty}
 - ::password = {valid, invalid, empty}
 
 #### Steps:
@@ -256,15 +300,23 @@
 ### unique-test-case-id6: Test Case Title
 &nbsp;
 #### Purpose:
-::Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+::Short sentence or two about the aspect of the system is 
+being tested. If this gets too long, break the test case 
+up or put more information into the feature descriptions.
 
 #### Prereq:
-::Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+::Assumptions that must be met before the test case can be run. 
+E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, 
+&quot;user testuser exists&quot;.
 
 #### Test Data:
-::List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
+::List of variables and their possible values used in the test case. 
+You can list specific values or describe value ranges. The test case 
+should be performed once for each *combination* of values. These 
+values are written in set notation, one per line. E.g.:
 
-- ::loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
+- ::loginID = {Valid loginID, invalid loginID, valid email, invalid 
+  email, empty}
 - ::password = {valid, invalid, empty}
 
 #### Steps:
@@ -283,7 +335,6 @@
 #### Notes and Questions:
 - ::NOTE
 - ::QUESTION
-
 
 <!-- End Markdown content -->
 </xmp>
