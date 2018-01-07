@@ -19,7 +19,7 @@
 <xmp theme="readable" style="display:none;">
 <!-- Markdown content here -->
 
-## [Design](design.html)&nbsp;&gt;&nbsp;User Interface
+# [Design](design.html)&nbsp;&gt;&nbsp;User Interface
 ---
 
 ##### Project:
@@ -140,44 +140,40 @@ many components can also be hard to use.*
 | ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   | 
 | ::--ABSTRACT-COMPONENT-NAME	                 | ::PURPOSE	                                                                                                    | ::CONTENTS                                                                                                                                                                                                                                   |
 
-Interaction Context --Abstract UI Components	Purpose	Contents / Constraints / Behavior
-::Login dialog	::Verify that the current user is actually the person that they claim to be.
-
-
-### Technical Constraints / Operational Contextualization
+### Technical Constraints / Operational Context
 &nbsp;
 
 #### What are your assumptions about the output devices?
 
-::  We assume that the user has a 17-inch or larger screen with 1024x768
-    pixels that can display thousands of colors (16 bit or more). We
-    assume basic audio that can play simple sound files.
+::We assume that the user has a 17-inch or larger screen with 1024x768
+pixels that can display thousands of colors (16 bit or more). We
+assume basic audio that can play simple sound files.
 
-::  We make very few assumptions about the user's screen or web browser,
-    other than the assumption that they can view page somehow. We will
-    not use any audio features.
+::We make very few assumptions about the user's screen or web browser,
+other than the assumption that they can view page somehow. We will
+not use any audio features.
 
-::  This "pay-at-the-pump" system has a 320x200 16-color display and
-    can beep.
+::This "pay-at-the-pump" system has a 320x200 16-color display and
+can beep.
 
 #### What are your assumptions about the input devices that you will use?
 
-::  We assume only that the user has a standard keyboard and mouse.
+::We assume only that the user has a standard keyboard and mouse.
 
-::  This "pay-at-the-pump" system has digits 0-9, "OK", "Cancel", and
-    four menu buttons along the right-hand edge of the screen.
+::This "pay-at-the-pump" system has digits 0-9, "OK", "Cancel", and
+four menu buttons along the right-hand edge of the screen.
 
 #### What are your assumptions about the amount of time users will spend on tasks?
 
-::  Use cases UC-02 and UC-04 are expected to take a few minutes each.
-    Use case UC-00 should take less than 5 seconds each. All other use
-    cases should take less than 30 seconds each.
+- ::Use cases UC-02 and UC-04 are expected to take a few minutes each.
+- ::Use case UC-00 should take less than 5 seconds each. All other use
+  cases should take less than 30 seconds each.
 
 #### What windowing systems, UI libraries, or other UI technologies will you use?
 
-::  Standard Java Swing with no extra libraries.
+::Standard Java Swing with no extra libraries.
 
-::  Simple HTML and CSS with simple GIF images.
+::Simple HTML and CSS with simple GIF images.
 
 ### User Interface Checklist
 
