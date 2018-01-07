@@ -19,7 +19,7 @@
 <xmp theme="readable" style="display:none;">
 <!-- Markdown content here -->
 
-## [Design](design.html)&nbsp;&gt;&nbsp;Persistence
+# [Design](design.html)&nbsp;&gt;&nbsp;Persistence
 ---
 
 ##### Project:
@@ -56,10 +56,10 @@ features. Some example text is provided. Add or delete text as needed.*
 
 #### What is the logical database design?
 
-:: The logical database design is described in this [UML
-   model](LINK-TO-MODEL) or this [ER diagram](LINK-TO-DIAGRAM).
+::The logical database design is described in this [UML
+model](LINK-TO-MODEL) or this [ER diagram](LINK-TO-DIAGRAM).
 
-:: Additional logical constraints on the database are:
+::Additional logical constraints on the database are:
 
 - ::Students can repeat a course (and thus have two records for the
   same course in their transcript), if and only if they got a
@@ -73,38 +73,38 @@ features. Some example text is provided. Add or delete text as needed.*
 
 #### What are the physical tables and views?
 
-:: The physical database design is described in this [UML
-   model](LINK-TO-MODEL) or this [ER diagram](LINK-TO-DIAGRAM).
+::The physical database design is described in this [UML
+model](LINK-TO-MODEL) or this [ER diagram](LINK-TO-DIAGRAM).
 
 #### How will objects in the application be stored in the database?
 
 ::We will use one database table for each class, and one row in the
-  database for each persistent instance of that class.
+database for each persistent instance of that class.
 
 ::We will use a [library](LINK-TO-LIBRARY) to do our
-  object-relational mapping. (E.g., torque, castor, JDO,
-  ADO, hibernate)
+object-relational mapping. (E.g., torque, castor, JDO,
+ADO, hibernate)
 
 #### What database access controls will be used?
 
 ::A database user account has been created that has access to the
-  needed application database tables. The username and password for
-  this account is stored in a configuration file read by the
-  application server. The database limits login by that user to only
-  the IP-address used by the application server.
+needed application database tables. The username and password for
+this account is stored in a configuration file read by the
+application server. The database limits login by that user to only
+the IP-address used by the application server.
 
 #### Is this application's central database accessible to other applications?
 
 ::Yes. The database is an important point of interoperability for new
-  applications to be added later. The database itself provides support
-  for access controls and checks validity constraints so that a
-  defective application cannot corrupt the database.
+applications to be added later. The database itself provides support
+for access controls and checks validity constraints so that a
+defective application cannot corrupt the database.
 
 ::No. This database should always be accessed through
-  this application. All relevant pieces of information are available
-  through the application interfaces. The database itself does not
-  protect against data corruption that could be caused by
-  other applications.
+this application. All relevant pieces of information are available
+through the application interfaces. The database itself does not
+protect against data corruption that could be caused by
+other applications.
 
 ### File Storage
 &nbsp;
@@ -113,7 +113,7 @@ features. Some example text is provided. Add or delete text as needed.*
 ::Nothing is stored in files, everything is in the database.
 
 ::The server stores most data in the database, but mailing list
-  attachments are written to files on the server hard disk.
+attachments are written to files on the server hard disk.
 
 ::All user documents are stored in files on their computer hard disk.
 
@@ -122,18 +122,19 @@ features. Some example text is provided. Add or delete text as needed.*
 ::N/A
 
 ::Files are stored on the server as
-   `/var/data/attachments/msgNNNN-MMM.dat`.
+   
+```/var/data/attachments/msgNNNN-MMM.dat```
 
 ::Users store files anywhere on their computer, with the filename
-  extension `.TST`.
+extension ```.TST```.
 
 #### What file system access controls will be used?
 
 ::N/A
 
 ::Files for message attachments are only readable and writable by the
-  mailing list archiving process that runs as operating system
-  user "archdaemon".
+mailing list archiving process that runs as operating system
+user "archdaemon".
 
 ::Users can use whatever file permissions they like.
 
@@ -156,18 +157,18 @@ features. Some example text is provided. Add or delete text as needed.*
 #### What information (if any) will be stored on client machines? For how long?
 
 ::A cookie will be stored on the user machine for the purpose of
-  identifying a user session. When the user logs out or closes their
-  web browser, the cookie is deleted. Most browsers will not even
-  write this cookie to the disk.
+identifying a user session. When the user logs out or closes their
+web browser, the cookie is deleted. Most browsers will not even
+write this cookie to the disk.
 
 ::The a cookie is stored on the user's computer that is equivalent to
-  their password (but it is NOT actually their password). This cookie
-  is needed for the auto-login feature. The cookie lasts a maximum of
-  30 days, and it can only be used from the same IP address.
+their password (but it is NOT actually their password). This cookie
+is needed for the auto-login feature. The cookie lasts a maximum of
+30 days, and it can only be used from the same IP address.
 
 ::User preferences for color scheme are stored in cookies in
-  their browser. This information is not at all sensitive, so it is
-  kept indefinitely.
+their browser. This information is not at all sensitive, so it is
+kept indefinitely.
 
 ::All the user data will be stored on files on their computers.
 

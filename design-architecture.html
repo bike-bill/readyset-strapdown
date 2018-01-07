@@ -19,7 +19,7 @@
 <xmp theme="readable" style="display:none;">
 <!-- Markdown content here -->
 
-## [Design](design.html)&nbsp;&gt;&nbsp;Architecture
+# [Design](design.html)&nbsp;&gt;&nbsp;Architecture
 ---
 
 ##### Project:
@@ -84,10 +84,10 @@ architecture. Some example text is provided.*
 #### How will the components be deployed to processes and machines?
 
 ::The deployment of components to processes and machines is clearly
-  defined in this [UML Model with Deployment Diagram](LINK-TO-MODEL).
+defined in this [UML Model with Deployment Diagram](LINK-TO-MODEL).
 
 ::The deployment of components to processes and machines is clearly
-  defined below:
+defined below:
 
 - ::All-in-one server
   - ::Tomcat process
@@ -98,7 +98,7 @@ architecture. Some example text is provided.*
     - ::[C-20: COMPONENTNAME](design-components.html#c-30)
 
 ::The deployment of components to processes and machines is clearly
-  defined below:
+defined below:
 
 - ::Load-balanced front-end servers
   - ::[C-01: COMPONENTNAME](design-components.html#c-00)
@@ -114,33 +114,33 @@ architecture. Some example text is provided.*
 #### What aspects/resources of their environment are shared?
 
 ::Everything is on one server so all machine resources are shared by
-  all components.
+all components.
 
 ::All machines share the same bandwidth to the Internet. All machines
-  access the same file server. So, if one component uses the resources
-  heavily, other components may have to wait.
+access the same file server. So, if one component uses the resources
+heavily, other components may have to wait.
 
 #### How are requests allocated to redundant or load-balanced servers?
 
 ::We are not doing any load-balancing or redundancy for fail-over.
 
 ::Load-balancing among front-end servers is handled by a load
-  balancing device that we can make very few assumptions about.
-  However, once a user session is established, the same front-end
-  server will be used for all requests during that session.
+balancing device that we can make very few assumptions about.
+However, once a user session is established, the same front-end
+server will be used for all requests during that session.
 
 #### What alternative deployment configurations are possible?
 
 ::This is the only possible deployment.
 
 ::The database could be moved to a different machine with a fairly
-  simple change to a configuration file. Otherwise, nothing can be
-  changed about the deployment.
+simple change to a configuration file. Otherwise, nothing can be
+changed about the deployment.
 
 ::We have the ability to move the database process to a
-  separate machine. We have the ability to add more front-end servers.
-  The application logic running on the application server cannot be
-  split or load-balanced.
+separate machine. We have the ability to add more front-end servers.
+The application logic running on the application server cannot be
+split or load-balanced.
 
 ### Integration
 &nbsp;
@@ -148,13 +148,13 @@ architecture. Some example text is provided.*
 #### How will components be integrated? Specifically, how will they communicate?
 
 ::All of our code uses direct procedure calls. The database is
-  accessed through a driver.
+accessed through a driver.
 
 ::Components within the same process use direct procedure call or
-  standard Java events. Plug-ins are also accessed through a API of
-  direct procedure calls and standard events. Communication with the
-  database uses a JDBC driver. Communication between the front end-and
-  back-end servers uses XML-RPC.
+standard Java events. Plug-ins are also accessed through a API of
+direct procedure calls and standard events. Communication with the
+database uses a JDBC driver. Communication between the front end-and
+back-end servers uses XML-RPC.
 
 #### What architectural mechanisms are being used to ease future extensions or modifications?
 
@@ -190,29 +190,29 @@ components communicate during some important usage scenarios:
 *TODO: Evaluate your architecture with respect to each of your goals.*
 
 #### Ease of integration: Have mechanisms been provided for all needed types of integration?
-:: Yes. In this system, all of the new components are designed to
-   work together. And, the reused components are integrated via fairly
-   simple interfaces.
+::Yes. In this system, all of the new components are designed to
+work together. And, the reused components are integrated via fairly
+simple interfaces.
 
 #### Extensibility: What types of components can be added later and how?
-:: See above.
+::See above.
 
 #### Capacity matching: How has this architecture matched component resource needs to machines?
-:: The database can be on a machine with RAID disks and a hot-swappable
-   power supply, while the web front-end components can be on cheaper
-   machines that could fail individually without causing
-   system downtime. The front-end web servers and application server
-   are both CPU-intensive, so they are deployed to different CPUs. The
-   database is disk-intensive, so it can be deployed to the same
-   machine as the CPU-intensive application server, with only moderate
-   competition for resources.
+::The database can be on a machine with RAID disks and a hot-swappable
+power supply, while the web front-end components can be on cheaper
+machines that could fail individually without causing
+system downtime. The front-end web servers and application server
+are both CPU-intensive, so they are deployed to different CPUs. The
+database is disk-intensive, so it can be deployed to the same
+machine as the CPU-intensive application server, with only moderate
+competition for resources.
 
 #### Has the architecture been communicated to the development team and other stakeholders?
 
-:: Yes, everyone understands. Feedback is welcome.
+::Yes, everyone understands. Feedback is welcome.
 
-:: No, this is a risk that is noted in the [Risk
-   Management](plan#risks) section.
+::No, this is a risk that is noted in the [Risk
+Management](plan#risks) section.
 
 <!-- End Markdown content -->
 </xmp>

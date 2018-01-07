@@ -1,12 +1,12 @@
-## ReadySET: Overview
+7## ReadySET: Overview
 ---
 
 ### Mission
-* [Browse templates](https://github.com/bike-bill/readyset-markdown)
-* [Download markdown templates](https://github.com/bike-bill/readyset-markdown)
+- [Browse templates](https://github.com/bike-bill/readyset-markdown)
+- [Download markdown templates](https://github.com/bike-bill/readyset-markdown)
   or [Download original templates](http://readyset.tigris.org/servlets/ProjectDocumentList)
-* [Words-of-wisdom](http://readyset.tigris.org/words-of-wisdom/)
-* [Professional version](http://www.readysetpro.com/)
+- [Words-of-wisdom](http://readyset.tigris.org/words-of-wisdom/)
+- [Professional version](http://www.readysetpro.com/)
 
 #### What problem does this project address?
 
@@ -33,15 +33,15 @@ avoid oversights.
 
 High-quality outlines, sample text, and checklists.
 
-* Uses simple web technologies: Pure XHTML and CSS (or alternatively Markdown).
-* Templates for *many* common software engineering documents. Including:
-  * Project proposal template
-  * Project plan template
-  * Use case template
-  * QA plan template
-  * Several design templates
-  * System test case template
-  * Release checklist template
+- Uses simple web technologies: Pure XHTML and CSS (or alternatively Markdown).
+- Templates for *many* common software engineering documents. Including:
+  - Project proposal template
+  - Project plan template
+  - Use case template
+  - QA plan template
+  - Several design templates
+  - System test case template
+  - Release checklist template
 
 #### What makes this product different from others?
 
@@ -103,12 +103,15 @@ software developers. For more information, see
 
 #### What is the status of this project?
 
-* These templates are based on templates originally used to teach
+- These templates are based on templates originally used to teach
   software engineering in a university project course. They are now
   being enhanced, expanded, and used more widely by professionals
   in industry.
-* The template set is fairly complete and ready for use in real projects. You can [download](http://readyset.tigris.org/servlets/ProjectDocumentList) recent releases. We welcome your feedback.
-* For the latest news, see the [Project Announcements](http://readyset.tigris.org/servlets/ProjectNewsList).
+- The template set is fairly complete and ready for use in real projects. 
+  You can [download](http://readyset.tigris.org/servlets/ProjectDocumentList) 
+  recent releases. We welcome your feedback.
+- For the latest news, see the 
+  [Project Announcements](http://readyset.tigris.org/servlets/ProjectNewsList).
 
 ### Applicability
 
@@ -129,15 +132,15 @@ text editor.
 4. Place the templates on a web server where all your project
    stakeholders can view them
 5. Edit the templates to fill in detailed information
-   * Use a text editor or an HTML editor. Please see our list of
+   - Use a text editor or an HTML editor. Please see our list of
      [recommended tools](docs/recommended-tools). (You can
      use Word, but that is strongly discouraged.)
-   * Follow instructions that appead in yellow "sticky notes", TODO, or TIPS sections
-   * Replace text in ALL CAPS and lines that start with :: (double colons) 
+   - Follow instructions that appead in yellow "sticky notes", TODO, or TIPS sections
+   - Replace text in ALL CAPS and lines that start with :: (double colons) 
      with text that describes your project
-   * [Chip away](docs/faq.html#chipaway)" text that does not
+   - [Chip away](docs/faq.html#chipaway)" text that does not
      apply to your project
-   * Add text, diagrams, or links as needed
+   - Add text, diagrams, or links as needed
 6.  Use the checklists to catch common errors and improve the
     quality of your documents.
 7.  Use the words-of-wisdom pages to help improve the document or
