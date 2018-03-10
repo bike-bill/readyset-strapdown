@@ -210,7 +210,7 @@
 			var anchor = document.createElement('a');
 				anchor.href = '#' + anchorId;
 				anchor.style = 'text-decoration:none;';
-				anchor.innerHTML = '<span id="'+anchorId+'" class="h'+i+'_anchor"></span>'
+				anchor.innerHTML = '<br /><span id="'+anchorId+'" class="h'+i+'_anchor"></span>'
 				anchor.appendChild(headers[j].cloneNode(true));
 				headers[j].parentNode.replaceChild(anchor,headers[j]);
 			
