@@ -19,554 +19,488 @@
 <xmp theme="readable" style="display:none;">
 <!-- Markdown content here -->
 
-[SRS](srs) &gt; [Feature Set](feature-set) &gt; Features {#srs-feature-set-features}
-------------------------------------------------------------------
+# [SRS](srs.html)&nbsp;&gt;&nbsp;[Feature Set](feature-set.html)&nbsp;&gt;&nbsp;Features
+---
 
-### Release Information {#release-information}
+##### Project:
+::PROJECTNAME
 
-Project
-:	PROJECTNAME
+##### Internal Release Number:
+::X.Y.Z
 
-Internal Release Number
-:	X.Y.Z
-
-Related Documents
-:	[Project proposal](proposal) > [User needs](user-needs)
-:	[SRS](srs) > [Use case suite](use-case-suite)
-:	[Feature format](feature-format)
-:	LINKS TO RELEVANT STANDARDS
-:	LINKS TO OTHER DOCUMENTS
+##### Related Documents:
+- [Project proposal](proposal.html) > [User needs](user-needs.html)
+- [SRS](srs) > [Use case suite](use-case-suite.html)
+- [Feature format](feature-format.html)
+- ::LINKS TO RELEVANT STANDARDS
+- ::LINKS TO OTHER DOCUMENTS
+---
 
 **Process impact:** This is a set of detailed feature descriptions.
 
-TODO: For each feature listed in the [feature set](feature-set),
+*TODO: For each feature listed in the [feature set](feature-set.html),
 give a detailed description of the feature here. Describe each feature
 in enough detail that it could be implemented by any member of the
 development team (not only someone who already informally knows what to
-do).
+do).*
 
-TIP: Start with a short textual description of each feature. Then, add
+*TIP: Start with a short textual description of each feature. Then, add
 more formal information as needed to make each description precise and
-unambiguous. E.g.,
--   Precisely define valid inputs, and error handling
--   Specify data structures with UML or logical schema
--   Specify UI aspects of features with tiny mock-ups
--   Specify key decisions with decision trees or tables
--   Specify key algorithms with pseudo-code or flow charts
--   Specify state-based behavior with state machines or tables
--   Specify sequences of events with scenario diagrams
+unambiguous. E.g.,*
 
-### F-00: Site Configuration {#F-00}
+- *Precisely define valid inputs, and error handling*
+- *Specify data structures with UML or logical schema*
+- *Specify UI aspects of features with tiny mock-ups*
+- *Specify key decisions with decision trees or tables*
+- *Specify key algorithms with pseudo-code or flow charts*
+- *Specify state-based behavior with state machines or tables*
+- *Specify sequences of events with scenario diagrams*
 
+---
+### ::F-00: Site Configuration
 
-Priority:
-:	Essential
+Priority: ::Essential
 
-Effort:
-:Days
+Effort: ::Days
 
-Risk:
-:	Safe
+Risk: ::Safe
 
-Functional area(s):
-:	Administration
+Functional area(s): ::Administration
 
-Use case(s):
-:	[UC-00](use-cases#UC-00) [UC-11](use-cases#UC-11)
+Use case(s): ::[UC-00](use-cases#UC-00) [UC-11](use-cases#UC-11)
 
-Description:</td>
-:	The site administrators will be able to configure:
+Description:
 
-:	- The site appearance by choosing a predefined CSS file</li>
-	- Whether the site makes new clans public or private by default</li>
-	- The email address to be used to send critical error reports</li>
+::The site administrators will be able to configure:
+
+- ::The site appearance by choosing a predefined CSS file
+- ::Whether the site makes new clans public or private by default
+- ::The email address to be used to send critical error reports
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
+- ::NOTE
+- ::QUESTION
 
-Priority
-:	Essential
+---
+### ::F-01: User registration
+Priority: **::Essential**
 
-Effort
-:   Days
+Effort: ::Days
 
-Risk:
-:	Safe
+Risk: ::Safe
 
-Functional Areas:
-:	Administration
+Functional area(s): ::Administration
 
-Use case(s):
-:	UC-00 UC-11
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	The site administrators will be able to configure:
+:: Visitors can come to the site and register themselves. They must provide the following information:
 
-:	-The site appearance by choosing a predefined CSS file
-	-Whether the site makes new clans public or private by default
-	-The email address to be used to send critical error reports
-
-### F-01: User registration {#F-01-user-registration}
-
-Priority:
-:	Essential
-
-Effort:
-:	Days
-
-Risk:
-:	Safe
-
-Functional area(s):
-:	Administration
-
-Use case(s):
-:	[UC-01](use-cases#UC-01)
-
-Description:
-:	Visitors can come to the site and register themselves. They must provide the following information:
-
-:	- username
-	- email address (twice to catch typos)
-	- real name
+- ::username
+- ::email address (twice to catch typos)
+- ::real name
 
 Precise Details:
-:
 
-:	- username must be unique (not equal to any other existing user name)
-	- username must be of the form ~~~[a-zA-Z0-9]{2,16}~~~ and is not case sensitive
-	- email address must be of the form ~~~[-a-zA-Z0-9_.]{2,16}@[-a-zA-Z0-9_.]{6,64}~~~
-	- both entries of the email address must match
-	- email address will be verified by sending the user's initial password there
-	- real name must not be empty
-	- leading and trailing spaces are stripped from all fields
+- ::username must be unique (not equal to any other existing user name)
+- ::username must be of the form ~~~[a-zA-Z0-9]{2,16}~~~ and is not case sensitive
+- ::email address must be of the form ~~~[-a-zA-Z0-9_.]{2,16}@[-a-zA-Z0-9_.]{6,64}~~~
+- ::both entries of the email address must match
+- ::email address will be verified by sending the user's initial password there
+- ::real name must not be empty
+- ::leading and trailing spaces are stripped from all fields
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
+- ::NOTE
+- ::QUESTION
 
-### F-02: FEATURE NAME {#F-02}
+---
+### ::F-02: FEATURE NAME
 
-Priority:
-:	Essential | Expected | Desired | Optional
+Priority: ::Essential | Expected | Desired | Optional
 
-Effort:
-:	Months | Weeks | Days | Hours
+Effort: ::Months | Weeks | Days | Hours
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
 
-Functional area(s):
-:	WORD, WORD, WORD
+Functional area(s): ::WORD, WORD, WORD
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
+::	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
 
-:	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
+- ::NOTE
+- ::QUESTION
 
-### F-03: FEATURE NAME {#F-03}
+---
+### ::F-03: FEATURE NAME
 
-Priority:
-:	Essential | Expected | Desired | Optional
+Priority: ::Essential | Expected | Desired | Optional
 
-Effort:
-:	Months | Weeks | Days | Hours
+Effort: ::Months | Weeks | Days | Hours
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
 
-Functional area(s):
-:	WORD, WORD, WORD
+Functional area(s): ::WORD, WORD, WORD
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
 
-: 	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
-### F-10: FEATURE NAME {#F-10}
+- ::NOTE
+- ::QUESTION
 
-Priority:
-:	Essential | Expected | Desired | Optional
+---
+### ::F-10: FEATURE NAME
 
-Effort:
-:	Months | Weeks | Days | Hours
+Priority: ::Essential | Expected | Desired | Optional
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Effort: ::Months | Weeks | Days | Hours
 
-Functional area(s):
-:	WORD, WORD, WORD
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Functional area(s): ::WORD, WORD, WORD
+
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
 
-:	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
-### F-11: FEATURE NAME {#F-11}
+- ::NOTE
+- ::QUESTION
 
-Priority:
-:	Essential | Expected | Desired | Optional
 
-Effort:
-:	Months | Weeks | Days | Hours
+---
+### ::F-11: FEATURE NAME
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Priority: ::Essential | Expected | Desired | Optional
 
-Functional area(s):
-:	WORD, WORD, WORD
+Effort: ::Months | Weeks | Days | Hours
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s): ::WORD, WORD, WORD
+
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
 
-:	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
-### F-12: FEATURE NAME {#F-12}
+- ::NOTE
+- ::QUESTION
 
-Priority:
-:	Essential | Expected | Desired | Optional
 
-Effort:
-:	Months | Weeks | Days | Hours
+---
+### ::F-12: FEATURE NAME
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Priority: ::Essential | Expected | Desired | Optional
 
-Functional area(s):
-:	WORD, WORD, WORD
+Effort: ::Months | Weeks | Days | Hours
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s): ::WORD, WORD, WORD
+
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
 
-:	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
-### F-13: FEATURE NAME {#F-13}
+- ::NOTE
+- ::QUESTION
 
-Priority:
-:	Essential | Expected | Desired | Optional
+---
+### ::F-13: FEATURE NAME
 
-Effort:
-:	Months | Weeks | Days | Hours
+Priority: ::Essential | Expected | Desired | Optional
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Effort: ::Months | Weeks | Days | Hours
 
-Functional area(s):
-:	WORD, WORD, WORD
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Functional area(s): ::WORD, WORD, WORD
+
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
 
-:	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
-### F-20: FEATURE NAME {#F-20}
+- ::NOTE
+- ::QUESTION
 
-Priority:
-:	Essential | Expected | Desired | Optional
 
-Effort:
-:	Months | Weeks | Days | Hours
+---
+### ::F-20: FEATURE NAME
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Priority: ::Essential | Expected | Desired | Optional
 
-Functional area(s):
-:	WORD, WORD, WORD
+Effort: ::Months | Weeks | Days | Hours
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s): ::WORD, WORD, WORD
+
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
 
-:	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
-### F-21: FEATURE NAME {#F-21}
+- ::NOTE
+- ::QUESTION
 
-Priority:
-:	Essential | Expected | Desired | Optional
 
-Effort:
-:	Months | Weeks | Days | Hours
+---
+### ::F-21: FEATURE NAME
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Priority: ::Essential | Expected | Desired | Optional
 
-Functional area(s):
-:	WORD, WORD, WORD
+Effort: ::Months | Weeks | Days | Hours
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s): ::WORD, WORD, WORD
+
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
 
-:	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
-### F-22: FEATURE NAME {#F-22}
+- ::NOTE
+- ::QUESTION
 
-Priority:
-:	Essential | Expected | Desired | Optional
 
-Effort:
-:	Months | Weeks | Days | Hours
+---
+### ::F-22: FEATURE NAME
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Priority: ::Essential | Expected | Desired | Optional
 
-Functional area(s):
-:	WORD, WORD, WORD
+Effort: ::Months | Weeks | Days | Hours
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s): ::WORD, WORD, WORD
+
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
 
-:	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
-### F-23: FEATURE NAME {#F-23}
+- ::NOTE
+- ::QUESTION
 
-Priority:
-:	Essential | Expected | Desired | Optional
 
-Effort:
-:	Months | Weeks | Days | Hours
+---
+### ::F-23: FEATURE NAME
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Priority: ::Essential | Expected | Desired | Optional
 
-Functional area(s):
-:	WORD, WORD, WORD
+Effort: ::Months | Weeks | Days | Hours
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s): ::WORD, WORD, WORD
+
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
 
-:	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
-### F-30: FEATURE NAME {#F-30}
+- ::NOTE
+- ::QUESTION
 
-Priority:
-:	Essential | Expected | Desired | Optional
+---
+### ::F-30: FEATURE NAME
 
-Effort:
-:	Months | Weeks | Days | Hours
+Priority: ::Essential | Expected | Desired | Optional
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Effort: ::Months | Weeks | Days | Hours
 
-Functional area(s):
-:	WORD, WORD, WORD
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Functional area(s): ::WORD, WORD, WORD
+
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
 
-:	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
-### F-31: FEATURE NAME {#F-31}
+- ::NOTE
+- ::QUESTION
 
-Priority:
-:	Essential | Expected | Desired | Optional
 
-Effort:
-:	Months | Weeks | Days | Hours
+---
+### ::F-31: FEATURE NAME
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Priority: ::Essential | Expected | Desired | Optional
 
-Functional area(s):
-:	WORD, WORD, WORD
+Effort: ::Months | Weeks | Days | Hours
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s): ::WORD, WORD, WORD
+
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
 
-:	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
-### F-32: FEATURE NAME {#F-32}
+- ::NOTE
+- ::QUESTION
 
-Priority:
-:	Essential | Expected | Desired | Optional
 
-Effort:
-:	Months | Weeks | Days | Hours
+---
+### ::F-32: FEATURE NAME
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Priority: ::Essential | Expected | Desired | Optional
 
-Functional area(s):
-:	WORD, WORD, WORD
+Effort: ::Months | Weeks | Days | Hours
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s): ::WORD, WORD, WORD
+
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
 
-:	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
 
-### F-33: FEATURE NAME {#F-33}
+- ::NOTE
+- ::QUESTION
 
-Priority:
-:	Essential | Expected | Desired | Optional
 
-Effort:
-:	Months | Weeks | Days | Hours
+---
+### ::F-33: FEATURE NAME
 
-Risk:
-:	Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+Priority: ::Essential | Expected | Desired | Optional
 
-Functional area(s):
-:	WORD, WORD, WORD
+Effort: ::Months | Weeks | Days | Hours
 
-Use case(s):
-:	[UC-01](use-cases#UC-01)
+Risk: ::Dangerous | 3-Risks | 2-Risks | 1-Risk | Safe
+
+Functional area(s): ::WORD, WORD, WORD
+
+Use case(s): ::[UC-01](use-cases#UC-01)
 
 Description:
-:	1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
-:
-:	Precise Details:
-:
 
-:	- LOGICAL CONSTRAINT
-	- LOGICAL CONSTRAINT
+::1-4 PARAGRAPHS. USE BULLETS OR TABLES TO ORGANIZE INFORMATION. LINK TO WORKSHEETS OR ADDITIONAL INFORMATION.
+
+Precise Details:
+
+- ::LOGICAL CONSTRAINT
+- ::LOGICAL CONSTRAINT
 
 Notes and Questions:
-:	NOTE
-:	QUESTION
+
+- ::NOTE
+- ::QUESTION
+
 
 <!-- End Markdown content -->
 </xmp>

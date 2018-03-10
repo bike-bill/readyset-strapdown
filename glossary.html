@@ -17,9 +17,10 @@
 </topbar>
 
 <xmp theme="readable" style="display:none;">
+<!-- Markdown content here -->
 
-## Glossary
---------
+# Glossary
+---
 
 **Process impact:** This file as a dictionary of terms defined as they
 are used during the project. Writing out the definitions of terms and
@@ -35,25 +36,25 @@ Jump to: [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) |
 
 ### Project-specific Terms
 
-TIPs:
+*TIPs:*
 
-* Define HTML anchors on your terms with id="TERMNAME" so that other
-  documents can link to the definition of specific terms.
-* If there is any question about the meaning of a term, note it here.
+- *Define HTML anchors on your terms with id="TERMNAME" so that other
+  documents can link to the definition of specific terms.*
+- *If there is any question about the meaning of a term, note it here.
   If someone (e.g., the customer) gave you a definition to use, note
   that here too. If something is best defined by using a hyperlink to
-  another document or website, include a hyperlink in the definition.
-* If a term was used in the past, but is no longer going to be used,
+  another document or website, include a hyperlink in the definition.*
+- *If a term was used in the past, but is no longer going to be used,
   you should keep it in the list, mark it as "deprecated", and link to
   the term or terms that replace it. E.g., deprecated standard term
-  [bug](glossary-std.html#bug).
-* Define only project-specific terms, or ones that a new team member
+  [bug](glossary-std.html#bug).*
+- *Define only project-specific terms, or ones that a new team member
   would not know. Don't define standard textbook terms that can be
-  easily found elsewhere.
-* This glossary can serve as simple domain model or data dictionary.
+  easily found elsewhere.*
+- *This glossary can serve as simple domain model or data dictionary.
   You can define important data objects by describing their meaning
   and key attributes. For example, see [student](#student) and
-  [GPA](#gpa).
+  [GPA](#gpa).*
 
 #### A
 &nbsp;
@@ -63,37 +64,31 @@ TIPs:
 
 #### C
 &nbsp;
-##### Class standing
+##### ::Class standing
 
-* Computed attribute of [student](#student) based on number of
+- ::Computed attribute of [student](#student) based on number of
   academic units completed. Used to determine priority in
   course enrollment.
-* Real-world meaning of values:
+- ::Real-world meaning of values:
 
-|           |                               |
-|-----------|-------------------------------|
-| Freshman  | Less than 90 units            |
-| Sophomore | Between 90 and 180 units      |
-| Junior    | Between 180 and 270 units     |
-| Senior    | More than 270 units completed |
+|             |                                 |
+|-------------|---------------------------------|
+| ::Freshman  | ::Less than 90 units            |
+| ::Sophomore | ::Between 90 and 180 units      |
+| ::Junior    | ::Between 180 and 270 units     |
+| ::Senior    | ::More than 270 units completed |
 
 #### D
 &nbsp;
 
-#### E
-&nbsp;
-
-#### F
-&nbsp;
-
 #### G
 &nbsp;
-##### GEF
-*n.* The [Graph Editing Framework](http://gef.tigris.org/). An open
+##### ::GEF
+::*n.* The [Graph Editing Framework](http://gef.tigris.org/). An open
 source library for editing diagrams (boxes and arrows).
 
-##### GPA
-*n.* Grade Point Average. GPA is a float between 0.00 and 4.00,
+##### ::GPA
+::*n.* Grade Point Average. GPA is a float between 0.00 and 4.00,
 accurate to 2 decimal places. Computed from average of completed
 course grades in transcript weighted by course units. Used to
 determine student ranking, and to trigger Dean's List and
@@ -101,49 +96,39 @@ academic probation.
 
 #### I
 &nbsp;
-##### ICS
-*n.* Acronym for the [School of Information and Computer
+##### ::ICS
+::*n.* Acronym for the [School of Information and Computer
 Science](http://www.ics.uci.edu/) at [UC Irvine](http://www.uci.edu/).
 
 #### S
 &nbsp;
-##### Student
-*n.* A person who attends a school to earn a degree. Persistent
+##### ::Student
+::*n.* A person who attends a school to earn a degree. Persistent
 attributes include: student\_id\_number (primary key), GPA, major,
 and years\_at\_school.
 
-##### Senior
-*n.* A senior is special type of [undergraduate](#undergraduate) who
+##### ::Senior
+::*n.* A senior is special type of [undergraduate](#undergraduate) who
 has a certain number of course credits on his or her transcript.
 Years\_at\_school does not determine senior standing. TODO: how many
 credits needed?
 
 #### T
 &nbsp;
-##### Term1
-Definition1
+##### ::Term1
+::Definition1
 
-##### Term2
-* Definition2a
-* Definition2b
+##### ::Term2
+- ::Definition2a
+- ::Definition2b
 
-##### Term3
-Definition3
-
-##### Term4
-Definition4
-
-##### Term5
-Definition5
-
-##### Term6
-Definition6
+##### ::Term3
+::Definition3
 
 #### U
 &nbsp;
-##### Undergraduate
-A type of [student](#student). *TODO: add more detail.*
-
+##### ::Undergraduate
+::A type of [student](#student). *TODO: add more detail.*
 
 </xmp>
 

@@ -19,275 +19,322 @@
 <xmp theme="readable" style="display:none;">
 <!-- Markdown content here -->
 
-[QA Plan](qa-plan) &gt; [Test Suite](test-suite) &gt; Test Cases {#qa-plan-test-suite-test-cases}
---------------------------------------------------------------------------
+# [QA Plan](qa-plan)&nbsp;&gt;&nbsp;[Test Suite](test-suite)&nbsp;&gt;&nbsp;Test&nbsp;Cases
+---
 
-### Release Information {#release-information}
+##### Project:
+::[PROJECTNAME](index)
 
-Project:
-:   [PROJECTNAME](index)
+##### Internal Release Number:
+::X.Y.Z
 
-Internal Release Number:
-:   X.Y.Z
+##### Related Documents:
+[System test case format](test-case-format)
+::LINKS TO RELEVANT STANDARDS
+::LINKS TO OTHER DOCUMENTS
 
-Related Documents:
-:   [System test case format](test-case-format)
-:   LINKS TO RELEVANT STANDARDS
-:   LINKS TO OTHER DOCUMENTS
+---
+### login-1: Normal User Login
+&nbsp;
+#### Purpose:
+::Test that users can log in with the proper username or 
+email address and their password.
 
-### login-1: Normal User Login {#login-1-normal-user-login}
+#### Prereq:
+::User is not already logged in.
 
-Purpose:
-:   Test that users can log in with the proper username or email address and their password.
+::User testuser exists, and account is in good standing.
 
-Prereq:
-:   User is not already logged in.
-:	User testuser exists, and account is in good standing.
+#### Test Data:
+::usernameOrEmail = {testuser, bogususer, testuser@nospam.com, 
+test@user@nospam.com, empty}
 
-Test Data:
-:   usernameOrEmail = {testuser, bogususer, testuser@nospam.com, test@user@nospam.com, empty}
-:	password = {valid, invalid, empty}
+::password = {valid, invalid, empty}
 
-Steps:
-:   Steps to carry out the test. See step formating rules below.
+#### Steps:
+::Steps to carry out the test. See step formating rules below.
 
-:   - visit LoginPage
-    - enter userID
-    - enter password
-    - click login
-    - see the terms of use page
-    - click agree radio button at page bottom
-    - click submit button
-    - see PersonalPage
-    - verify that welcome message is correct username
+- ::visit LoginPage
+- ::enter userID
+- ::enter password
+- ::click login
+- ::see the terms of use page
+- ::click agree radio button at page bottom
+- ::click submit button
+- ::see PersonalPage
+- ::verify that welcome message is correct username
 
-Notes and Questions:
- 
-:   - This assumes that user has not agreed to terms-of-use already.
-	- Does this work without browser cookies?
+#### Notes and Questions:
+- ::This assumes that user has not agreed to terms-of-use already.
+- ::Does this work without browser cookies?
 
-### login-2: Locked-out User Login {#login-2-locked-out-user-login}
+---
+### login-2: Locked-out User Login
+&nbsp;
+#### Purpose:
+::Test that a user who has been locked out by a moderator, cannot 
+log in, They should see a message indicating that they were locked 
+out.
 
-Purpose:
-:   Test that a user who has been locked out by a moderator, cannot log in, They should see a message indicating that they were locked out.
-
-Prereq:
-:   User is not already logged in.
-:	User testuser2 exists, and has been locked out
+#### Prereq:
+::User is not already logged in.
+::User testuser2 exists, and has been locked out
 
 
-Test Data:
-:   usernameOrEmail = {testuser2, testuser2@nospam.com}
-:	password = {valid}
+#### Test Data:
+::usernameOrEmail = {testuser2, testuser2@nospam.com}
+::password = {valid}
    
-Steps:
-:   Steps to carry out the test. See step formating rules below.
+#### Steps:
+::Steps to carry out the test. See step formating rules below.
 
-:   - visit LoginPage
-	- enter usernameOrEmail
-	- enter password
-	- click Login
-	- see LoginPage
-	- verify warning message is the locked-out message
+- ::visit LoginPage
+- ::enter usernameOrEmail
+- ::enter password
+- ::click Login
+- ::see LoginPage
+- ::verify warning message is the locked-out message
 
-Notes and Questions:
+#### Notes and Questions:
  
-:    - Does this work without browser cookies?
+- ::Does this work without browser cookies?
 
-### unique-test-case-id1: Test Case Title {#unique-test-case-id1-test-case-title}
+### unique-test-case-id1: Test Case Title
 
-Purpose:
-:   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+#### Purpose:
+::Short sentence or two about the aspect of the system is 
+being tested. If this gets too long, break the test case 
+up or put more information into the feature descriptions.
 
-Prereq:
-:   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+#### Prereq:
+::Assumptions that must be met before the test case can be run. 
+E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, 
+&quot;user testuser exists&quot;.
 
-Test Data:
-:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
+#### Test Data:
+::List of variables and their possible values used in the test case. 
+You can list specific values or describe value ranges. The test case 
+should be performed once for each *combination* of values. These 
+values are written in set notation, one per line. E.g.:
 
-    - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
-    - password = {valid, invalid, empty}
+- loginID = {Valid loginID, invalid loginID, valid email, invalid 
+  email, empty}
+- password = {valid, invalid, empty}
 
-Steps:
-:   Steps to carry out the test. See step formating rules below.
+#### Steps:
+::Steps to carry out the test. See step formating rules below.
 
-:   - visit LoginPage
-    - enter userID
-    - enter password
-    - click login
-    - see the terms of use page
-    - click agree radio button at page bottom
-    - click submit button
-    - see PersonalPage
-    - verify that welcome message is correct username
+- ::visit LoginPage
+- ::enter userID
+- ::enter password
+- ::click login
+- ::see the terms of use page
+- ::click agree radio button at page bottom
+- ::click submit button
+- ::see PersonalPage
+- ::verify that welcome message is correct username
 
-Notes and Questions:
+#### Notes and Questions:
+- ::NOTE
+- ::QUESTION
 
-:   - NOTE
-    - QUESTION
+---
+### unique-test-case-id2: Test Case Title
+&nbsp;
+#### Purpose:
+::Short sentence or two about the aspect of the system is 
+being tested. If this gets too long, break the test case 
+up or put more information into the feature descriptions.
 
-### unique-test-case-id2: Test Case Title {#unique-test-case-id2-test-case-title}
+#### Prereq:
+::Assumptions that must be met before the test case can be run. 
+E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, 
+&quot;user testuser exists&quot;.
 
-Purpose:
-:   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+#### Test Data:
+::List of variables and their possible values used in the test case. 
+You can list specific values or describe value ranges. The test case 
+should be performed once for each *combination* of values. These 
+values are written in set notation, one per line. E.g.:
 
-Prereq:
-:   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+- ::loginID = {Valid loginID, invalid loginID, valid email, invalid 
+  email, empty}
+- ::password = {valid, invalid, empty}
 
-Test Data:
-:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
+#### Steps:
+::Steps to carry out the test. See step formating rules below.
 
-    - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
-    - password = {valid, invalid, empty}
+- ::visit LoginPage
+- ::enter userID
+- ::enter password
+- ::click login
+- ::see the terms of use page
+- ::click agree radio button at page bottom
+- ::click submit button
+- ::see PersonalPage
+- ::verify that welcome message is correct username
 
-Steps:
-:   Steps to carry out the test. See step formating rules below.
+#### Notes and Questions:
+- ::NOTE
+- ::QUESTION
 
-:   - visit LoginPage
-    - enter userID
-    - enter password
-    - click login
-    - see the terms of use page
-    - click agree radio button at page bottom
-    - click submit button
-    - see PersonalPage
-    - verify that welcome message is correct username
+### unique-test-case-id3: Test Case Title
 
-Notes and Questions:
-:
- 
-:   - NOTE
-    - QUESTION
+#### Purpose:
+::Short sentence or two about the aspect of the system is 
+being tested. If this gets too long, break the test case 
+up or put more information into the feature descriptions.
 
-### unique-test-case-id3: Test Case Title {#unique-test-case-id3-test-case-title}
+#### Prereq:
+::Assumptions that must be met before the test case can be run. 
+E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, 
+&quot;user testuser exists&quot;.
 
-Purpose:
-:   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+#### Test Data:
+::List of variables and their possible values used in the test case. 
+You can list specific values or describe value ranges. The test case 
+should be performed once for each *combination* of values. These 
+values are written in set notation, one per line. E.g.:
 
-Prereq:
-:   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+- ::loginID = {Valid loginID, invalid loginID, valid email, invalid 
+  email, empty}
+- ::password = {valid, invalid, empty}
 
-Test Data:
-:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
+#### Steps:
+::Steps to carry out the test. See step formating rules below.
 
-    - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
-    - password = {valid, invalid, empty}
+- ::visit LoginPage
+- ::enter userID
+- ::enter password
+- ::click login
+- ::see the terms of use page
+- ::click agree radio button at page bottom
+- ::click submit button
+- ::see PersonalPage
+- ::verify that welcome message is correct username
 
-Steps:
-:   Steps to carry out the test. See step formating rules below.
+#### Notes and Questions:
+- ::NOTE
+- ::QUESTION
 
-:   - visit LoginPage
-    - enter userID
-    - enter password
-    - click login
-    - see the terms of use page
-    - click agree radio button at page bottom
-    - click submit button
-    - see PersonalPage
-    - verify that welcome message is correct username
+---
+### unique-test-case-id4: Test Case Title
+&nbsp;
+#### Purpose:
+::Short sentence or two about the aspect of the system is 
+being tested. If this gets too long, break the test case 
+up or put more information into the feature descriptions.
 
-Notes and Questions:
-:
- 
-:   - NOTE
-    - QUESTION
+#### Prereq:
+::Assumptions that must be met before the test case can be run. 
+E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, 
+&quot;user testuser exists&quot;.
 
-### unique-test-case-id4: Test Case Title {#unique-test-case-id4-test-case-title}
+#### Test Data:
+::List of variables and their possible values used in the test case. 
+You can list specific values or describe value ranges. The test case 
+should be performed once for each *combination* of values. These 
+values are written in set notation, one per line. E.g.:
 
-Purpose:
-:   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+- ::loginID = {Valid loginID, invalid loginID, valid email, invalid 
+  email, empty}
+- ::password = {valid, invalid, empty}
 
-Prereq:
-:   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+#### Steps:
+::Steps to carry out the test. See step formating rules below.
 
-Test Data:
-:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
+- ::visit LoginPage
+- ::enter userID
+- ::enter password
+- ::click login
+- ::see the terms of use page
+- ::click agree radio button at page bottom
+- ::click submit button
+- ::see PersonalPage
+- ::verify that welcome message is correct username
 
-    - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
-    - password = {valid, invalid, empty}
+#### Notes and Questions:
+- ::NOTE
+- ::QUESTION
 
-Steps:
-:   Steps to carry out the test. See step formating rules below.
+### unique-test-case-id5: Test Case Title
 
-:   - visit LoginPage
-    - enter userID
-    - enter password
-    - click login
-    - see the terms of use page
-    - click agree radio button at page bottom
-    - click submit button
-    - see PersonalPage
-    - verify that welcome message is correct username
+#### Purpose:
+::Short sentence or two about the aspect of the system is 
+being tested. If this gets too long, break the test case 
+up or put more information into the feature descriptions.
 
-Notes and Questions:
- 
-:   - NOTE
-    - QUESTION
+#### Prereq:
+::Assumptions that must be met before the test case can be run. 
+E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, 
+&quot;user testuser exists&quot;.
 
-### unique-test-case-id5: Test Case Title {#unique-test-case-id5-test-case-title}
+#### Test Data:
+::List of variables and their possible values used in the test case. 
+You can list specific values or describe value ranges. The test case 
+should be performed once for each *combination* of values. These 
+values are written in set notation, one per line. E.g.:
 
-Purpose:
-:   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+- ::loginID = {Valid loginID, invalid loginID, valid email, invalid 
+  email, empty}
+- ::password = {valid, invalid, empty}
 
-Prereq:
-:   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+#### Steps:
+::Steps to carry out the test. See step formating rules below.
 
-Test Data:
-:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
+- ::visit LoginPage
+- ::enter userID
+- ::enter password
+- ::click login
+- ::see the terms of use page
+- ::click agree radio button at page bottom
+- ::click submit button
+- ::see PersonalPage
+- ::verify that welcome message is correct username
 
-    - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
-    - password = {valid, invalid, empty}
+#### Notes and Questions:
+- ::NOTE
+- ::QUESTION
 
-Steps:
-:   Steps to carry out the test. See step formating rules below.
+---
+### unique-test-case-id6: Test Case Title
+&nbsp;
+#### Purpose:
+::Short sentence or two about the aspect of the system is 
+being tested. If this gets too long, break the test case 
+up or put more information into the feature descriptions.
 
-:   - visit LoginPage
-    - enter userID
-    - enter password
-    - click login
-    - see the terms of use page
-    - click agree radio button at page bottom
-    - click submit button
-    - see PersonalPage
-    - verify that welcome message is correct username
+#### Prereq:
+::Assumptions that must be met before the test case can be run. 
+E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, 
+&quot;user testuser exists&quot;.
 
-Notes and Questions:
- 
-:   - NOTE
-    - QUESTION
+#### Test Data:
+::List of variables and their possible values used in the test case. 
+You can list specific values or describe value ranges. The test case 
+should be performed once for each *combination* of values. These 
+values are written in set notation, one per line. E.g.:
 
-### unique-test-case-id6: Test Case Title {#unique-test-case-id6-test-case-title}
+- ::loginID = {Valid loginID, invalid loginID, valid email, invalid 
+  email, empty}
+- ::password = {valid, invalid, empty}
 
-Purpose:
-:   Short sentence or two about the aspect of the system is being tested. If this gets too long, break the test case up or put more information into the feature descriptions.
+#### Steps:
+::Steps to carry out the test. See step formating rules below.
 
-Prereq:
-:   Assumptions that must be met before the test case can be run. E.g., &quot;logged in&quot;, &quot;guest login allowed&quot;, &quot;user testuser exists&quot;.
+- ::visit LoginPage
+- ::enter userID
+- ::enter password
+- ::click login
+- ::see the terms of use page
+- ::click agree radio button at page bottom
+- ::click submit button
+- ::see PersonalPage
+- ::verify that welcome message is correct username
 
-Test Data:
-:   List of variables and their possible values used in the test case. You can list specific values or describe value ranges. The test case should be performed once for each *combination* of values. These values are written in set notation, one per line. E.g.:
-
-    - loginID = {Valid loginID, invalid loginID, valid email, invalid email, empty}
-    - password = {valid, invalid, empty}
-
-Steps:
-:   Steps to carry out the test. See step formating rules below.
-
-:   - visit LoginPage
-    - enter userID
-    - enter password
-    - click login
-    - see the terms of use page
-    - click agree radio button at page bottom
-    - click submit button
-    - see PersonalPage
-    - verify that welcome message is correct username
-
-Notes and Questions:
- 
-:   - NOTE
-    - QUESTION
-
+#### Notes and Questions:
+- ::NOTE
+- ::QUESTION
 
 <!-- End Markdown content -->
 </xmp>
