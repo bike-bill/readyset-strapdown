@@ -1,4 +1,4 @@
-7## ReadySET: Overview
+## ReadySET: Overview
 ---
 
 ### Mission
