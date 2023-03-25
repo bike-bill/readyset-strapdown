@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8"/>
-    <link type="image/png" href="assets/logo.png" rel="icon">
+  <head>
+    <meta charset="utf-8" />
+    <link type="image/png" href="assets/logo.png" rel="icon" />
     <title>ReadySet Markdown</title>
-</head>
-<script src="https://www.w3schools.com/lib/w3data.js"></script>
-<body>
+  </head>
+  <script src="https://www.w3schools.com/lib/w3data.js"></script>
+  <body>
+    <topbar style="display: none">
+      <item><a href="index.html">Overview</a></item>
+      <item><a href="plan.html">Project Plan</a></item>
+      <item><a href="index-all.html">Workflows</a></item>
+      <menu name="Themes"
+        ><item
+          ><a id="settheme"><b>Current</b></a></item
+        ></menu
+      >
+      <toc></toc>
+    </topbar>
 
-<topbar style="display:none;">
-    <item><a href="index.html">Overview</a></item>
-    <item><a href="plan.html">Project Plan</a></item>
-    <item><a href="index-all.html">Workflows</a></item>
-    <menu name="Themes"><item><a id="settheme"><b>Current</b></a></item></menu>
-    <toc></toc>
-</topbar>
-
-<xmp theme="readable" style="display:none;">
+    <xmp style="display: none">
 <!-- Markdown content here -->
 
 # Legal Issues 
@@ -146,20 +149,18 @@ as needed.*
 <!-- End Markdown content -->
 </xmp>
 
-<div w3-include-html="_words-of-wisdom.html"></div>
-<div w3-include-html="_footer.html"></div>
+    <div w3-include-html="_words-of-wisdom.html"></div>
+    <div w3-include-html="_footer.html"></div>
 
-<script>
-    w3IncludeHTML();
-</script>
+    <script>
+      w3IncludeHTML();
+    </script>
 
-<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
-<!-- Include it AFTER strapdown -->
-<script src="assets/strapdown/strapdown-topbar.min.js"></script>
-<!-- Include it AFTER EVERYTHING -->
-<script src="assets/logo.js"></script>
-<script src="assets/themeswitcher.js"></script>
-
-</body>
+    <script src="https://cdn.jsdelivr.net/gh/arturadib/strapdown@gh-pages/v/0.2/strapdown.js"></script>
+    <!-- Include it AFTER strapdown -->
+    <script src="assets/strapdown/strapdown-topbar.min.js"></script>
+    <!-- Include it AFTER EVERYTHING -->
+    <script src="assets/logo.js"></script>
+    <script src="assets/themeswitcher.js"></script>
+  </body>
 </html>
-
